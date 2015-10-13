@@ -19,21 +19,38 @@ Route::get('/home', function () {
     return view('site.index');
 });
 
-
-header('Access-Control-Allow-Origin: http://localhost:8100');
-Route::get('markers', function () {
-  	return \App\Mark::get()
-  		->toJson();
+Route::get('privacidade', function () {
+    return view('site.privacidade');
 });
 
-
-Route::get('users', function () {
-  	return App\User::get()
-  		->toJson();
+Route::get('alerta', function () {
+    return view('site.alerta');
 });
 
-Route::get('marcas', ['middleware' => 'cors', function()
+Route::get('termos', function () {
+    return view('site.termos');
+});
+
+Route::get('users', ['middleware' => 'cors', function()
 {
-    return \Response::json(\App\Mark::take(100)->get(), 200);
+    return \Response::json(\App\User::get(), 200);
 }]);
+
+Route::get('markers', ['middleware' => 'cors', function()
+{
+    return \Response::json(\App\Mark::get(), 200);
+}]);
+
+
+Route::get('contributors', ['middleware' => 'cors', function()
+{
+    return \Response::json(\App\Contributor::get(), 200);
+}]);
+
+
+Route::get('posts', ['middleware' => 'cors', function()
+{
+    return \Response::json(\App\Posts::get(), 200);
+}]);
+
 

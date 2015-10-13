@@ -6823,12 +6823,12 @@ body {
 
 /* Flip around the padding for proper display in narrow viewports */
 .navbar-wrapper > .container {
-  padding-right: 0;
-  padding-left: 0;
+ /* padding-right: 0; */
+    /* padding-left: 0; */
 }
 .navbar-wrapper .navbar {
-  padding-right: 15px;
-  padding-left: 15px;
+ /* padding-right: 0; */
+    /* padding-left: 0; */
 }
 .navbar-wrapper .navbar .container {
   width: auto;
@@ -6903,12 +6903,12 @@ body {
     margin-top: 20px;
   }
   .navbar-wrapper .container {
-    padding-right: 15px;
-    padding-left: 15px;
+   /* padding-right: 0; */
+    /* padding-left: 0; */
   }
   .navbar-wrapper .navbar {
-    padding-right: 0;
-    padding-left: 0;
+ /* padding-right: 0; */
+    /* padding-left: 0; */
   }
 
   /* The navbar becomes detached from the top, so we round the corners */
@@ -6933,6 +6933,9 @@ body {
     margin-top: 120px;
   }
 }
+
+    /* padding-right: 0; */
+    /* padding-left: 0; */
 body {
     margin: 0;
     padding: 0;
@@ -6944,11 +6947,18 @@ body {
 
 .navbar {
     position: relative;
-    min-height: 78px;
+    min-height: 60px;
     margin-bottom: 20px;
     border: 1px solid transparent;
 }
 
+.navbar-brand {
+    float: left;
+    height: 60px;
+    padding: 10px 10px;
+    font-size: 18px;
+    line-height: 20px;
+}
 .navbar-nav{    
     float: right;
     margin-right: 2%;
@@ -7017,7 +7027,7 @@ body {
 
 .navbar-inverse .navbar-nav>li>a {
     color: #ffd21f;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 /*# sourceMappingURL=app.css.map */

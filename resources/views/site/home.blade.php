@@ -1,22 +1,5 @@
 
-<!DOCTYPE html>
-<html lang="pt_BR">
-@include('site.resources.header')
-
-<!-- NAVBAR
-================================================== -->
-  <body>
-    @include('site.resources.menu')
-
-	 @include('site.resources.carrousel')
-    
-
-
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
-    <div class="container marketing">
+<div class="container marketing">
 
       <!-- Three columns of text below the carousel -->
       <div class="row">
@@ -63,7 +46,7 @@
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
         <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x400/auto?theme=sky" alt="Generic placeholder image">
         </div>
       </div>
 
@@ -79,20 +62,3 @@
         </div>
       </div>
 
-      <hr class="featurette-divider">
-
-      <!-- /END THE FEATURETTES -->
-
-      <!-- FOOTER -->
-      @include('site.resources.footer')
-
-    </div><!-- /.container -->
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-   <script src="{{ asset('js/main.js') }}"></script>
-
- 
-  </body>
-</html>

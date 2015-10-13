@@ -17,7 +17,15 @@
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li><a href="/">Combate</a></li>
-                <li><a href="/">Mapa da Dengue</a></li>
+                 <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mapa da dengue <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="/">Mapa - Resumo</a></li>
+                    <li><a href="alerta">Inserir Alerta de foco</a></li>
+                    <li><a href="/">Como contribuir</a></li>
+      
+                  </ul>
+                </li>
                 <li><a href="/">Parceiros</a></li>
                 <li><a href="/">Atendimento Médico</a></li>
                 <li><a href="noticias">Noticias</a></li>
