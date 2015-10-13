@@ -14,17 +14,17 @@ var elixir = require('laravel-elixir');
 elixir(function(mix) {
     mix.styles([
     	'/../../../node_modules/bootstrap/dist/css/bootstrap.css',
-    	'carrousel.css',
+    	'style.css',
     	'app.css'
     	] ,'public/css/app.css');
 
 
     mix.scripts([
-    	'/../../../node_modules/jquery/dist/jquery.js',
-    	'/../../../node_modules/bootstrap/dist/js/bootstrap.js',
-    	'ie-emulation-modes-warning.js',
-    	'ie10-viewport-bug-workaround.js',
-    	'holder.js',
+    	'jquery.js',
+        'bootstrap.min.js',
+        'jqBootstrapValidation.js',
+    	'contact_me.js',
+    	
     	'app.js'
     	] ,'public/js/main.js');
 });

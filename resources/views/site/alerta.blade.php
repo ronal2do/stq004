@@ -1,2 +1,7 @@
-
-	<h1>Alerta</h1>
+@extends('site.index')
+@section('title')
+	Privacidade
+@stop
+@section('content')
+	<h1>Privacidade</h1>
+@stop
