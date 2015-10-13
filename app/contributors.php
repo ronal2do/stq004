@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class contributors extends Model {
+class Contributors extends Model {
 
     protected $table = 'contributors';
 

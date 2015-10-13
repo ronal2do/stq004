@@ -15,7 +15,7 @@ class contributorsController extends CrudController{
 
         
 
-			$this->filter = \DataFilter::source(new \App\Contributors);
+			$this->filter = \DataFilter::source(new \App\Contributor);
 			$this->filter->add('name', 'Name', 'text');
 			$this->filter->submit('search');
 			$this->filter->reset('reset');
@@ -36,7 +36,7 @@ class contributorsController extends CrudController{
         
         parent::edit($entity);
 
-			$this->edit = \DataEdit::source(new \App\Contributors());
+			$this->edit = \DataEdit::source(new \App\Contributor());
 
 			$this->edit->label('Edit Category');
 
