@@ -15,7 +15,7 @@ class contributorsController extends CrudController{
 
         
 
-			$this->filter = \DataFilter::source(new \App\Category);
+			$this->filter = \DataFilter::source(new \App\Contributors);
 			$this->filter->add('name', 'Name', 'text');
 			$this->filter->submit('search');
 			$this->filter->reset('reset');
@@ -23,7 +23,8 @@ class contributorsController extends CrudController{
 
 			$this->grid = \DataGrid::source($this->filter);
 			$this->grid->add('name', 'Name');
-			$this->grid->add('code', 'Code');
+			$this->grid->add('id', 'id');
+			$this->grid->add('fb_id', 'fb_id');
 			$this->addStylesToGrid();
 
        
@@ -35,13 +36,20 @@ class contributorsController extends CrudController{
         
         parent::edit($entity);
 
-			$this->edit = \DataEdit::source(new \App\Category());
+			$this->edit = \DataEdit::source(new \App\Contributors());
 
 			$this->edit->label('Edit Category');
 
 			$this->edit->add('name', 'Name', 'text');
 		
-			$this->edit->add('code', 'Code', 'text')->rule('required');
+			$this->edit->add('id', 'id', 'text');
+			$this->edit->add('fb_id', 'fb_id', 'text');
+			$this->edit->add('name', 'name', 'text');
+			$this->edit->add('email', 'email', 'text');
+			$this->edit->add('birthbay', 'birthbay', 'text');
+			$this->edit->add('education', 'education', 'text');
+			$this->edit->add('gender', 'gender', 'text');
+			$this->edit->add('gender', 'gender', 'text');
 
 
         

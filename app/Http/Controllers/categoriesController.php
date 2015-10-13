@@ -23,7 +23,7 @@ class categoriesController extends CrudController{
 
 			$this->grid = \DataGrid::source($this->filter);
 			$this->grid->add('name', 'Name');
-			$this->grid->add('code', 'Code');
+			$this->grid->add('id', 'id');
 			$this->addStylesToGrid();
 
                  
@@ -41,7 +41,7 @@ class categoriesController extends CrudController{
 
 			$this->edit->add('name', 'Name', 'text');
 		
-			$this->edit->add('code', 'Code', 'text')->rule('required');
+			$this->edit->add('id', 'id', 'text')->rule('required');
 
 
         return $this->returnEditView();
