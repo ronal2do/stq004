@@ -49,10 +49,7 @@ class contributorsController extends CrudController{
 			$this->edit->add('birthbay', 'birthbay', 'text');
 			$this->edit->add('education', 'education', 'text');
 			$this->edit->add('gender', 'gender', 'text');
-			$this->edit->add('gender', 'gender', 'text');
-
-
-        
+	        
        
         return $this->returnEditView();
     }    
