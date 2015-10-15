@@ -2,6 +2,7 @@
 @extends('site.index')
 
 @section('content')
+
    <!-- Marketing Icons Section -->
         <div class="row">
             <div class="col-lg-12">
@@ -132,7 +133,7 @@
             </div>
         </div>
       
-
+   
          <div class="row">
             <div class="col-lg-12">
                 <h2 class="page-header">Nossos <b>parceiros</b></h2>
@@ -156,5 +157,6 @@
                 <img class="img-responsive customer-img img-circle " src="http://placehold.it/400x400" alt="">
             </div>
         </div>
+
         <!-- /.row -->
         @stop
