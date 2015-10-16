@@ -28,7 +28,7 @@
       <div class="basic-wrapper"> 
         <div class="navbar-brand">
              <a href="home">
-               <img src="{{ asset('images/logo.png') }}" srcset="{{ asset('images/logo.png') }} 1x, {{ asset('images/logo.png') }} 2x" class="logo-light" alt="">
+               <img src="{{ asset('images/logo.png') }}" alt="">
               
              </a> 
            </div>
