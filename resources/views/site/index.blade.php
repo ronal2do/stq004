@@ -113,58 +113,7 @@
     <!-- /.tp-fullscreen-container --> 
   </div>
   <!-- /.revolution -->
-  
-  <div class="light-wrapper">
-    <div class="container inner">
-     
-      <!-- /.thin -->
-      <div class="divide10"></div>
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="caption-overlay">
-            <figure><a href="lydia/saved_resource"><img src="lydia/s1.jpg" alt=""> </a></figure>
-            <div class="caption bottom-right">
-              <div class="title">
-                <h3 class="main-title layer">Ação 1</h3>
-              </div>
-              <!--/.title --> 
-            </div>
-            <!--/.caption --> 
-          </div>
-        </div>
-        <!-- /column -->
-        <div class="col-sm-4">
-          <div class="caption-overlay">
-            <figure><a href="lydia/saved_resource"><img src="lydia/s2.jpg" alt=""> </a></figure>
-            <div class="caption bottom-right">
-              <div class="title">
-                <h3 class="main-title layer">Ação 2</h3>
-              </div>
-              <!--/.title --> 
-            </div>
-            <!--/.caption --> 
-          </div>
-        </div>
-        <!-- /column -->
-        <div class="col-sm-4">
-          <div class="caption-overlay">
-            <figure><a href="lydia/saved_resource"><img src="lydia/s3.jpg" alt=""> </a></figure>
-            <div class="caption bottom-right">
-              <div class="title">
-                <h3 class="main-title layer">Ação 3</h3>
-              </div>
-              <!--/.title --> 
-            </div>
-            <!--/.caption --> 
-          </div>
-        </div>
-        <!-- /column --> 
-      </div>
-      <!-- /.row --> 
-      
-    </div>
-    <!-- /.container --> 
-  </div>
+
   <!-- /.light-wrapper -->
   <!-- comite -->
 
