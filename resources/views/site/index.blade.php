@@ -11,7 +11,7 @@
 <link href="lydia/bootstrap.min.css" rel="stylesheet">
 <link href="lydia/plugins.css" rel="stylesheet">
 <link href="lydia/style.css" rel="stylesheet">
-<link href="lydia/blue.css" rel="stylesheet">
+
 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 <link href="lydia/icons.css" rel="stylesheet">
@@ -37,70 +37,31 @@
     <nav class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
         <li class="current dropdown"><a href="lydia/saved_resource" class="dropdown-toggle js-activated">Home <span class="caret"></span></a>
+          
+        </li>
+        <li ><a href="lydia/saved_resource" class="dropdown-toggle js-activated">Prevenção <span class="caret"></span></a>
+           
+        </li>
+        <li ><a href="lydia/saved_resource" class="dropdown-toggle js-activated">Informações <span class="caret"></span></a>
+         
+        </li>
+        <li ><a href="lydia/saved_resource" class="dropdown-toggle js-activated">Mapa da Dengue <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="index.html">Default Layout</a></li>
-            <li><a href="index2.html">Home with AJAX Gallery</a></li>
-            <li><a href="index3.html">Home with Onepage Gallery</a></li>
-            <li><a href="index4.html">Home with Slide Portfolio</a></li>
-            <li><a href="index5.html">Home with Grid Blog 1</a></li>
-            <li><a href="index6.html">Home with Grid Blog 2</a></li>
-            <li><a href="index7.html">Home with Magazine 1</a></li>
-            <li><a href="index8.html">Home with Magazine 2</a></li>
-            <li><a href="onepage.html">Onepage Layout</a></li>
+            <li><a href="home">Sub menu</a></li>
+            <li><a href="home">Sub menu</a></li>
+            <li><a href="home">Sub menu</a></li>
           </ul>
         </li>
-        <li class="dropdown"><a href="lydia/saved_resource" class="dropdown-toggle js-activated">Prevenção <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-                <li><a href="#!" class="changecolor" title="lydiaaqua-color">Aqua</a></li>
-                <li><a href="#!" class="changecolor" title="lydiablue-color">Blue</a></li>
-                <li><a href="#!" class="changecolor" title="lydiabrown-color">Brown</a></li>
-                <li><a href="#!" class="changecolor" title="lydiaforest-color">Forest</a></li>              
-                <li><a href="#!" class="changecolor" title="lydiagreen-color">Green</a></li>
-                <li><a href="#!" class="changecolor" title="lydialime-color">Lime</a></li>
-                <li><a href="#!" class="changecolor" title="lydiaorange-color">Orange</a></li>
-                <li><a href="#!" class="changecolor" title="lydiapink-color">Pink</a></li>
-                <li><a href="#!" class="changecolor" title="lydiapurple-color">Purple</a></li>
-                <li><a href="#!" class="changecolor" title="lydiared-color">Red</a></li>
-                <li><a href="#!" class="changecolor" title="lydiarose-color">Rose</a></li>
-            </ul>
-        </li>
-        <li class="dropdown"><a href="lydia/saved_resource" class="dropdown-toggle js-activated">Informações <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="about2.html">Transparent</a></li>
-            <li><a href="index5.html">Light Solid</a></li>
-            <li><a href="index6.html">Dark Solid</a></li>
-          </ul>
-        </li>
-        <li class="dropdown"><a href="lydia/saved_resource" class="dropdown-toggle js-activated">Mapa da Dengue <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="portfolio.html">Mosaic Portfolio</a></li>
-            <li><a href="portfolio2.html">Mosaic Portfolio w/ Lightbox</a></li>
-            <li><a href="portfolio3.html">AJAX Gallery</a></li>
-            <li><a href="portfolio4.html">Onepage Gallery</a></li>
-            <li><a href="portfolio5.html">Slide Portfolio</a></li>
-            <li><a href="portfolio-post.html">Post with Carousel</a></li>
-            <li><a href="portfolio-post2.html">Post with Images</a></li>
-            <li><a href="portfolio-post3.html">Post with Video</a></li>
-            <li><a href="portfolio-post4.html">Post with Slider</a></li>
-          </ul>
-        </li>
-        <li class="dropdown"><a href="lydia/saved_resource" class="dropdown-toggle js-activated">Parceiros <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="blog.html">Grid Blog</a></li>
-            <li><a href="blog2.html">Grid Blog with Sidebar</a></li> 
-            <li><a href="blog3.html">Magazine</a></li>
-            <li><a href="blog4.html">Magazine No Sidebar</a></li>
-            <li><a href="blog-post.html">Blog Post</a></li>
-            <li><a href="blog-post2.html">Blog Post No Sidebar</a></li>
-          </ul>
+        <li ><a href="lydia/saved_resource" class="dropdown-toggle js-activated">Parceiros <span class="caret"></span></a>
+         
         </li>
         <li class="dropdown"><a href="lydia/saved_resource" class="dropdown-toggle js-activated">Novidades <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="about.html">About 1</a></li>
-            <li><a href="about2.html">About 2</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact 1</a></li>
-            <li><a href="contact2.html">Contact 2</a></li>
+            <li><a href="home">Sub Menu</a></li>
+            <li><a href="home">Sub Menu</a></li>
+            <li><a href="home">Sub Menu</a></li>
+            <li><a href="home">Sub Menu</a></li>
+            <li><a href="home">Sub Menu</a></li>
           </ul>
         </li>
        
@@ -164,7 +125,7 @@
             <figure><a href="lydia/saved_resource"><img src="lydia/s1.jpg" alt=""> </a></figure>
             <div class="caption bottom-right">
               <div class="title">
-                <h3 class="main-title layer">Fashion Photography</h3>
+                <h3 class="main-title layer">Ação 1</h3>
               </div>
               <!--/.title --> 
             </div>
@@ -177,7 +138,7 @@
             <figure><a href="lydia/saved_resource"><img src="lydia/s2.jpg" alt=""> </a></figure>
             <div class="caption bottom-right">
               <div class="title">
-                <h3 class="main-title layer">Food &amp; Drink Photography</h3>
+                <h3 class="main-title layer">Ação 2</h3>
               </div>
               <!--/.title --> 
             </div>
@@ -190,7 +151,7 @@
             <figure><a href="lydia/saved_resource"><img src="lydia/s3.jpg" alt=""> </a></figure>
             <div class="caption bottom-right">
               <div class="title">
-                <h3 class="main-title layer">Wedding Photography</h3>
+                <h3 class="main-title layer">Ação 3</h3>
               </div>
               <!--/.title --> 
             </div>
@@ -237,10 +198,10 @@
           <div class="item post">
             <figure class="main"><img src="lydia/b1.jpg" alt=""></figure>
             <div class="box text-center">
-              <div class="category cat9"><span><a href="lydia/saved_resource">Urban</a></span></div>
+              <div class="category cat9"><span><a href="lydia/saved_resource">Ação N</a></span></div>
               <h4 class="post-title"><a href="blog-post.html">Parturient Commodo Aenean</a></h4>
-              <div class="meta"><span class="date">14 Oct 2014</span><span class="comments"><a href="lydia/saved_resource"><i class="icon-chat-1"></i> 15</a></span></div>
-              <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cum sociis natoque penatibus et magnis dis parturient. Curabitur blandit tempus lacinia odio.</p>
+             <!-- <div class="meta"><span class="date">14 Oct 2014</span><span class="comments"><a href="lydia/saved_resource"><i class="icon-chat-1"></i> 15</a></span></div>
+             --> <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cum sociis natoque penatibus et magnis dis parturient. Curabitur blandit tempus lacinia odio.</p>
             </div>
             <!-- /.box --> 
             
@@ -250,10 +211,10 @@
           <div class="item post">
             <figure class="main"><img src="lydia/b2.jpg" alt=""></figure>
             <div class="box text-center">
-              <div class="category cat12"><span><a href="lydia/saved_resource">Still Life</a></span></div>
+              <div class="category cat9"><span><a href="lydia/saved_resource">Ação 1</a></span></div>
               <h4 class="post-title"><a href="blog-post.html">Quam Mollis Ligula Nullam</a></h4>
-              <div class="meta"><span class="date">12 Nov 2014</span><span class="comments"><a href="lydia/saved_resource"><i class="icon-chat-1"></i> 15</a></span></div>
-              <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus. Lorem ipsum dolor sit amet.</p>
+             <!-- <div class="meta"><span class="date">12 Nov 2014</span><span class="comments"><a href="lydia/saved_resource"><i class="icon-chat-1"></i> 15</a></span></div>
+             --> <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus. Lorem ipsum dolor sit amet.</p>
             </div>
             <!-- /.box --> 
             
@@ -263,10 +224,10 @@
           <div class="item post">
             <figure class="main"><img src="lydia/b3.jpg" alt=""></figure>
             <div class="box text-center">
-              <div class="category cat5"><span><a href="lydia/saved_resource">Photography</a></span></div>
+              <div class="category cat9"><span><a href="lydia/saved_resource">Ação 2</a></span></div>
               <h4 class="post-title"><a href="blog-post.html">Tellus Bibendum Parturient</a></h4>
-              <div class="meta"><span class="date">23 Dec 2014</span><span class="comments"><a href="lydia/saved_resource"><i class="icon-chat-1"></i> 15</a></span></div>
-              <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor. Sed posuere consectetur est at. Duis mollis, est.</p>
+             <!-- <div class="meta"><span class="date">23 Dec 2014</span><span class="comments"><a href="lydia/saved_resource"><i class="icon-chat-1"></i> 15</a></span></div>
+             --> <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor. Sed posuere consectetur est at. Duis mollis, est.</p>
             </div>
             <!-- /.box --> 
             
@@ -275,10 +236,10 @@
           <div class="item post">
             <figure class="main"><img src="lydia/b4.jpg" alt=""></figure>
             <div class="box text-center">
-              <div class="category cat6"><span><a href="lydia/saved_resource">Journal</a></span></div>
+              <div class="category cat9"><span><a href="lydia/saved_resource">Ação 3</a></span></div>
               <h4 class="post-title"><a href="blog-post.html">Parturient Commodo Aenean</a></h4>
-              <div class="meta"><span class="date">14 Oct 2014</span><span class="comments"><a href="lydia/saved_resource"><i class="icon-chat-1"></i> 15</a></span></div>
-              <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cum sociis natoque penatibus et magnis dis parturient. Curabitur blandit tempus lacinia.</p>
+             <!-- <div class="meta"><span class="date">14 Oct 2014</span><span class="comments"><a href="lydia/saved_resource"><i class="icon-chat-1"></i> 15</a></span></div>
+             --> <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cum sociis natoque penatibus et magnis dis parturient. Curabitur blandit tempus lacinia.</p>
             </div>
             <!-- /.box --> 
             
@@ -288,10 +249,10 @@
           <div class="item post">
             <figure class="main"><img src="lydia/b5.jpg" alt=""></figure>
             <div class="box text-center">
-              <div class="category cat12"><span><a href="lydia/saved_resource">Still Life</a></span></div>
+              <div class="category cat9"><span><a href="lydia/saved_resource">Ação 4</a></span></div>
               <h4 class="post-title"><a href="blog-post.html">Quam Mollis Ligula Nullam</a></h4>
-              <div class="meta"><span class="date">12 Nov 2014</span><span class="comments"><a href="lydia/saved_resource"><i class="icon-chat-1"></i> 15</a></span></div>
-              <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus. Lorem ipsum dolor sit amet.</p>
+             <!-- <div class="meta"><span class="date">12 Nov 2014</span><span class="comments"><a href="lydia/saved_resource"><i class="icon-chat-1"></i> 15</a></span></div>
+             --> <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus. Lorem ipsum dolor sit amet.</p>
             </div>
             <!-- /.box --> 
             
@@ -301,10 +262,10 @@
           <div class="item post">
             <figure class="main"><img src="lydia/b6.jpg" alt=""></figure>
             <div class="box text-center">
-              <div class="category cat3"><span><a href="lydia/saved_resource">Nature</a></span></div>
+              <div class="category cat9"><span><a href="lydia/saved_resource">Ação 5</a></span></div>
               <h4 class="post-title"><a href="blog-post.html">Tellus Bibendum Parturient</a></h4>
-              <div class="meta"><span class="date">23 Dec 2014</span><span class="comments"><a href="lydia/saved_resource"><i class="icon-chat-1"></i> 15</a></span></div>
-              <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor. Sed posuere consectetur est at. Duis mollis, est non.</p>
+             <!-- <div class="meta"><span class="date">23 Dec 2014</span><span class="comments"><a href="lydia/saved_resource"><i class="icon-chat-1"></i> 15</a></span></div>
+             --> <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor. Sed posuere consectetur est at. Duis mollis, est non.</p>
             </div>
             <!-- /.box --> 
             
@@ -325,7 +286,7 @@
         <div class="col-sm-4 col-md-3">
           <h2>Cômites de Bairro</h2>
           <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat. Nullam quis risus eget urna mollis ornare vel eu leo. Duis mollis, est non commodo.</p>
-          <div class="divide10"></div>
+          <div class="divide5"></div>
           <a href="https://instagram.com/ronal2do/" class="btn btn-icon"><i class="icon-s-instagram"></i> Instagram Page</a> </div>
         <!--/column -->
         <div class="col-sm-8 col-md-9">

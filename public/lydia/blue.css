@@ -2,49 +2,49 @@
 /*	MAIN COLOR
 /*-----------------------------------------------------------------------------------*/
 #preloader .textload {
-	color: #70aed2;
+	color: #fed038;
 }
 a {
-    color: #70aed2;
+    color: #fed038;
 }
 a.line:hover {
-    border-bottom: 1px solid #70aed2;
+    border-bottom: 1px solid #fed038;
 }
 a:hover,
 a:focus {
-    color: #70aed2;
+    color: #fed038;
 }
 
 .post-title a:hover {
-    color: #70aed2
+    color: #fed038
 }
 .section-title span {
-	color: #70aed2
+	color: #fed038
 }
 .meta a:hover,
 .more:hover {
-	color: #70aed2
+	color: #fed038
 }
 ul.circled li:before {
-    color: #70aed2;
+    color: #fed038;
 }
 .contact-info i {
-    color: #70aed2;
+    color: #fed038;
 }
 .contact-info a:hover {
-    color: #70aed2
+    color: #fed038
 }
 .btn,
 .vanilla-form label.custom-select span {
-    background: #70aed2;
+    background: #fed038;
 }
 .navbar .nav > li.current > a,
 .navbar .navbar-nav > li > a:focus,
 .navbar .nav > li > a:hover {
-    color: #70aed2 !important 
+    color: #fed038 !important 
 }
 .navbar .dropdown-menu li:first-child {
-    border-top: 2px solid #70aed2
+    border-top: 2px solid #fed038
 }
 .navbar .dropdown-menu li a:hover,
 .navbar .dropdown-menu li a.active,
@@ -58,119 +58,119 @@ ul.circled li:before {
 .navbar .dropdown-menu > .active > a,
 .navbar .dropdown-menu > .active > a:hover,
 .navbar .dropdown-menu > .active > a:focus {
-    color: #70aed2;
+    color: #fed038;
 }
 .cbp-filter-container .cbp-filter-item:hover,
 .cbp-filter-container .cbp-filter-item.cbp-filter-item-active,
 .sticky-filter ul li a:hover,
 .sticky-filter ul li.current a {
-    color: #70aed2 !important;
+    color: #fed038 !important;
 }
 .item-details li strong {
-    color: #70aed2;
+    color: #fed038;
 }
 .pagination ul > li > a:hover,
 .pagination ul > li > a:focus,
 .pagination ul > .active > a,
 .pagination ul > .active > span {
-	color: #70aed2
+	color: #fed038
 }
 .sidebox a:hover {
-    color: #70aed2
+    color: #fed038
 }
 .widget .post-list h5 a:hover {
-    color: #70aed2
+    color: #fed038
 }
 .widget .post-list .meta em a:hover {
-    color: #70aed2
+    color: #fed038
 }
 footer ul.tag-list li a:hover {
-    background: #70aed2 !important;
+    background: #fed038 !important;
 }
 .sidebox ul.tag-list li a:hover {
-    color: #70aed2 !important;
+    color: #fed038 !important;
 }
 .blog-carousel .caption-overlay .caption .post-title a:hover {
-	color: #70aed2;
+	color: #fed038;
 }
 .blog-carousel .caption-overlay .caption .meta a:hover {
-	color: #70aed2;
+	color: #fed038;
 }
 .progress-list li em {
-    color: #70aed2;
+    color: #fed038;
 }
 .progress.plain .bar {
-    background: #70aed2 !important;
+    background: #fed038 !important;
 }
 .feature .icon {
-    color: #70aed2
+    color: #fed038
 }
 .icon-large {
-    color: #70aed2;
+    color: #fed038;
 }
 .tabs-top .tab a:hover,
 .tabs-top .tab.active a {
-    background: #70aed2;
+    background: #fed038;
 }
 .panel-group .panel-heading .panel-title:hover,
 .panel-group .panel-active .panel-heading .panel-title {
-    background: #70aed2;
+    background: #fed038;
 }
 .price {
-    color: #70aed2;
+    color: #fed038;
 }
 .tooltip-inner {
-    background-color: #70aed2;
+    background-color: #fed038;
 }
 .tooltip.top .tooltip-arrow,
 .tooltip.top-left .tooltip-arrow,
 .tooltip.top-right .tooltip-arrow {
-    border-top-color: #70aed2
+    border-top-color: #fed038
 }
 .tooltip.right .tooltip-arrow {
-    border-right-color: #70aed2
+    border-right-color: #fed038
 }
 .tooltip.left .tooltip-arrow {
-    border-left-color: #70aed2
+    border-left-color: #fed038
 }
 .tooltip.bottom .tooltip-arrow,
 .tooltip.bottom-left .tooltip-arrow,
 .tooltip.bottom-right .tooltip-arrow {
-    border-bottom-color: #70aed2
+    border-bottom-color: #fed038
 }
 #comments .info h2 a:hover {
-    color: #70aed2
+    color: #fed038
 }
 .vanilla-form input[type="radio"]:focus + span,
 .vanilla-form input[type="checkbox"]:focus + span,
 .vanilla-form input[type="radio"]:active + span,
 .vanilla-form input[type="checkbox"]:active + span {
-    border-color: #70aed2
+    border-color: #fed038
 }
 .vanilla-form input[type="radio"] + span::after {
-    background-color: #70aed2;
-    border-color: #70aed2;
+    background-color: #fed038;
+    border-color: #fed038;
 }
 .vanilla-form input[type="radio"]:checked + span,
 .vanilla-form input[type="checkbox"]:checked + span {
-    border: 1px solid #70aed2
+    border: 1px solid #fed038
 }
 .vanilla-form input[type="checkbox"] + span::after {
-    border: 0 solid #70aed2;
+    border: 0 solid #fed038;
 }
 @media (min-width: 992px) { 
 	.navbar .dropdown-menu:before {
-	    border-bottom: 5px solid #70aed2;
+	    border-bottom: 5px solid #fed038;
 	}
 }
 @media (max-width: 991px) {
 	.navbar .nav > li.current > a,
 	.navbar .nav > li > a:hover {
-	    color: #70aed2 !important
+	    color: #fed038 !important
 	}
 	.navbar .navbar-nav .open .dropdown-menu > li > a:hover,
 	.navbar .navbar-nav .open .dropdown-menu > li > a:focus {
-	    color: #70aed2 !important
+	    color: #fed038 !important
 	}
 }
 /*-----------------------------------------------------------------------------------*/
