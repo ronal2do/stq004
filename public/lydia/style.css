@@ -226,9 +226,20 @@ h1 {
     margin-bottom: 15px;
 }
 h2 {
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 40px;
+    /* line-height: 28px; */
     margin-bottom: 15px;
+    color: #6F4996;
+}
+.purple-wrapper h2{
+    font-size: 40px;
+    /* line-height: 28px; */
+    margin-bottom: 15px;
+    color: #fff;
+}
+.purple-wrapper p{
+   
+    color: #fff;
 }
 h3 {
     font-size: 18px;
@@ -367,7 +378,7 @@ h2.post-title + .meta {
 }
 .purple-wrapper {
     background-color: #643a90;
-    background-image: linear-gradient(to bottom, #643a90, #a05dd2);
+    background-image: linear-gradient(to bottom, #643a90, #fff, #643a90,);
     background-repeat: repeat-x;
 }
 .inverse-wrapper {
@@ -887,6 +898,7 @@ footer ul.circled li:before {
     width: 100% !important;
     position: relative;
     padding: 0;
+     height: 75%;
 }
 .revolution {
     z-index: 998

@@ -167,20 +167,7 @@
   </div>
   <!-- /.light-wrapper -->
   <!-- comite -->
-<div class="yellow-wrapper">
-    <div class="container inner">
-      <div class="row">
-        <h3>Comitê Municipal</h3>
-      <blockquote>
-        <p> Pellentesque non diam et tortor dignissim bibendum. Neque sit amet mauris egestas quis mattis velit fringilla. Curabitur viver justo sed scelerisque. Cras mattis consectetur purus sit amet fermentum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque.</p>
-        <small class="meta">Very important person</small> </blockquote>
-        <!--/column --> 
-      </div>
-      <!--/.row --> 
-    </div>
-    <!--/.container --> 
-    
-  </div>
+
 
 
   <!-- final comite -->
@@ -280,25 +267,47 @@
     
   </div>
   <!-- /.dark-wrapper -->
-  <div class="yellow-wrapper">
+   <div class="purple-wrapper">
     <div class="container inner">
       <div class="row">
         <div class="col-sm-4 col-md-3">
-          <h2>Cômites de Bairro</h2>
-          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat. Nullam quis risus eget urna mollis ornare vel eu leo. Duis mollis, est non commodo.</p>
-          <div class="divide5"></div>
-          </div>
+          <h2>Cômites<br> Municipal</h2>
+        </div>
         <!--/column -->
         <div class="col-sm-8 col-md-9">
-          <div class="image-grid col5">
-            <div class="items-wrapper">
-              <div id="instafeed" class="isotope items" data-limit="5"></div>
-              
-              <!--/.isotope --> 
-            </div>
-            <!--/.items-wrapper --> 
-          </div>
-          <!--/.image-grid --> 
+           <p>
+         Tee chuta hhat yudd! Goodness gracious me! Artoo Detoowha bo Seethreepiowha ey toota odd mischka Jabba du Hutt. 
+         I don't think they're going to let us in, Artoo. We'd better go. Artoo, wait. 
+         Oh, dear! Artoo. Artoo, I really don't think we should rush into all this. Oh, Artoo! Artoo, wait for me! 
+         Just you deliver Master Luke's message and get us out of here. Oh my! Oh! Oh, no.
+          </p>
+
+        </div>
+        <!--/column --> 
+      </div>
+      <!--/.row --> 
+    </div>
+    <!--/.container --> 
+    
+  </div>
+
+
+
+  <div class="yellow-wrapper">
+    <div class="container inner">
+      <div class="row">
+        <div class="col-sm-8 col-md-9">
+          <p>
+         Tee chuta hhat yudd! Goodness gracious me! Artoo Detoowha bo Seethreepiowha ey toota odd mischka Jabba du Hutt. 
+         I don't think they're going to let us in, Artoo. We'd better go. Artoo, wait. 
+         Oh, dear! Artoo. Artoo, I really don't think we should rush into all this. Oh, Artoo! Artoo, wait for me! 
+         Just you deliver Master Luke's message and get us out of here. Oh my! Oh! Oh, no.
+          </p> 
+        </div>
+        <!--/column -->
+        <div class="col-sm-4 col-md-3">
+          
+           <h2>Cômites<br> de Bairro</h2>
         </div>
         <!--/column --> 
       </div>
@@ -360,7 +369,7 @@
     
     <div class="sub-footer">
       <div class="container inner">
-        <p class="text-center">© 2015 Campanha Marília Contra a Dengue.</p>
+        <p class="text-center">© 2015 Campanha Marília sem Dengue.</p>
       </div>
       <!-- .container --> 
     </div>
@@ -377,16 +386,6 @@
 <script src="lydia/jquery.themepunch.tools.min.js"></script> 
 <script src="lydia/scripts.js"></script>
 <!-- DEMO ONLY -->
-<link rel="alternate stylesheet" property="stylesheet" type="text/css" href="lydia/aqua.css" title="lydiaaqua-color" media="screen">
-<link rel="alternate stylesheet" property="stylesheet" type="text/css" href="lydia/blue.css" title="lydiablue-color" media="screen">
-<link rel="alternate stylesheet" property="stylesheet" type="text/css" href="lydia/brown.css" title="lydiabrown-color" media="screen">
-<link rel="alternate stylesheet" property="stylesheet" type="text/css" href="lydia/forest.css" title="lydiaforest-color" media="screen">
-<link rel="alternate stylesheet" property="stylesheet" type="text/css" href="lydia/green.css" title="lydiagreen-color" media="screen">
-<link rel="alternate stylesheet" property="stylesheet" type="text/css" href="lydia/lime.css" title="lydialime-color" media="screen">
-<link rel="alternate stylesheet" property="stylesheet" type="text/css" href="lydia/orange.css" title="lydiaorange-color" media="screen">
-<link rel="alternate stylesheet" property="stylesheet" type="text/css" href="lydia/pink.css" title="lydiapink-color" media="screen">
-<link rel="alternate stylesheet" property="stylesheet" type="text/css" href="lydia/purple.css" title="lydiapurple-color" media="screen">
-<link rel="alternate stylesheet" property="stylesheet" type="text/css" href="lydia/red.css" title="lydiared-color" media="screen">
 <link rel="alternate stylesheet" property="stylesheet" type="text/css" href="lydia/rose.css" title="lydiarose-color" media="screen">
 <script type="text/javascript" src="lydia/switchstylesheet.js"></script>
 <script type="text/javascript">
