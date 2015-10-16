@@ -26,7 +26,12 @@
   <div class="navbar">
     <div class="navbar-header">
       <div class="basic-wrapper"> 
-        <div class="navbar-brand"> <a href="index.html"><img src="{{ asset('images/logo.png') }}" srcset="lydia/logo.png 1x, lydia/logo@2x.png 2x" class="logo-light" alt=""><img src="lydia/saved_resource" srcset="lydia/logo-dark.png 1x, lydia/logo-dark@2x.png 2x" class="logo-dark" alt=""></a> </div>
+        <div class="navbar-brand">
+             <a href="index.html">
+               <img src="{{ asset('images/logo.png') }}" srcset="lydia/logo.png 1x, lydia/logo@2x.png 2x" class="logo-light" alt="">
+               <img src="{{ asset('images/logo.png') }}" srcset="lydia/logo-dark.png 1x, lydia/logo-dark@2x.png 2x" class="logo-dark" alt="">
+             </a> 
+           </div>
         <a class="btn responsive-menu" data-toggle="collapse" data-target=".navbar-collapse"><i></i></a>
       </div>
       <!-- /.basic-wrapper -->  
