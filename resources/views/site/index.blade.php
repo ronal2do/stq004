@@ -271,7 +271,7 @@
     <div class="container inner">
       <div class="row">
         <div class="col-sm-4 col-md-3">
-          <h2>Cômites<br> Municipal</h2>
+          <h2>Comitê<br> Municipal</h2>
         </div>
         <!--/column -->
         <div class="col-sm-8 col-md-9">
@@ -307,7 +307,7 @@
         <!--/column -->
         <div class="col-sm-4 col-md-3">
           
-           <h2>Cômites<br> de Bairro</h2>
+           <h2>Comitês<br> Regionais</h2>
         </div>
         <!--/column --> 
       </div>
