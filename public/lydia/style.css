@@ -40,8 +40,8 @@ Author:     elemis
     30. DIVIDERS
     31. RESPONSIVE
     
-    font-family: 'Karla', sans-serif;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
     text: #5b5b5b
     hover: #fed038
     headings: #3b3b3b
@@ -154,7 +154,7 @@ iframe {
     text-transform: uppercase;
     text-align: center;
     color: #fed038;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 .icon img {
     width: 100%;
@@ -171,7 +171,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
     color: #5b5b5b;
-    font-family: 'Karla', sans-serif;
+    font-family: 'Lato', sans-serif;
     background: #fafbfc;
 }
 .container {
@@ -218,7 +218,7 @@ h6 {
     margin-bottom: 10px;
     font-weight: 700;
     letter-spacing: -0.5px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 h1 {
     font-size: 28px;
@@ -548,7 +548,7 @@ footer ul.circled li:before {
     border-radius: 0;
     text-transform: uppercase;
     display: inline-block;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 .navigation .btn {
     margin-bottom: 0
@@ -689,7 +689,7 @@ footer ul.circled li:before {
     height: 90px;
     background: rgba(100,58,144,0.5) !important;  
     transition: all 0.3s;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 .container>.navbar-header {
     margin-left: 0 !important;
@@ -912,7 +912,7 @@ footer ul.circled li:before {
     font-size: 55px;
     line-height: 65px;
     font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 .revolution .tp-caption.medium {
     font-size: 28px;
@@ -1284,7 +1284,7 @@ figure .link-out:hover {
 .cbp-filter-container .cbp-filter-item,
 .sticky-filter ul li {
     display: inline-block;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     font-size: 13px;
     font-weight: bold;
@@ -1332,7 +1332,7 @@ figure .link-out:hover {
 }
 .cbp-l-caption-title {
     font-size: 13px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     letter-spacing: normal;
     color: #FFF;
@@ -1834,7 +1834,7 @@ video {
     list-style: none;
     padding: 0;
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 .pagination ul > li {
     display: inline-block;
@@ -1921,7 +1921,7 @@ video {
 }
 .box .category span {
     color: #FFF;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     font-size: 11px;
     display: inline-block;
@@ -2460,7 +2460,7 @@ figure img {
     letter-spacing: normal;
     font-weight: 700;
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 .tabs-top .tab i {
     margin-right: 5px

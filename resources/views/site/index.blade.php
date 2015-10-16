@@ -8,6 +8,7 @@
 <link rel="shortcut icon" href="lydia/favicon.png">
 <title>Marília contra a dengue</title>
 <!-- Bootstrap core CSS -->
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400italic,700,700italic" rel="stylesheet" type="text/css">
 <link href="lydia/bootstrap.min.css" rel="stylesheet">
 <link href="lydia/plugins.css" rel="stylesheet">
 <link href="lydia/style.css" rel="stylesheet">
@@ -85,21 +86,21 @@
     <div class="tp-fullscreen">
       <ul>
         <li data-transition="fade"> <img src="lydia/slider-bg1.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-          <h1 class="tp-caption large sfr" data-x="30" data-y="263" data-speed="900" data-start="800" data-easing="Sine.easeOut">Texto</h1>
-          <div class="tp-caption medium sfr" data-x="30" data-y="348" data-speed="900" data-start="1500" data-easing="Sine.easeOut">Lorem dolem ipsum <br>
-            Lorem dolem ipsum</div>
+          <h1 class="tp-caption large sfr" data-x="30" data-y="263" data-speed="900" data-start="800" data-easing="Sine.easeOut">Watto</h1>
+          <div class="tp-caption medium sfr" data-x="30" data-y="348" data-speed="900" data-start="1500" data-easing="Sine.easeOut">Leia skywalker watto ackbar <br>
+           Moff watto anakin</div>
         </li>
         <li data-transition="fade"> <img src="lydia/slider-bg2.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-          <div class="tp-caption large text-center sfl" data-x="center" data-y="283" data-speed="900" data-start="800" data-easing="Sine.easeOut">Lorem dolem ipsum</div>
-          <div class="tp-caption large text-center sfr" data-x="center" data-y="363" data-speed="900" data-start="1500" data-easing="Sine.easeOut">Lorem dolem ipsum</div>
+          <div class="tp-caption large text-center sfl" data-x="center" data-y="283" data-speed="900" data-start="800" data-easing="Sine.easeOut">Leia skywalker watto ackbar</div>
+          <div class="tp-caption large text-center sfr" data-x="center" data-y="363" data-speed="900" data-start="1500" data-easing="Sine.easeOut">Moff watto anakin</div>
         </li>
         <li data-transition="fade"> <img src="lydia/slider-bg3.jpg" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-          <div class="tp-caption large text-center sfb" data-x="center" data-y="293" data-speed="900" data-start="800" data-easing="Sine.easeOut">Lorem dolem ipsum</div>
-          <div class="tp-caption medium text-center sfb" data-x="center" data-y="387" data-speed="900" data-start="1500" data-easing="Sine.easeOut">Lorem dolem ipsum</div>
+          <div class="tp-caption large text-center sfb" data-x="center" data-y="293" data-speed="900" data-start="800" data-easing="Sine.easeOut">Leia skywalker watto ackbar</div>
+          <div class="tp-caption medium text-center sfb" data-x="center" data-y="387" data-speed="900" data-start="1500" data-easing="Sine.easeOut">Moff watto anakin</div>
         </li>
         <li data-transition="fade"> <img src="lydia/nyc.jpg" alt="" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat">
-          <div class="tp-caption large text-center sfb" data-x="center" data-y="293" data-speed="900" data-start="800" data-endspeed="100" data-easing="Sine.easeOut" style="z-index: 2;">Lorem dolem ipsum</div>
-          <div class="tp-caption medium text-center sfb" data-x="center" data-y="387" data-speed="900" data-start="1500" data-endspeed="100" data-easing="Sine.easeOut" style="z-index: 2;">Lorem dolem ipsum</div>
+          <div class="tp-caption large text-center sfb" data-x="center" data-y="293" data-speed="900" data-start="800" data-endspeed="100" data-easing="Sine.easeOut" style="z-index: 2;">Leia skywalker watto ackbar</div>
+          <div class="tp-caption medium text-center sfb" data-x="center" data-y="387" data-speed="900" data-start="1500" data-endspeed="100" data-easing="Sine.easeOut" style="z-index: 2;">Moff watto anakin</div>
           <div class="tp-caption tp-fade fadeout fullscreenvideo" data-x="0" data-y="0" data-speed="1000" data-start="1100" data-easing="Power4.easeOut" data-elementdelay="0.01" data-endelementdelay="0.1" data-endspeed="1500" data-endeasing="Power4.easeIn" data-autoplay="true" data-autoplayonlyfirsttime="false" data-nextslideatend="true" data-dottedoverlay="twoxtwo" data-volume="mute" data-forcecover="1" data-aspectratio="16:9" data-forcerewind="on" style="z-index: 1;">
             <video class="" preload="none" width="100%" height="100%" poster="lydia/nyc.jpg">
               <source src="lydia/nyc.mp4" type="video/mp4">
