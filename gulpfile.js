@@ -13,18 +13,19 @@ var elixir = require('laravel-elixir');
 
 elixir(function(mix) {
     mix.styles([
-    	'/../../../node_modules/bootstrap/dist/css/bootstrap.css',
-    	'style.css',
-    	'app.css'
+    	'bootstrap.min.css',
+        'plugins.css',
+        'style.css'
     	] ,'public/css/app.css');
 
 
     mix.scripts([
-    	'jquery.js',
-        'bootstrap.min.js',
-        'jqBootstrapValidation.js',
-    	'contact_me.js',
-    	
-    	'app.js'
+    	'jquery.min.js', 
+        'bootstrap.min.js', 
+        'plugins.js' ,
+        'classie.js', 
+        'jquery.themepunch.tools.min.js', 
+        'scripts.js',
+        'switchstylesheet.js'
     	] ,'public/js/main.js');
 });

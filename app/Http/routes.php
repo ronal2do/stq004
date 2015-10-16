@@ -41,6 +41,9 @@ Route::get('informacoes', function () {
 Route::get('parceiros', function () {
     return view('site.parceiros');
 });
+Route::get('prevencao', function () {
+    return view('site.prevencao');
+});
 /**
 * noticias
 */

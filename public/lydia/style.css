@@ -4196,7 +4196,7 @@ textarea {
         display: none
     }
     body:not(.onepage) .navbar {
-        background: rgba(29,29,33,0.9) !important;
+        background: rgba(100,58,144,0.9) !important;
     }
     body:not(.onepage) .navbar.light {
         background: #FFF !important;
