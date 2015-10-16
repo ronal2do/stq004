@@ -8,11 +8,10 @@
 <link rel="shortcut icon" href="lydia/favicon.png">
 <title>Marília contra a dengue</title>
 <!-- Bootstrap core CSS -->
-<link href="https://fonts.googleapis.com/css?family=Lato:300,400italic,700,700italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,500,500italic,700,700italic" rel="stylesheet" type="text/css">
 <link href="lydia/bootstrap.min.css" rel="stylesheet">
 <link href="lydia/plugins.css" rel="stylesheet">
-<link href="lydia/style.css" rel="stylesheet">
-
+<link href="lydia/style.css" rel="stylesheet">   
 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 <link href="lydia/icons.css" rel="stylesheet">
@@ -288,7 +287,7 @@
           <h2>Cômites de Bairro</h2>
           <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat. Nullam quis risus eget urna mollis ornare vel eu leo. Duis mollis, est non commodo.</p>
           <div class="divide5"></div>
-          <a href="https://instagram.com/ronal2do/" class="btn btn-icon"><i class="icon-s-instagram"></i> Instagram Page</a> </div>
+          </div>
         <!--/column -->
         <div class="col-sm-8 col-md-9">
           <div class="image-grid col5">
@@ -329,7 +328,7 @@
     <!--/.container --> 
   </div>
   <!-- /.light-wrapper -->
-  <footer class="footer inverse-wrapper">
+  <footer class="footer light-wrapper">
     <div class="container inner">
       <div class="span12">
         <div class="col-sm-4">
