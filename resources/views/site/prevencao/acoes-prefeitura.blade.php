@@ -67,20 +67,20 @@
           
         </div> <div class="col-sm-3 text-center">
           <figure><img src="{{ asset('images/t1.jpg') }}" alt=""></figure>
-          <h4 class="post-title">Unidade Especial de Saúde</h4>
+          <h4 class="post-title">Mutirão de Mobilização</h4>
         
           <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam praesent.</p>
           
         </div> <div class="col-sm-3 text-center">
           <figure><img src="{{ asset('images/t1.jpg') }}" alt=""></figure>
-          <h4 class="post-title">Unidade Especial de Saúde</h4>
+          <h4 class="post-title">Multas Domiciliáres</h4>
         
           <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam praesent.</p>
           
         </div>
          <div class="col-sm-3 text-center">
           <figure><img src="{{ asset('images/t1.jpg') }}" alt=""></figure>
-          <h4 class="post-title">Unidade Especial de Saúde</h4>
+          <h4 class="post-title">Multas imóveis abandonados</h4>
         
           <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam praesent.</p>
           
