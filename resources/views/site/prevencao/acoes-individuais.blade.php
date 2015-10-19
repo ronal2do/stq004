@@ -52,7 +52,7 @@ os criadouros do mosquito.</h3>
   
   <div class="yellow-wrapper">
     <div class="container inner">
-      <h3 class="section-title text-center">Lista <strong>de Ações</strong></h3>
+      <h1 class="section-title text-center">Lista <strong>de Ações</strong></h1>
       <div class="divide10"></div>
       <div class="testimonials2 small-quote">
        <div class="row">
@@ -64,11 +64,11 @@ os criadouros do mosquito.</h3>
               </div>
               <!--/.icon -->
               <div class="box">
-                <blockquote>
+                
                   <p>
                     Mantenha fechadas e limpas por dentro e por fora caixas d'água, cisternas, tambores e latões.
                   </p>
-                </blockquote>
+               
               </div>
             </div>
             <!--/.quote --> 
@@ -82,12 +82,12 @@ os criadouros do mosquito.</h3>
               </div>
               <!--/.icon -->
               <div class="box">
-                 <blockquote>
+                 
                   <p>
                     Deixe todas as garrafas com a boca 
 virada para baixo e cobertas.
                   </p>
-                </blockquote>
+                
               </div>
             </div>
             <!--/.quote --> 
@@ -103,11 +103,11 @@ virada para baixo e cobertas.
               </div>
               <!--/.icon -->
               <div class="box">
-                <blockquote>
+               
                   <p>
                     Troque a água dos vasos de plantas e lave-os com escova e sabão. Coloque areia nos pratos e jarros.
                   </p> 
-                </blockquote>
+                
               </div>
             </div>
             <!--/.quote --> 
@@ -121,12 +121,12 @@ virada para baixo e cobertas.
               </div>
               <!--/.icon -->
               <div class="box">
-                <blockquote>
+                
                   <p>
                     Remova folhas, galhos e tudo que possa
 impedir a água de correr pelas calhas e lajes.
                   </p>
-                </blockquote>
+                
               </div>
             </div>
             <!--/.quote --> 
@@ -141,11 +141,11 @@ impedir a água de correr pelas calhas e lajes.
               </div>
               <!--/.icon -->
               <div class="box">
-                <blockquote>
+                
                   <p>
                     Coloque o lixo em sacos plásticos e feche bem as lixeiras. Deixe-as fora do alcance de animais.
                   </p>
-                </blockquote>
+                
               </div>
             </div>
             <!--/.quote --> 
@@ -159,11 +159,11 @@ impedir a água de correr pelas calhas e lajes.
               </div>
               <!--/.icon -->
               <div class="box">
-                <blockquote>
+                
                   <p>
                     Guarde seus pneus velhos em locais secos e cobertos.
                   </p>
-                </blockquote>
+                
               </div>
             </div>
             <!--/.quote --> 
@@ -178,12 +178,12 @@ impedir a água de correr pelas calhas e lajes.
               </div>
               <!--/.icon -->
               <div class="box">
-                <blockquote>
+                
                   <p>
                     Atenção com o lixo em terrenos baldios, prédios abandonados e vias públicas. Se preciso, acione a fiscalização municipal ou o serviço de limpeza pública.
 
                   </p>
-                </blockquote>
+                
               </div>
             </div>
             <!--/.quote --> 
