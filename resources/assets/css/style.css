@@ -241,6 +241,11 @@ h2 {
    
     color: #fff;
 }
+.purple-wrapper h1{
+    
+    color: #FED138;
+}
+
 h3 {
     font-size: 18px;
     line-height: 22px;
@@ -380,6 +385,9 @@ h2.post-title + .meta {
     background-color: #643a90;
     background-image: linear-gradient(to bottom, #643a90, #fff, #643a90,);
     background-repeat: repeat-x;
+}
+.yellow-wrapper h1 {
+   color:#643A90;
 }
 .inverse-wrapper {
     background: #26262a;
