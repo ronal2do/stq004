@@ -62,7 +62,9 @@
               </div>
               <div class="box">
                 <blockquote>
-                  <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus. </p>
+                  <p>
+                  	Limpeza de caixas d`água.
+                  </p>
                 </blockquote>
               </div>
             </div>
@@ -80,7 +82,9 @@
               <!--/.icon -->
               <div class="box">
                 <blockquote>
-                  <p>Vestibulum id ligula porta felis euismod semper. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean lacinia bibendum nulla sed consectetur. </p>
+                  <p>
+                  	Limpeza de caixas d`água.
+                  </p>
                 </blockquote>
               </div>
             </div>
@@ -101,7 +105,9 @@
               <!--/.icon -->
               <div class="box">
                 <blockquote>
-                  <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh ultricies vehicula.</p>
+               	  <p>
+                  	Limpeza de caixas d`água.
+                  </p> 
                 </blockquote>
               </div>
             </div>
@@ -119,7 +125,9 @@
               <!--/.icon -->
               <div class="box">
                 <blockquote>
-                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis.</p>
+                  <p>
+                  	Limpeza de caixas d`água.
+                  </p>
                 </blockquote>
               </div>
             </div>
@@ -141,7 +149,9 @@
               <!--/.icon -->
               <div class="box">
                 <blockquote>
-                  <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh ultricies vehicula.</p>
+                  <p>
+                  	Limpeza de caixas d`água.
+                  </p>
                 </blockquote>
               </div>
             </div>
@@ -159,7 +169,9 @@
               <!--/.icon -->
               <div class="box">
                 <blockquote>
-                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis.</p>
+                  <p>
+                  	Limpeza de caixas d`água.
+                  </p>
                 </blockquote>
               </div>
             </div>
@@ -176,7 +188,9 @@
               <!--/.icon -->
               <div class="box">
                 <blockquote>
-                  <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh ultricies vehicula.</p>
+                  <p>
+                  	Limpeza de caixas d`água.
+                  </p>
                 </blockquote>
               </div>
             </div>
