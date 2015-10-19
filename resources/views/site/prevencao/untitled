@@ -28,8 +28,8 @@
         <!--/column -->
         <div class="col-sm-7">
           <h3 class="section-title">Não se esqueça você
-também de acabar com
-os criadouros do mosquito.</h3>
+                                    também de acabar com
+                                    os criadouros do mosquito.</h3>
            <div class="small-quote">
             <blockquote>
               <p> Não se esqueça você
@@ -49,24 +49,23 @@ os criadouros do mosquito.</h3>
   </div>
   <!-- /.light-wrapper -->
   
-  
   <div class="yellow-wrapper">
     <div class="container inner">
       <h3 class="section-title text-center">Lista <strong>de Ações</strong></h3>
       <div class="divide10"></div>
       <div class="testimonials2 small-quote">
-       <div class="row">
+        <div class="row">
           <div class="col-sm-12 col-md-6">
             <div class="quote">
-              <div class="icon text-center"> <img src="{{ asset('images/dica1.png') }}" alt="">
-               
-                <!--/.author --> 
+              <div class="icon text-center"> <img src="style/images/art/t2-1.jpg" alt="" />
+                <div class="author">
+                  <h4 class="post-title">#1</h4>
+                  </div>
               </div>
-              <!--/.icon -->
               <div class="box">
                 <blockquote>
                   <p>
-                    Mantenha fechadas e limpas por dentro e por fora caixas d'água, cisternas, tambores e latões.
+                  	Mantenha fechadas e limpas por dentro e por fora caixas d'água, cisternas, tambores e latões.
                   </p>
                 </blockquote>
               </div>
@@ -76,15 +75,17 @@ os criadouros do mosquito.</h3>
           <!--/column -->
           <div class="col-sm-12 col-md-6">
             <div class="quote right">
-              <div class="icon text-center">  <img src="{{ asset('images/dica2.png') }}" alt="">
-                
+              <div class="icon text-center"> <img src="style/images/art/t2-2.jpg" alt="" />
+                <div class="author">
+                  <h4 class="post-title">#2</h4>
+                   </div>
                 <!--/.author --> 
               </div>
               <!--/.icon -->
               <div class="box">
-                 <blockquote>
+                <blockquote>
                   <p>
-                    Deixe todas as garrafas com a boca 
+                  	Deixe todas as garrafas com a boca 
 virada para baixo e cobertas.
                   </p>
                 </blockquote>
@@ -92,20 +93,23 @@ virada para baixo e cobertas.
             </div>
             <!--/.quote --> 
           </div>
-       </div>
+          <!--/column --> 
+        </div>
         <!--/.row -->
-         <div class="row">
+        <div class="row">
           <div class="col-sm-12 col-md-6">
             <div class="quote">
-              <div class="icon text-center"> <img src="{{ asset('images/dica3.png') }}" alt="">
-               
+              <div class="icon text-center"> <img src="style/images/art/t2-3.jpg" alt="" />
+                <div class="author">
+                  <h4 class="post-title">#3</h4>
+                  </div>
                 <!--/.author --> 
               </div>
               <!--/.icon -->
               <div class="box">
                 <blockquote>
-                  <p>
-                    Troque a água dos vasos de plantas e lave-os com escova e sabão. Coloque areia nos pratos e jarros.
+               	  <p>
+                  	Troque a água dos vasos de plantas e lave-os com escova e sabão. Coloque areia nos pratos e jarros.
                   </p> 
                 </blockquote>
               </div>
@@ -115,15 +119,17 @@ virada para baixo e cobertas.
           <!--/column -->
           <div class="col-sm-12 col-md-6">
             <div class="quote right">
-              <div class="icon text-center">  <img src="{{ asset('images/dica4.png') }}" alt="">
-                
+              <div class="icon text-center"> <img src="style/images/art/t2-4.jpg" alt="" />
+                <div class="author">
+                  <h4 class="post-title">#4</h4>
+                   </div>
                 <!--/.author --> 
               </div>
               <!--/.icon -->
               <div class="box">
                 <blockquote>
                   <p>
-                    Remova folhas, galhos e tudo que possa
+                  	Remova folhas, galhos e tudo que possa
 impedir a água de correr pelas calhas e lajes.
                   </p>
                 </blockquote>
@@ -131,19 +137,24 @@ impedir a água de correr pelas calhas e lajes.
             </div>
             <!--/.quote --> 
           </div>
-       </div>
-         <div class="row">
+
+          <!--/column --> 
+        </div>
+        <!--/.row -->
+    
           <div class="col-sm-12 col-md-6">
             <div class="quote">
-              <div class="icon text-center"> <img src="{{ asset('images/dica5.png') }}" alt="">
-               
+              <div class="icon text-center"> <img src="style/images/art/t2-3.jpg" alt="" />
+                <div class="author">
+                  <h4 class="post-title">#5</h4>
+                  </div>
                 <!--/.author --> 
               </div>
               <!--/.icon -->
               <div class="box">
                 <blockquote>
                   <p>
-                    Coloque o lixo em sacos plásticos e feche bem as lixeiras. Deixe-as fora do alcance de animais.
+                  	Coloque o lixo em sacos plásticos e feche bem as lixeiras. Deixe-as fora do alcance de animais.
                   </p>
                 </blockquote>
               </div>
@@ -153,27 +164,29 @@ impedir a água de correr pelas calhas e lajes.
           <!--/column -->
           <div class="col-sm-12 col-md-6">
             <div class="quote right">
-              <div class="icon text-center">  <img src="{{ asset('images/dica6.png') }}" alt="">
-                
+              <div class="icon text-center"> <img src="style/images/art/t2-4.jpg" alt="" />
+                <div class="author">
+                  <h4 class="post-title">#6</h4>
+                   </div>
                 <!--/.author --> 
               </div>
               <!--/.icon -->
               <div class="box">
                 <blockquote>
                   <p>
-                    Guarde seus pneus velhos em locais secos e cobertos.
+                  	Guarde seus pneus velhos em locais secos e cobertos.
                   </p>
                 </blockquote>
               </div>
             </div>
             <!--/.quote --> 
           </div>
-       </div>
-        <div class="row">
-          <div class="col-sm-12 col-md-6">
+           <div class="col-sm-12 col-md-6">
             <div class="quote">
-              <div class="icon text-center"> <img src="{{ asset('images/dica7.png') }}" alt="">
-               
+              <div class="icon text-center"> <img src="style/images/art/t2-3.jpg" alt="" />
+                <div class="author">
+                  <h4 class="post-title">#5</h4>
+                  </div>
                 <!--/.author --> 
               </div>
               <!--/.icon -->
@@ -188,8 +201,6 @@ impedir a água de correr pelas calhas e lajes.
             </div>
             <!--/.quote --> 
           </div>
-          <!--/column -->
-        
           <!--/column --> 
         </div>
         <!--/.row --> 
@@ -198,8 +209,9 @@ impedir a água de correr pelas calhas e lajes.
     </div>
     <!--/.container --> 
   </div>
+  <!--/.dark-wrapper -->
   
-    
+
   
   
 

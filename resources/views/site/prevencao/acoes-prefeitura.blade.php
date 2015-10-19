@@ -7,7 +7,7 @@
   <div class="post-parallax parallax inverse-wrapper parallax1" style="background-image: url({{ asset('images/fundo.png') }});">
     <div class="container inner text-center">
       <div class="headline text-center">
-        <h2>Ações Individuais</h2>
+        <h2>Ações Prefeitura</h2>
         <p class="lead">Lorem dolem Ipsum</p>
       </div>
       <!-- /.headline --> 

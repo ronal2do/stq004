@@ -9537,7 +9537,7 @@ blockquote:after {
     text-transform: uppercase;
 }
 .small-quote .quote img {
-    width: 90px;
+    width: 130px;
     height: auto;
     border-radius: 100%;
 }

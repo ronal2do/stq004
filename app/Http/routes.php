@@ -68,6 +68,9 @@ Route::get('comites-regionais', function () {
 Route::get('parceiros', function () {
     return view('site.parceiros.parceiros');
 });
+Route::get('como-participar', function () {
+    return view('site.parceiros.como-participar');
+});
 /**
 * novidades
 */
