@@ -28,7 +28,7 @@
     <div class="navbar-header">
       <div class="basic-wrapper"> 
         <div class="navbar-brand">
-             <a href="/home">
+             <a href="/">
                <img src="{{ asset('images/logo.png') }}" alt="">
               
              </a> 
@@ -40,7 +40,7 @@
     <!-- /.navbar-header -->
     <nav class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li ><a href="/home" >Home</a>
+        <li ><a href="/" >Home</a>
           
         </li>
          <li ><a href="#" class="dropdown-toggle js-activated">Prevenção <span class="caret"></span></a>
@@ -70,13 +70,13 @@
             <li><a href="/comites-regionais">Comitês Regionais</a></li>
           </ul>
         </li>
-        <li class="dropdown"><a href="/home" class="dropdown-toggle js-activated">Novidades <span class="caret"></span></a>
+        <li class="dropdown"><a href="#" class="dropdown-toggle js-activated">Novidades <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="/novidades">Novidades sobre a dengue</a></li>
-            <li><a href="/home">Agenda de Ações</a></li>
-            <li><a href="/home">Recall Campanha</a></li>
-            <li><a href="/home">Novos Parceiros</a></li>
-            <li><a href="/home">Entrevistas com Moradores</a></li>
+            <li><a href="/">Agenda de Ações</a></li>
+            <li><a href="/">Recall Campanha</a></li>
+            <li><a href="/">Novos Parceiros</a></li>
+            <li><a href="/">Entrevistas com Moradores</a></li>
           </ul>
         </li>
        
@@ -86,9 +86,9 @@
     <!-- /.navbar-collapse -->
     <div class="social-wrapper">
       <ul class="social naked">
-        <li><a href="/home"><i class="icon-s-facebook"></i></a></li>
-        <li><a href="/home"><i class="icon-s-instagram"></i></a></li>
-       <li><a href="/home"><i class="icon-s-twitter"></i></a></li>
+        <li><a href="/"><i class="icon-s-facebook"></i></a></li>
+        <li><a href="/"><i class="icon-s-instagram"></i></a></li>
+       <li><a href="/"><i class="icon-s-twitter"></i></a></li>
       </ul>
       <!-- /.social --> 
     </div>
