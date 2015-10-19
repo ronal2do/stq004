@@ -6,7 +6,7 @@
 <meta name="description" content="Descrição">
 <meta name="author" content="">
 <link rel="shortcut icon" href="{{ asset('images/favicon.ico') }}">
-<title>Marília sem dengue -@yield('title')</title>
+<title>Marília sem dengue - @yield('title')</title>
 <!-- Bootstrap core CSS -->
 <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,500,500italic,700,700italic" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="{{ asset('css/app.css') }}"> 
@@ -21,7 +21,7 @@
 <![endif]-->
 </head>
 <body>
-<div id="preloader"><div class="textload">Carregando</div><div id="status"><div class="spinner"></div></div></div>
+
 <main class="body-wrapper">
   <div class="navbar">
     <div class="navbar-header">
@@ -39,14 +39,19 @@
     <!-- /.navbar-header -->
     <nav class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li class="current dropdown"><a href="home" class="dropdown-toggle js-activated">Home <span class="caret"></span></a>
+        <li ><a href="home" >Home</a>
           
         </li>
-        <li ><a href="prevencao" class="dropdown-toggle js-activated">Prevenção <span class="caret"></span></a>
+        <li ><a href="prevencao">Prevenção </a>
            
         </li>
-        <li ><a href="informacoes" class="dropdown-toggle js-activated">Informações <span class="caret"></span></a>
-         
+        <li ><a href="#" class="dropdown-toggle js-activated">Informações <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="home">Características</a></li>
+            <li><a href="home">Histórico da doenças</a></li>
+            <li><a href="home">Histórico de Marília</a></li>
+            <li><a href="home">Atendimento Médico</a></li>
+          </ul>
         </li>
         <li ><a href="#" class="dropdown-toggle js-activated">Mapa da Dengue <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -55,8 +60,11 @@
             <li><a href="home">Sub menu</a></li>
           </ul>
         </li>
-        <li ><a href="parceiros" class="dropdown-toggle js-activated">Parceiros <span class="caret"></span></a>
-         
+        <li ><a href="#" class="dropdown-toggle js-activated">Parceiros <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="comite-municipal">Comitê Municipal</a></li>
+            <li><a href="comites-regionais">Comitês Regionais</a></li>
+          </ul>
         </li>
         <li class="dropdown"><a href="home" class="dropdown-toggle js-activated">Novidades <span class="caret"></span></a>
           <ul class="dropdown-menu">
