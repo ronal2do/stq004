@@ -12,7 +12,7 @@
           <div class="isotope row">
             <div class="col-sm-6 col-md-4 grid-view-post">
               <div class="post">
-                <figure class="main"><a href="blog-post.html"><img src="style/images/art/b1.jpg" alt="" /></a></figure>
+                <figure class="main"><a href="blog-post.html"><img src="{{ asset('images/t1.jpg') }}" alt="" /></a></figure>
                 <div class="box text-center">
                   <div class="category cat9"><span><a href="#">Urban</a></span></div>
                   <h4 class="post-title"><a href="blog-post.html">Parturient Commodo Aenean</a></h4>
@@ -26,7 +26,7 @@
             
             <div class="col-sm-6 col-md-4 grid-view-post">
               <div class="item post">
-                <figure class="main"><a href="blog-post.html"><img src="style/images/art/b2.jpg" alt="" /></a></figure>
+                <figure class="main"><a href="blog-post.html"><img src="{{ asset('images/t1.jpg') }}" alt="" /></a></figure>
                 <div class="box text-center">
                   <div class="category cat12"><span><a href="#">Workshop</a></span></div>
                   <h4 class="post-title"><a href="blog-post.html">Quam Mollis Ligula Nullam</a></h4>
@@ -42,7 +42,7 @@
             
             <div class="col-sm-6 col-md-4 grid-view-post">
               <div class="item post">
-                <figure class="main"><a href="blog-post.html"><img src="style/images/art/b3.jpg" alt="" /></a></figure>
+                <figure class="main"><a href="blog-post.html"><img src="{{ asset('images/t1.jpg') }}" alt="" /></a></figure>
                 <div class="box text-center">
                   <div class="category cat5"><span><a href="#">Photography</a></span></div>
                   <h4 class="post-title"><a href="blog-post.html">Tellus Bibendum Parturient</a></h4>
@@ -58,7 +58,7 @@
             
             <div class="col-sm-6 col-md-4 grid-view-post">
               <div class="item post">
-                <figure class="main"><a href="blog-post.html"><img src="style/images/art/b4.jpg" alt="" /></a></figure>
+                <figure class="main"><a href="blog-post.html"><img src="{{ asset('images/t1.jpg') }}" alt="" /></a></figure>
                 <div class="box text-center">
                   <div class="category cat6"><span><a href="#">Journal</a></span></div>
                   <h4 class="post-title"><a href="blog-post.html">Duis Mollis Commodo</a></h4>
@@ -74,7 +74,7 @@
             
             <div class="col-sm-6 col-md-4 grid-view-post">
               <div class="item post">
-                <figure class="main"><a href="blog-post.html"><img src="style/images/art/b5.jpg" alt="" /></a></figure>
+                <figure class="main"><a href="blog-post.html"><img src="{{ asset('images/t1.jpg') }}" alt="" /></a></figure>
                 <div class="box text-center">
                   <div class="category cat3"><span><a href="#">Still Life</a></span></div>
                   <h4 class="post-title"><a href="blog-post.html">Luctus Nisi Erat Faucibus</a></h4>
@@ -90,7 +90,7 @@
             
             <div class="col-sm-6 col-md-4 grid-view-post">
               <div class="item post">
-                <figure class="main"><a href="blog-post.html"><img src="style/images/art/b6.jpg" alt="" /></a></figure>
+                <figure class="main"><a href="blog-post.html"><img src="{{ asset('images/t1.jpg') }}" alt="" /></a></figure>
                 <div class="box text-center">
                   <div class="category cat13"><span><a href="#">Nature</a></span></div>
                   <h4 class="post-title"><a href="blog-post.html">Porttitor Ligula Eget</a></h4>
@@ -106,7 +106,7 @@
             
             <div class="col-sm-6 col-md-4 grid-view-post">
               <div class="item post">
-                <figure class="main"><a href="blog-post.html"><img src="style/images/art/b7.jpg" alt="" /></a></figure>
+                <figure class="main"><a href="blog-post.html"><img src="{{ asset('images/t1.jpg') }}" alt="" /></a></figure>
                 <div class="box text-center">
                   <div class="category cat11"><span><a href="#">Winter</a></span></div>
                   <h4 class="post-title"><a href="#">Lacinia Odio Sem Maecenas</a></h4>
@@ -122,7 +122,7 @@
             
             <div class="col-sm-6 col-md-4 grid-view-post">
               <div class="item post">
-                <figure class="main"><a href="blog-post.html"><img src="style/images/art/b8.jpg" alt="" /></a></figure>
+                <figure class="main"><a href="blog-post.html"><img src="{{ asset('images/t1.jpg') }}" alt="" /></a></figure>
                 <div class="box text-center">
                   <div class="category cat14"><span><a href="#">Coffee Time</a></span></div>
                   <h4 class="post-title"><a href="#">Nulla Vitae Elit Egestas</a></h4>
@@ -138,7 +138,7 @@
             
             <div class="col-sm-6 col-md-4 grid-view-post">
               <div class="item post">
-                <figure class="main"><a href="blog-post.html"><img src="style/images/art/b9.jpg" alt="" /></a></figure>
+                <figure class="main"><a href="blog-post.html"><img src="{{ asset('images/t1.jpg') }}" alt="" /></a></figure>
                 <div class="box text-center">
                   <div class="category cat8"><span><a href="#">Vacation</a></span></div>
                   <h4 class="post-title"><a href="#">Tellus Bibendum Parturient</a></h4>
