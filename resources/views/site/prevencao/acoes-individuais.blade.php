@@ -1,0 +1,1 @@
+acoes-individuais.blade.php

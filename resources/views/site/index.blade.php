@@ -12,6 +12,7 @@
 <link rel="stylesheet" href="{{ asset('css/app.css') }}"> 
 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link href="lydia/icons.css" rel="stylesheet">
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -27,7 +28,7 @@
     <div class="navbar-header">
       <div class="basic-wrapper"> 
         <div class="navbar-brand">
-             <a href="home">
+             <a href="/home">
                <img src="{{ asset('images/logo.png') }}" alt="">
               
              </a> 
@@ -39,40 +40,43 @@
     <!-- /.navbar-header -->
     <nav class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li ><a href="home" >Home</a>
+        <li ><a href="/home" >Home</a>
           
         </li>
-        <li ><a href="prevencao">Prevenção </a>
-           
+         <li ><a href="#" class="dropdown-toggle js-activated">Prevenção <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/acoes-individuais">Ações Individuais</a></li>
+            <li><a href="/acoes-prefeitura">Ações Prefeitura</a></li>
+          </ul>
         </li>
         <li ><a href="#" class="dropdown-toggle js-activated">Informações <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="home">Características</a></li>
-            <li><a href="home">Histórico da doenças</a></li>
-            <li><a href="home">Histórico de Marília</a></li>
-            <li><a href="home">Atendimento Médico</a></li>
+            <li><a href="/caracteristicas">Características</a></li>
+            <li><a href="/historico-doenca">Histórico da doença</a></li>
+            <li><a href="/historico-marilia">Histórico de Marília</a></li>
+            <li><a href="/atendimento-medico">Atendimento Médico</a></li>
           </ul>
         </li>
         <li ><a href="#" class="dropdown-toggle js-activated">Mapa da Dengue <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="home">Sub menu</a></li>
-            <li><a href="home">Sub menu</a></li>
-            <li><a href="home">Sub menu</a></li>
+            <li><a href="/mapa">Mapa</a></li>
+            <li><a href="/alerta">Inserir alerta de foco</a></li>
+            <li><a href="/como-contribuir">Como contribuir?</a></li>
           </ul>
         </li>
         <li ><a href="#" class="dropdown-toggle js-activated">Parceiros <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="comite-municipal">Comitê Municipal</a></li>
-            <li><a href="comites-regionais">Comitês Regionais</a></li>
+            <li><a href="/comite-municipal">Comitê Municipal</a></li>
+            <li><a href="/comites-regionais">Comitês Regionais</a></li>
           </ul>
         </li>
-        <li class="dropdown"><a href="home" class="dropdown-toggle js-activated">Novidades <span class="caret"></span></a>
+        <li class="dropdown"><a href="/home" class="dropdown-toggle js-activated">Novidades <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="home">Sub Menu</a></li>
-            <li><a href="home">Sub Menu</a></li>
-            <li><a href="home">Sub Menu</a></li>
-            <li><a href="home">Sub Menu</a></li>
-            <li><a href="home">Sub Menu</a></li>
+            <li><a href="/novidades">Novidades sobre a dengue</a></li>
+            <li><a href="/home">Agenda de Ações</a></li>
+            <li><a href="/home">Recall Campanha</a></li>
+            <li><a href="/home">Novos Parceiros</a></li>
+            <li><a href="/home">Entrevistas com Moradores</a></li>
           </ul>
         </li>
        
@@ -82,9 +86,9 @@
     <!-- /.navbar-collapse -->
     <div class="social-wrapper">
       <ul class="social naked">
-        <li><a href="home"><i class="icon-s-facebook"></i></a></li>
-        <li><a href="home"><i class="icon-s-instagram"></i></a></li>
-       <li><a href="home"><i class="icon-s-twitter"></i></a></li>
+        <li><a href="/home"><i class="icon-s-facebook"></i></a></li>
+        <li><a href="/home"><i class="icon-s-instagram"></i></a></li>
+       <li><a href="/home"><i class="icon-s-twitter"></i></a></li>
       </ul>
       <!-- /.social --> 
     </div>
@@ -105,7 +109,9 @@
         
         <div class="col-sm-4 centered">
           <div class="center-all">
-           <img src="{{ asset('images/Ass-Marilia.png') }}" alt="Marília" class="img-responsive">
+            <a href="http://www.marilia.sp.gov.br/prefeitura/" target="_blank">
+              <img src="{{ asset('images/Ass-Marilia.png') }}" alt="Marília" class="img-responsive">
+            </a>
           </div>
           <!-- /.widget -->
         

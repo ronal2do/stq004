@@ -20,44 +20,77 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('site.home');
 });
-Route::get('/portfolio-item', function () {
-    return view('site.item');
-});
 /**
-* combate
+* prevencao
 */
-Route::get('combate', function () {
-    return view('site.combate');
+Route::get('acoes-prefeitura', function () {
+    return view('site.prevencao.acoes-prefeitura');
+});
+Route::get('acoes-individuais', function () {
+    return view('site.prevencao.acoes-individuais');
 });
 /**
 * informacoes
 */
-Route::get('informacoes', function () {
-    return view('site.informacoes');
+Route::get('caracteristicas', function () {
+    return view('site.informacoes.caracteristicas');
 });
-/**
-* parceiros
-*/
-Route::get('parceiros', function () {
-    return view('site.parceiros');
+Route::get('historico-doenca', function () {
+    return view('site.informacoes.historico-doenca');
 });
-Route::get('prevencao', function () {
-    return view('site.prevencao');
+Route::get('historico-marilia', function () {
+    return view('site.informacoes.historico-marilia');
 });
-/**
-* noticias
-*/
-Route::get('noticias', function () {
-    return view('site.noticias');
+Route::get('atendimento-medico', function () {
+    return view('site.informacoes.atendimento-medico');
 });
 /**
 * Mapa
 */
 Route::get('alerta', function () {
-    return view('site.alerta');
+    return view('site.mapa.alerta');
 });
 Route::get('mapa', function () {
-    return view('site.mapa');
+    return view('site.mapa.mapa');
+});
+Route::get('como-contribuir', function () {
+    return view('site.mapa.como-contribuir');
+});
+/**
+* parceiros
+*/
+Route::get('comite-municipal', function () {
+    return view('site.parceiros.comite-municipal');
+});
+Route::get('comites-regionais', function () {
+    return view('site.parceiros.comites-regionais');
+});
+/**
+* novidades
+*/
+Route::get('novidades', function () {
+    return view('site.novidades.novidades');
+});
+Route::get('novidades/{id}', function () {
+    return view('site.novidades.post');
+});
+Route::get('agenda', function () {
+    return view('site.novidades.agenda');
+});
+Route::get('agenda/{id}', function () {
+    return view('site.novidades.post');
+});
+Route::get('recall', function () {
+    return view('site.novidades.recall');
+});
+Route::get('recall/{id}', function () {
+    return view('site.novidades.post');
+});
+Route::get('entrevistas', function () {
+    return view('site.novidades.entrevistas');
+});
+Route::get('entrevistas/{id}', function () {
+    return view('site.novidades.post');
 });
 /**
 * Institucional
@@ -73,11 +106,6 @@ Route::get('newsletter', function () {
 Route::get('privacidade', function () {
     return view('site.privacidade');
 });
-/**
-* facebook
-*/
-Route::get('loginFacebook', 'FacebookController@login');
-Route::get('facebook', 'FacebookController@pageFacebook');
 /**
 * API
 */
