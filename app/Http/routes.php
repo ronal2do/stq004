@@ -20,6 +20,9 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('site.home');
 });
+Route::get('/elementos', function () {
+    return view('site.elementos');
+});
 /**
 * prevencao
 */
@@ -64,6 +67,9 @@ Route::get('comite-municipal', function () {
 });
 Route::get('comites-regionais', function () {
     return view('site.parceiros.comites-regionais');
+});
+Route::get('parceiros', function () {
+    return view('site.parceiros.parceiros');
 });
 /**
 * novidades
