@@ -52,15 +52,18 @@
 
 
           
+          
+
+
           @forelse ($posts as $post)
           
           <div class="item post">
             <figure class="main"><img src="lydia/b3.jpg" alt=""></figure>
             <div class="box text-center">
-              <div class="category cat9"><span><a href="lydia/saved_resource">{{$post->name}}</a></span></div>
-              <h4 class="post-title"><a href="blog-post.html">Tellus Bibendum Parturient</a></h4>
+              <div class="category cat9"><span><a href="/novidades">{{$post->category_id}}</a></span></div>
+              <h4 class="post-title"><a href="blog-post.html">{{$post->name}}</a></h4>
              <!-- <div class="meta"><span class="date">23 Dec 2014</span><span class="comments"><a href="lydia/saved_resource"><i class="icon-chat-1"></i> 15</a></span></div>
-             --> <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor. Sed posuere consectetur est at. Duis mollis, est.</p>
+             --> <p>{{$post->name}}</p>
             </div>
             <!-- /.box --> 
             
