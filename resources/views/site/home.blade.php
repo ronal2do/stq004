@@ -60,10 +60,10 @@
           <div class="item post">
             <figure class="main"><img src="lydia/b3.jpg" alt=""></figure>
             <div class="box text-center">
-              <div class="category cat9"><span><a href="/novidades">{{$post->category_id}}</a></span></div>
-              <h4 class="post-title"><a href="blog-post.html">{{$post->name}}</a></h4>
+              <div class="category cat9"><span><a href="/novidades">Novidades</a></span></div>
+              <h4 class="post-title"><a href="/novidades">{{$post->name}}</a></h4>
              <!-- <div class="meta"><span class="date">23 Dec 2014</span><span class="comments"><a href="lydia/saved_resource"><i class="icon-chat-1"></i> 15</a></span></div>
-             --> <p>{{$post->name}}</p>
+             --> <p>{!!$post->description!!}</p>
             </div>
             <!-- /.box --> 
             
