@@ -52,9 +52,6 @@
 
 
           
-          
-
-
           @forelse ($posts as $post)
           
           <div class="item post">
