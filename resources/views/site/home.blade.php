@@ -47,36 +47,20 @@
       <div class="divide10"></div>
       <div class="carousel-wrapper">
         <div class="carousel carousel-boxed blog">
-          <div class="item post">
-            <figure class="main"><img src="lydia/b1.jpg" alt=""></figure>
-            <div class="box text-center">
-              <div class="category cat9"><span><a href="lydia/saved_resource">Ação N</a></span></div>
-              <h4 class="post-title"><a href="blog-post.html">Parturient Commodo Aenean</a></h4>
-             <!-- <div class="meta"><span class="date">14 Oct 2014</span><span class="comments"><a href="lydia/saved_resource"><i class="icon-chat-1"></i> 15</a></span></div>
-             --> <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cum sociis natoque penatibus et magnis dis parturient. Curabitur blandit tempus lacinia odio.</p>
-            </div>
-            <!-- /.box --> 
-            
-          </div>
-          <!-- /.post -->
           
-          <div class="item post">
-            <figure class="main"><img src="lydia/b2.jpg" alt=""></figure>
-            <div class="box text-center">
-              <div class="category cat9"><span><a href="lydia/saved_resource">Ação 1</a></span></div>
-              <h4 class="post-title"><a href="blog-post.html">Quam Mollis Ligula Nullam</a></h4>
-             <!-- <div class="meta"><span class="date">12 Nov 2014</span><span class="comments"><a href="lydia/saved_resource"><i class="icon-chat-1"></i> 15</a></span></div>
-             --> <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus. Lorem ipsum dolor sit amet.</p>
-            </div>
-            <!-- /.box --> 
-            
-          </div>
-          <!-- /.post -->
+
+
+
+          
+          
+
+
+          @forelse ($posts as $post)
           
           <div class="item post">
             <figure class="main"><img src="lydia/b3.jpg" alt=""></figure>
             <div class="box text-center">
-              <div class="category cat9"><span><a href="lydia/saved_resource">Ação 2</a></span></div>
+              <div class="category cat9"><span><a href="lydia/saved_resource">{{$post->name}}</a></span></div>
               <h4 class="post-title"><a href="blog-post.html">Tellus Bibendum Parturient</a></h4>
              <!-- <div class="meta"><span class="date">23 Dec 2014</span><span class="comments"><a href="lydia/saved_resource"><i class="icon-chat-1"></i> 15</a></span></div>
              --> <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor. Sed posuere consectetur est at. Duis mollis, est.</p>
@@ -85,43 +69,13 @@
             
           </div>
           <!-- /.post -->
-          <div class="item post">
-            <figure class="main"><img src="lydia/b4.jpg" alt=""></figure>
-            <div class="box text-center">
-              <div class="category cat9"><span><a href="lydia/saved_resource">Ação 3</a></span></div>
-              <h4 class="post-title"><a href="blog-post.html">Parturient Commodo Aenean</a></h4>
-             <!-- <div class="meta"><span class="date">14 Oct 2014</span><span class="comments"><a href="lydia/saved_resource"><i class="icon-chat-1"></i> 15</a></span></div>
-             --> <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cum sociis natoque penatibus et magnis dis parturient. Curabitur blandit tempus lacinia.</p>
-            </div>
-            <!-- /.box --> 
-            
-          </div>
-          <!-- /.post -->
           
-          <div class="item post">
-            <figure class="main"><img src="lydia/b5.jpg" alt=""></figure>
-            <div class="box text-center">
-              <div class="category cat9"><span><a href="lydia/saved_resource">Ação 4</a></span></div>
-              <h4 class="post-title"><a href="blog-post.html">Quam Mollis Ligula Nullam</a></h4>
-             <!-- <div class="meta"><span class="date">12 Nov 2014</span><span class="comments"><a href="lydia/saved_resource"><i class="icon-chat-1"></i> 15</a></span></div>
-             --> <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus. Lorem ipsum dolor sit amet.</p>
-            </div>
-            <!-- /.box --> 
-            
-          </div>
-          <!-- /.post -->
-          
-          <div class="item post">
-            <figure class="main"><img src="lydia/b6.jpg" alt=""></figure>
-            <div class="box text-center">
-              <div class="category cat9"><span><a href="lydia/saved_resource">Ação 5</a></span></div>
-              <h4 class="post-title"><a href="blog-post.html">Tellus Bibendum Parturient</a></h4>
-             <!-- <div class="meta"><span class="date">23 Dec 2014</span><span class="comments"><a href="lydia/saved_resource"><i class="icon-chat-1"></i> 15</a></span></div>
-             --> <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec ullamcorper nulla non metus auctor. Sed posuere consectetur est at. Duis mollis, est non.</p>
-            </div>
-            <!-- /.box --> 
-            
-          </div>
+          @empty
+             <p>Nenhuma postagem</p>
+          @endforelse
+
+
+
           <!-- /.post --> 
         </div>
         <!--/.carousel --> 
