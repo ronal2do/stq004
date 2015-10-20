@@ -135,4 +135,9 @@ Route::get('posts', ['middleware' => 'cors', function()
     return \Response::json(\App\Posts::get(), 200);
 }]);
 
+Route::get('news', ['middleware' => 'cors', function()
+{
+    return \Response::json(\App\Posts::get()->where('id', 4), 200);
+}]);
+
 
