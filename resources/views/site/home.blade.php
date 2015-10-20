@@ -58,7 +58,7 @@
           @forelse ($posts as $post)
           
           <div class="item post">
-            <figure class="main"><img src="lydia/b3.jpg" alt=""></figure>
+            <figure class="main"><img src="/uploads/images/{{$post->image}}" alt="{{$post->name}}"></figure>
             <div class="box text-center">
               <div class="category cat9"><span><a href="/novidades">Novidades</a></span></div>
               <h4 class="post-title"><a href="/novidades">{{$post->name}}</a></h4>
