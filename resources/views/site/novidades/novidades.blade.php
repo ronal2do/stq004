@@ -19,7 +19,7 @@
 
             <div class="col-sm-6 col-md-4 grid-view-post">
               <div class="item post">
-                <figure class="main"><a href="blog-post.html"><img src="{{ asset('images/{{$post->image}}') }}" alt="{{$post->name}}" /></a></figure>
+                <figure class="main"><a href="blog-post.html"><img src="/uploads/images/{{$post->image}}" alt="{{$post->name}}" /></a></figure>
                 <div class="box text-center">
                   <div class="category cat12"><span><a href="#">Novidades</a></span></div>
                   <h4 class="post-title"><a href="blog-post.html">{{$post->name}}</a></h4>
