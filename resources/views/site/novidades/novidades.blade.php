@@ -24,7 +24,7 @@
                   <div class="category cat12"><span><a href="#">Novidades</a></span></div>
                   <h4 class="post-title"><a href="blog-post.html">{{$post->name}}</a></h4>
                   <div class="meta"><span class="date">{{$post->created_at}}</span><span class="comments"><a href="#"><i class="icon-chat-1"></i> 7</a></span></div>
-                  <p>{{$post->description}} </p>
+                  <p>{!!$post->description!!} </p>
                 </div>
                 <!-- /.box --> 
                 
