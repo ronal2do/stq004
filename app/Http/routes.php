@@ -14,9 +14,12 @@
 /**
 * Informações
 */
-Route::get('/', function () {
+Route::get('/teste', function () {
     return view('site.home');
 });
+
+Route::get('/', 'HomeController@index');
+
 Route::get('/elementos', function () {
     return view('site.elementos');
 });
