@@ -38,9 +38,9 @@ class postController extends CrudController{
 			$this->edit = \DataEdit::source(new \App\Posts());
 
 			$this->edit->label('Postagem');
-			$this->edit->add('category_id','Categoria','select')->options(\App\Category::lists("name", "id")->all());
+			
 			$this->edit->add('name','Nome','text');
-			$this->edit->add('title','title','text');
+			$this->edit->add('category_id','Categoria','select')->options(\App\Category::lists("name", "id")->all());
 			$this->edit->add('description','description','redactor');
 			$this->edit->add('image','image','image')->move('uploads/images/')->preview(80,80);
  
