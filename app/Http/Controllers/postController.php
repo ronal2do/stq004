@@ -14,15 +14,15 @@ class postController extends CrudController{
         parent::all($entity); 
 
        
-			$this->filter = \DataFilter::source(new \App\Category);
+			$this->filter = \DataFilter::source(new \App\Posts);
 			$this->filter->add('name', 'Name', 'text');
 			$this->filter->submit('search');
 			$this->filter->reset('reset');
 			$this->filter->build();
 
 			$this->grid = \DataGrid::source($this->filter);
+			$this->grid->add('id', 'id');
 			$this->grid->add('name', 'Name');
-			$this->grid->add('code', 'Code');
 			$this->addStylesToGrid();
 
       
@@ -35,13 +35,13 @@ class postController extends CrudController{
         parent::edit($entity);
 
        
-			$this->edit = \DataEdit::source(new \App\Category());
+			$this->edit = \DataEdit::source(new \App\Posts());
 
 			$this->edit->label('Edit Category');
 
 			$this->edit->add('name', 'Name', 'text');
 		
-			$this->edit->add('code', 'Code', 'text')->rule('required');
+			$this->edit->add('id', 'id', 'text')->rule('required');
 
 
        
