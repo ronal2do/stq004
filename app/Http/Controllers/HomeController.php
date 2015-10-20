@@ -18,10 +18,10 @@ class HomeController extends Controller
     public function index()
     {   
         
-        $post = DB::table('posts')            
+        $posts = DB::table('posts')            
             ->take(6)
             ->orderBy('id', 'desc')
             ->get();
-        return view('site.home', compact('post'));
+        return view('site.home', compact('posts'));
     }
 }
