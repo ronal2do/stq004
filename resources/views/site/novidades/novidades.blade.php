@@ -16,13 +16,13 @@
 
 
             @forelse ($posts as $post)
-                      
+
             <div class="col-sm-6 col-md-4 grid-view-post">
               <div class="item post">
                 <figure class="main"><a href="blog-post.html"><img src="{{ asset('images/t1.jpg') }}" alt="" /></a></figure>
                 <div class="box text-center">
                   <div class="category cat12"><span><a href="#">Workshop</a></span></div>
-                  <h4 class="post-title"><a href="blog-post.html">{{$post->nome}}</a></h4>
+                  <h4 class="post-title"><a href="blog-post.html">{{$post->name}}</a></h4>
                   <div class="meta"><span class="date">12 Jul 2015</span><span class="comments"><a href="#"><i class="icon-chat-1"></i> 7</a></span></div>
                   <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus. Lorem ipsum dolor sit amet.</p>
                 </div>
