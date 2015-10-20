@@ -38,8 +38,7 @@ class postController extends CrudController{
 			$this->edit = \DataEdit::source(new \App\Posts());
 
 			$this->edit->label('Edit Category');
-
-			$this->edit->add('category_id','category_id','text');
+			/*$this->edit->add('category_id','category_id','text');*/
 			$this->edit->add('name','Nome','text');
 			$this->edit->add('title','title','text');
 			$this->edit->add('description','description','redactor');
