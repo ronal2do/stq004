@@ -38,7 +38,6 @@ class categoriesController extends CrudController{
 			$this->edit = \DataEdit::source(new \App\Category());
 
 			$this->edit->label('Edit Category');
-			$this->edit->add('id', 'id', 'text')->rule('required');
 			$this->edit->add('name', 'Name', 'text');
 		
 
