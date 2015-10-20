@@ -18,7 +18,7 @@
                 <div class="col-sm-6">
                   <div class="form-field">
                     <label>
-                      <input type="text" name="name" placeholder="Informação" required="required">
+                      <input type="text" name="name" placeholder="Endereço" required="required">
                     </label>
                   </div>
                   <!--/.form-field --> 
@@ -27,7 +27,7 @@
                 <div class="col-sm-6">
                   <div class="form-field">
                     <label>
-                      <input type="email" name="email" placeholder="Informação" required="required">
+                      <input type="email" name="email" placeholder="Upload Foto" required="required">
                     </label>
                   </div>
                   <!--/.form-field --> 

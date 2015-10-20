@@ -13,9 +13,7 @@ class postController extends CrudController{
     public function all($entity){
         parent::all($entity); 
 
-        /** Simple code of  filter and grid part , List of all fields here : http://laravelpanel.com/docs/master/crud-fields
-
-
+       
 			$this->filter = \DataFilter::source(new \App\Category);
 			$this->filter->add('name', 'Name', 'text');
 			$this->filter->submit('search');
@@ -27,7 +25,7 @@ class postController extends CrudController{
 			$this->grid->add('code', 'Code');
 			$this->addStylesToGrid();
 
-        */
+      
                  
         return $this->returnView();
     }
@@ -36,8 +34,7 @@ class postController extends CrudController{
         
         parent::edit($entity);
 
-        /* Simple code of  edit part , List of all fields here : http://laravelpanel.com/docs/master/crud-fields
-	
+       
 			$this->edit = \DataEdit::source(new \App\Category());
 
 			$this->edit->label('Edit Category');
@@ -47,7 +44,7 @@ class postController extends CrudController{
 			$this->edit->add('code', 'Code', 'text')->rule('required');
 
 
-        */
+       
        
         return $this->returnEditView();
     }    
