@@ -75,9 +75,10 @@ Route::get('como-participar', function () {
 * novidades
 */
 Route::get('/novidades', 'NovidadesController@index');
-Route::get('novidades/{id}', function () {
+Route::get('/novidades/{id}', function () {
     return view('site.novidades.post');
 });
+
 Route::get('agenda', function () {
     return view('site.novidades.novidades');
 });
