@@ -81,19 +81,19 @@ Route::get('novidades/{id}', function () {
     return view('site.novidades.post');
 });
 Route::get('agenda', function () {
-    return view('site.novidades.agenda');
+    return view('site.novidades.novidades');
 });
 Route::get('agenda/{id}', function () {
     return view('site.novidades.post');
 });
 Route::get('recall', function () {
-    return view('site.novidades.recall');
+    return view('site.novidades.novidades');
 });
 Route::get('recall/{id}', function () {
     return view('site.novidades.post');
 });
 Route::get('entrevistas', function () {
-    return view('site.novidades.entrevistas');
+    return view('site.novidades.novidades');
 });
 Route::get('entrevistas/{id}', function () {
     return view('site.novidades.post');

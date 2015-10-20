@@ -23,7 +23,7 @@
           <div class="tp-caption large text-center sfb" data-x="center" data-y="293" data-speed="900" data-start="800" data-easing="Sine.easeOut">Leia skywalker watto ackbar</div>
           <div class="tp-caption medium text-center sfb" data-x="center" data-y="387" data-speed="900" data-start="1500" data-easing="Sine.easeOut">Moff watto anakin</div>
         </li>
-        <li data-transition="fade"> <img src="lydia/nyc.jpg" alt="" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat">
+        <li data-transition="fade"> <img src="{{ asset('images/fundo.png') }}" alt="" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat">
           <div class="tp-caption large text-center sfb" data-x="center" data-y="293" data-speed="900" data-start="800" data-endspeed="100" data-easing="Sine.easeOut" style="z-index: 2;">Leia skywalker watto ackbar</div>
           <div class="tp-caption medium text-center sfb" data-x="center" data-y="387" data-speed="900" data-start="1500" data-endspeed="100" data-easing="Sine.easeOut" style="z-index: 2;">Moff watto anakin</div>
           <div class="tp-caption tp-fade fadeout fullscreenvideo" data-x="0" data-y="0" data-speed="1000" data-start="1100" data-easing="Power4.easeOut" data-elementdelay="0.01" data-endelementdelay="0.1" data-endspeed="1500" data-endeasing="Power4.easeIn" data-autoplay="true" data-autoplayonlyfirsttime="false" data-nextslideatend="true" data-dottedoverlay="twoxtwo" data-volume="mute" data-forcecover="1" data-aspectratio="16:9" data-forcerewind="on" style="z-index: 1;">

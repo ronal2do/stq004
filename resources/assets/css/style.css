@@ -4441,3 +4441,9 @@ textarea {
         padding: 0 10px 0 10px;
     }
 }
+.dicas {
+            padding: 0 0 0 40px;
+    font-size: 18px;
+    line-height: 26px;
+    font-style: italic;
+    }

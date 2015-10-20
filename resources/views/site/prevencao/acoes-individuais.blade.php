@@ -65,7 +65,7 @@ os criadouros do mosquito.</h3>
               <!--/.icon -->
               <div class="box">
                 
-                  <p>
+                  <p class="dicas">
                     Mantenha fechadas e limpas por dentro e por fora caixas d'água, cisternas, tambores e latões.
                   </p>
                
@@ -83,7 +83,7 @@ os criadouros do mosquito.</h3>
               <!--/.icon -->
               <div class="box">
                  
-                  <p>
+                  <p class="dicas">
                     Deixe todas as garrafas com a boca 
 virada para baixo e cobertas.
                   </p>
@@ -104,7 +104,7 @@ virada para baixo e cobertas.
               <!--/.icon -->
               <div class="box">
                
-                  <p>
+                  <p class="dicas">
                     Troque a água dos vasos de plantas e lave-os com escova e sabão. Coloque areia nos pratos e jarros.
                   </p> 
                 
@@ -122,7 +122,7 @@ virada para baixo e cobertas.
               <!--/.icon -->
               <div class="box">
                 
-                  <p>
+                  <p class="dicas">
                     Remova folhas, galhos e tudo que possa
 impedir a água de correr pelas calhas e lajes.
                   </p>
@@ -142,7 +142,7 @@ impedir a água de correr pelas calhas e lajes.
               <!--/.icon -->
               <div class="box">
                 
-                  <p>
+                  <p class="dicas">
                     Coloque o lixo em sacos plásticos e feche bem as lixeiras. Deixe-as fora do alcance de animais.
                   </p>
                 
@@ -160,7 +160,7 @@ impedir a água de correr pelas calhas e lajes.
               <!--/.icon -->
               <div class="box">
                 
-                  <p>
+                  <p class="dicas">
                     Guarde seus pneus velhos em locais secos e cobertos.
                   </p>
                 
@@ -179,7 +179,7 @@ impedir a água de correr pelas calhas e lajes.
               <!--/.icon -->
               <div class="box">
                 
-                  <p>
+                  <p class="dicas">
                     Atenção com o lixo em terrenos baldios, prédios abandonados e vias públicas. Se preciso, acione a fiscalização municipal ou o serviço de limpeza pública.
 
                   </p>

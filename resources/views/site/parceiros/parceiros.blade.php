@@ -118,109 +118,13 @@
         
       </div>
       <!--/.row --> 
+      
     </div>
-    <div class="pagination">
-          <ul>
-            <li><a href="#"><i class="fa fa-arrow-left"></i></a></li>
-            <li class="active"><a href="#"><span>1</span></a></li>
-            <li><a href="#"><span>2</span></a></li>
-            <li><a href="#"><span>3</span></a></li>
-            <li><a href="#"><i class="fa fa-arrow-right"></i></a></li>
-          </ul>
-        </div>
-    <!--/.container --> 
-  </div>
+    
   <!-- /.dark-wrapper -->
   
   
-  
-  <div class="yellow-wrapper">
-    <div class="container inner">
-      <h3 class="section-title text-center">Depoimentos <strong>Depoimentos</strong></h3>
-      <div class="divide10"></div>
-      <div class="testimonials2 small-quote">
-        <div class="row">
-          <div class="col-sm-12 col-md-6">
-            <div class="quote">
-              <div class="icon text-center"> <img src="style/images/art/c2-1.jpg" alt="" />
-                <div class="author">
-                  <h4 class="post-title">Connor Gibson</h4>
-                  <span class="meta">Interface Designer</span> </div>
-              </div>
-              <div class="box">
-                <blockquote>
-                  <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus. </p>
-                </blockquote>
-              </div>
-            </div>
-            <!--/.quote --> 
-          </div>
-          <!--/column -->
-          <div class="col-sm-12 col-md-6">
-            <div class="quote right">
-              <div class="icon text-center"> <img src="style/images/art/c2-2.jpg" alt="" />
-                <div class="author">
-                  <h4 class="post-title">Coriss Ambady</h4>
-                  <span class="meta">Computer Engineer</span> </div>
-                <!--/.author --> 
-              </div>
-              <!--/.icon -->
-              <div class="box">
-                <blockquote>
-                  <p>Vestibulum id ligula porta felis euismod semper. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean lacinia bibendum nulla sed consectetur. </p>
-                </blockquote>
-              </div>
-            </div>
-            <!--/.quote --> 
-          </div>
-          <!--/column --> 
-        </div>
-        <!--/.row -->
-        <div class="row">
-          <div class="col-sm-12 col-md-6">
-            <div class="quote">
-              <div class="icon text-center"> <img src="style/images/art/c2-3.jpg" alt="" />
-                <div class="author">
-                  <h4 class="post-title">Nikola Brooten</h4>
-                  <span class="meta">Sales Manager</span> </div>
-                <!--/.author --> 
-              </div>
-              <!--/.icon -->
-              <div class="box">
-                <blockquote>
-                  <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh ultricies vehicula.</p>
-                </blockquote>
-              </div>
-            </div>
-            <!--/.quote --> 
-          </div>
-          <!--/column -->
-          <div class="col-sm-12 col-md-6">
-            <div class="quote right">
-              <div class="icon text-center"> <img src="style/images/art/c2-4.jpg" alt="" />
-                <div class="author">
-                  <h4 class="post-title">Barclay Widerski</h4>
-                  <span class="meta">Marketing Specialist</span> </div>
-                <!--/.author --> 
-              </div>
-              <!--/.icon -->
-              <div class="box">
-                <blockquote>
-                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis.</p>
-                </blockquote>
-              </div>
-            </div>
-            <!--/.quote --> 
-          </div>
-          <!--/column --> 
-        </div>
-        <!--/.row --> 
-      </div>
-      <!--/.testimonials --> 
-    </div>
-    <!--/.container --> 
-  </div>
-  <!--/.dark-wrapper -->
+
   
 
   

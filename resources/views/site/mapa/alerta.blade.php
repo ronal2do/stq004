@@ -3,31 +3,103 @@
   caracteristicas
 @stop
 @section('content')
-  <div class="offset"></div>
-  <div class="light-wrapper">
-  <h1>caracteristicas</h1>
-    <div class="container inner">
-      <figure class="player">
-        <iframe src="http://player.vimeo.com/video/25518056?title=0&amp;byline=0&amp;portrait=0&amp;badge=0" width="1170" height="658" allowFullScreen></iframe>
-      </figure>
-      <div class="divide30"></div>
-      <h2 class="post-title">Texto</h2>
-      <div class="meta"><span class="date">14 Aug 2015</span><span>Motion Video</span><span>Client Name</span></div>
-      <p>Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Vestibulum id ligula porta felis euismod semper. Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </div>
-    <!-- /.container -->
-  </div>
-  <!-- /.light-wrapper -->
-  <div class="dark-wrapper">
-    <div class="container inner2 navigation"> 
-      <a href="#" class="btn pull-left" title="Back">Back to Portfolio</a> 
-      <a href="#" class="btn pull-right" title="Next">Next Post</a> 
-      <a href="#" class="btn pull-right" title="Previous">Prev Post</a> 
-   </div>
-   <!-- /.container -->
-  </div>
+    <div class="offset" style="padding-top: 90px;"></div>
   <!-- /.dark-wrapper -->
-
+<div class="light-wrapper">
+    <div class="container inner">
+      <div class="row">
+        <div class="col-sm-8">
+          <h2 class="section-title">Inserir alerta</h2>
+          <p>Nullam quis risus eget urna mollis ornare vel eu leo. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas faucibus.</p>
+          <div class="divide10"></div>
+          <div class="form-container">
+            <form action="contact/vanilla-form.php" method="post" class="vanilla vanilla-form" novalidate="novalidate">
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="form-field">
+                    <label>
+                      <input type="text" name="name" placeholder="Informação" required="required">
+                    </label>
+                  </div>
+                  <!--/.form-field --> 
+                </div>
+                <!--/column -->
+                <div class="col-sm-6">
+                  <div class="form-field">
+                    <label>
+                      <input type="email" name="email" placeholder="Informação" required="required">
+                    </label>
+                  </div>
+                  <!--/.form-field --> 
+                </div>
+                <!--/column -->
+                <div class="col-sm-6">
+                  <div class="form-field">
+                    <label>
+                      <input type="tel" name="tel" placeholder="Informação">
+                    </label>
+                  </div>
+                  <!--/.form-field --> 
+                </div>
+                <!--/column -->
+                <div class="col-sm-6">
+                  <div class="form-field">
+                    <label class="custom-select">
+                      <select name="department" required="required">
+                        <option value="">Informação</option>
+                        <option value="Sales">Informação</option>
+                        <option value="Marketing">Informação</option>
+                        <option value="Support">Informação</option>
+                        <option value="Other">Informação</option>
+                      </select>
+                      <span><!-- fake select handler --></span> </label>
+                  </div>
+                  <!--/.form-field --> 
+                </div>
+                <!--/column --> 
+              </div>
+              <!--/.row -->
+              <textarea name="message" placeholder="Dê a descriçao..." required="required"></textarea>
+              <div class="radio-set">
+                <label>Informação:</label>
+                <label>
+                  <input type="radio" name="subject" value="Geral">
+                  <span><!-- fake radio --></span> Geral</label>
+                <label>
+                  <input type="radio" name="subject" value="Oi">
+                  <span><!-- fake radio --></span> Oi</label>
+                <label>
+                  <input type="radio" name="subject" value="Outra">
+                  <span><!-- fake radio --></span> Outra</label>
+              </div>
+              <!--/.radio-set -->
+              <input type="submit" class="btn state-initial" value="Enviar" data-error="Deu pau!" data-processing="Sending..." data-success="Thank you!" data-initial="Send">
+              <footer class="notification-box"></footer>
+            </form>
+            <!--/.vanilla-form --> 
+          </div>
+          <!--/.form-container --> 
+          
+        </div>
+        <!--/column -->
+        
+        <aside class="col-sm-4">
+          <div class="sidebox widget">
+            <h3 class="widget-title">Texto</h3>
+            <p>Fusce dapibus, tellus commodo, tortor mauris condimentum utellus fermentum, porta sem malesuada magna. Sed posuere consectetur est at lobortis. Morbi leo risus, porta ac consectetur.</p>
+            
+          </div>
+          <!-- /.widget --> 
+          
+        </aside>
+        <!--/column --> 
+        
+      </div>
+      <!--/.row --> 
+      
+    </div>
+    <!--/.container --> 
+  </div>
   <!-- /footer --> 
   
 

@@ -75,10 +75,9 @@
         <li class="dropdown"><a href="#" class="dropdown-toggle js-activated">Novidades <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="/novidades">Novidades sobre a dengue</a></li>
-            <li><a href="/">Agenda de Ações</a></li>
-            <li><a href="/">Recall Campanha</a></li>
-            <li><a href="/">Novos Parceiros</a></li>
-            <li><a href="/">Entrevistas com Moradores</a></li>
+            <li><a href="/novidades">Agenda de Ações</a></li>
+            <li><a href="/novidades">Recall Campanha</a></li>
+            <li><a href="/novidades">Entrevistas com Moradores</a></li>
           </ul>
         </li>
        
