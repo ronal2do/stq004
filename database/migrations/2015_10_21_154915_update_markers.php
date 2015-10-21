@@ -13,14 +13,7 @@ class UpdateMarkers extends Migration
     public function up()
     {
          Schema::table('markers', function ($table) {
-           
-   
-            
-            $table->string('alert_type');
-
-        
-
-            $table->dropForeign('user_id')
+                       $table->dropForeign('user_id')
                   ->onDelete('cascade');
         });
     }
