@@ -75,7 +75,6 @@ Route::get('alerta', function()
 Route::post('alerta', function(){
     \App\Mark::create(Input::all());
     /*dd(\App\Mark::get(), 200);*/
-    do_alert("Hello");
     return View::make('site.mapa.alerta');
 });
 
