@@ -22,6 +22,7 @@ class CreateMarkersTable extends Migration
             $table->text('address');
             $table->smallInteger('status')->default(0);
             $table->timestamps();
+            $table->dropColumn('user_id');
         });
     }
 
