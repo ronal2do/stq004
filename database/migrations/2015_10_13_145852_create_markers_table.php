@@ -12,11 +12,13 @@ class CreateMarkersTable extends Migration
      */
     public function up()
     {
-         Schema::create('markers', function (Blueprint $table) {
+         Schema::table('markers', function (Blueprint $table) {
             $table->increments('id');
             $table->string('lat');
             $table->string('lng');
+            $table->string('photo')->default('default.png');
             $table->text('description');
+            $table->string('alert_type');
             $table->text('address');
             $table->smallInteger('status')->default(0);
             $table->timestamps();
