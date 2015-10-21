@@ -5,7 +5,7 @@
 @section('content')
    <style>
       #map-canvas{
-        width: 350px;
+        width: 100%;
         height: 350px;
       }
     </style>
@@ -28,7 +28,7 @@
       </div>
       
        <div class="form-group">
-        <label for="">Descricao</label>
+        <label for="">Descrição</label>
         <input type="text" class="form-control input-sm" name="description">
       </div>
       <div class="form-group">

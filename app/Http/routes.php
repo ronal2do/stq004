@@ -63,12 +63,14 @@ Route::get('alerta', function()
     //view
     return View::make('site.mapa.alerta');
 });
+
 Route::post('alerta', function(){
-    Vendor::create(Input::all());
+    \App\Mark::create(Input::all());
     var_dump('mapa is added....');
 });
-Route::get('mapa/{id}',function($id){
-    $markers = Vendor::find($id);
+
+Route::get('mapa',function($id){
+    $markers = \App\Mark::find($id);
     return View::make('site.mapa.mapa',compact('markers'));
 });
 
