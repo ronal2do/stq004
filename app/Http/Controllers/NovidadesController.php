@@ -17,7 +17,7 @@ class NovidadesController extends Controller
      */
     public function index()
     {        
-        $posts = DB::table('posts')->where('category_id', '=', 4)->get();
+        $posts = DB::table('posts')->where('category_id', '=', 1)->get();
         return view('site.novidades.novidades', compact('posts'));
     }
 }
