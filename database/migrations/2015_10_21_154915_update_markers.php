@@ -14,11 +14,11 @@ class UpdateMarkers extends Migration
     {
          Schema::table('markers', function ($table) {
            
-            $table->string('photo')->default('default.png');
+   
             
             $table->string('alert_type');
 
-            $table->smallInteger('status')->default(0);
+        
 
             $table->foreign('user_id')
                   ->references('id')->on('contributors')
