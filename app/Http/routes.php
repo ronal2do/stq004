@@ -15,7 +15,7 @@
 * Informações
 */
 Route::get('/', function () {
-    return view('site.home');
+    return view('welcome');
 });
 
 Route::get('/teste', 'HomeController@index');
