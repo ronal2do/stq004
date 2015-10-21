@@ -12,7 +12,7 @@ class UpdateMarkers extends Migration
      */
     public function up()
     {
-         Schema::table('markers', function (Blueprint $table) {
+         Schema::table('markers', function ($table) {
            
             $table->string('photo')->default('default.png');
             
@@ -20,7 +20,9 @@ class UpdateMarkers extends Migration
 
             $table->smallInteger('status')->default(0);
 
-            $table->dropColumn('user_id');
+            $table->foreign('user_id')
+                  ->references('id')->on('contributors')
+                  ->onDelete('cascade');
         });
     }
 
