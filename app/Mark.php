@@ -8,12 +8,7 @@ class Mark extends Model
 {
     protected $table = 'markers';
 
-    public function user(){
-    	return $this->belongsTo(User::class);
-    }
-
-     protected $fillable =[
-
+    protected $fillable =[
     	'address',
     	'description',
     	'lng',

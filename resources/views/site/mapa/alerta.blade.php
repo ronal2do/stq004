@@ -19,11 +19,9 @@
   <div class="row">
     <h1>Adicionar localização de foco</h1>
      {!!Form::open(array('url'=>'/alerta', 'files'=>true))!!}
-      
-
       <div class="form-group">
         <label for="">Endereço</label>
-        <input type="text" id="searchmap" placeholder="buscar">
+        <input type="text" id="searchmap" placeholder="buscar" name="address">
         <div id="map-canvas"></div>
       </div>
       

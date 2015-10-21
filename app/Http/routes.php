@@ -66,7 +66,7 @@ Route::get('alerta', function()
 
 Route::post('alerta', function(){
     \App\Mark::create(Input::all());
-    var_dump('mapa is added....');
+    
 });
 
 Route::get('mapa',function($id){

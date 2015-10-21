@@ -15,14 +15,14 @@
   type="text/javascript"></script>
 
 <div class="container">
-  <h1>{{$vendor->title}}</h1>
+  <h1>{{$markers->description}}</h1>
 
   <div id="map-canvas"></div>
 </div>
 
 <script>
-  var lat = {{$vendor->lat}};
-  var lng = {{$vendor->lng}};
+  var lat = {{$markers->lat}};
+  var lng = {{$markers->lng}};
   var map = new google.maps.Map(document.getElementById('map-canvas'),{
     center:{
       lat: lat,
