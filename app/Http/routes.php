@@ -14,11 +14,11 @@
 /**
 * Informações
 */
-Route::get('/teste', function () {
+Route::get('/', function () {
     return view('site.home');
 });
 
-Route::get('/', 'HomeController@index');
+Route::get('/teste', 'HomeController@index');
 
 Route::get('/elementos', function () {
     return view('site.elementos');
@@ -50,12 +50,30 @@ Route::get('atendimento-medico', function () {
 /**
 * Mapa
 */
-Route::get('alerta', function () {
+/*Route::get('alerta', function () {
     return view('site.mapa.alerta');
 });
 Route::get('mapa', function () {
     return view('site.mapa.mapa');
 });
+
+*/
+Route::get('alerta', function()
+{
+    //view
+    return View::make('site.mapa.alerta');
+});
+Route::post('alerta', function(){
+    Vendor::create(Input::all());
+    var_dump('mapa is added....');
+});
+Route::get('mapa/{id}',function($id){
+    $markers = Vendor::find($id);
+    return View::make('site.mapa.mapa',compact('markers'));
+});
+
+
+
 Route::get('como-contribuir', function () {
     return view('site.mapa.como-contribuir');
 });

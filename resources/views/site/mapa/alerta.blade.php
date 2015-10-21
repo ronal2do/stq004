@@ -3,104 +3,85 @@
   caracteristicas
 @stop
 @section('content')
-    <div class="offset" style="padding-top: 90px;"></div>
-  <!-- /.dark-wrapper -->
-<div class="light-wrapper">
-    <div class="container inner">
-      <div class="row">
-        <div class="col-sm-8">
-          <h2 class="section-title">Inserir alerta</h2>
-          <p>Nullam quis risus eget urna mollis ornare vel eu leo. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas faucibus.</p>
-          <div class="divide10"></div>
-          <div class="form-container">
-            <form action="contact/vanilla-form.php" method="post" class="vanilla vanilla-form" novalidate="novalidate">
-              <div class="row">
-                <div class="col-sm-6">
-                  <div class="form-field">
-                    <label>
-                      <input type="text" name="name" placeholder="Endereço" required="required">
-                    </label>
-                  </div>
-                  <!--/.form-field --> 
-                </div>
-                <!--/column -->
-                <div class="col-sm-6">
-                  <div class="form-field">
-                    <label>
-                      <input type="email" name="email" placeholder="Upload Foto" required="required">
-                    </label>
-                  </div>
-                  <!--/.form-field --> 
-                </div>
-                <!--/column -->
-                <div class="col-sm-6">
-                  <div class="form-field">
-                    <label>
-                      <input type="tel" name="tel" placeholder="Informação">
-                    </label>
-                  </div>
-                  <!--/.form-field --> 
-                </div>
-                <!--/column -->
-                <div class="col-sm-6">
-                  <div class="form-field">
-                    <label class="custom-select">
-                      <select name="department" required="required">
-                        <option value="">Informação</option>
-                        <option value="Sales">Informação</option>
-                        <option value="Marketing">Informação</option>
-                        <option value="Support">Informação</option>
-                        <option value="Other">Informação</option>
-                      </select>
-                      <span><!-- fake select handler --></span> </label>
-                  </div>
-                  <!--/.form-field --> 
-                </div>
-                <!--/column --> 
-              </div>
-              <!--/.row -->
-              <textarea name="message" placeholder="Dê a descriçao..." required="required"></textarea>
-              <div class="radio-set">
-                <label>Informação:</label>
-                <label>
-                  <input type="radio" name="subject" value="Geral">
-                  <span><!-- fake radio --></span> Geral</label>
-                <label>
-                  <input type="radio" name="subject" value="Oi">
-                  <span><!-- fake radio --></span> Oi</label>
-                <label>
-                  <input type="radio" name="subject" value="Outra">
-                  <span><!-- fake radio --></span> Outra</label>
-              </div>
-              <!--/.radio-set -->
-              <input type="submit" class="btn state-initial" value="Enviar" data-error="Deu pau!" data-processing="Sending..." data-success="Thank you!" data-initial="Send">
-              <footer class="notification-box"></footer>
-            </form>
-            <!--/.vanilla-form --> 
-          </div>
-          <!--/.form-container --> 
-          
-        </div>
-        <!--/column -->
-        
-        <aside class="col-sm-4">
-          <div class="sidebox widget">
-            <h3 class="widget-title">Texto</h3>
-            <p>Fusce dapibus, tellus commodo, tortor mauris condimentum utellus fermentum, porta sem malesuada magna. Sed posuere consectetur est at lobortis. Morbi leo risus, porta ac consectetur.</p>
-            
-          </div>
-          <!-- /.widget --> 
-          
-        </aside>
-        <!--/column --> 
-        
-      </div>
-      <!--/.row --> 
+   <style>
+      #map-canvas{
+        width: 350px;
+        height: 350px;
+      }
+    </style>
+
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyB6K1CFUQ1RwVJ-nyXxd6W0rfiIBe12Q&libraries=places"
+  type="text/javascript"></script>
+
+<div class="container">
+  <div class="col-sm-4">
+    <h1>Adicionar localização de foco</h1>
+     {{Form::open(array('url'=>'/alerta', 'files'=>true))}}
       
-    </div>
-    <!--/.container --> 
+
+      <div class="form-group">
+        <label for="">Endereço</label>
+        <input type="text" id="searchmap">
+        <div id="map-canvas"></div>
+      </div>
+      
+       <div class="form-group">
+        <label for="">Descricao</label>
+        <input type="text" class="form-control input-sm" name="description">
+      </div>
+      <div class="form-group">
+        <label for="">Lat</label>
+        <input type="text" class="form-control input-sm" name="lat" id="lat">
+      </div>
+
+      <div class="form-group">
+        <label for="">Lng</label>
+        <input type="text" class="form-control input-sm" name="lng" id="lng">
+      </div>
+
+      <button class="btn btn-sm btn-danger">Salvar</button>
+    {{Form::close()}}
   </div>
-  <!-- /footer --> 
+
+</div>
+
+<script>
+  var map = new google.maps.Map(document.getElementById('map-canvas'),{
+    center:{
+      lat: -22.21,
+      lng: -49.95
+    },
+    zoom:15
+  });
+  var marker = new google.maps.Marker({
+    position: {
+      lat: -22.21,
+      lng: -49.95
+    },
+    map: map,
+    draggable: true
+  });
+  var searchBox = new google.maps.places.SearchBox(document.getElementById('searchmap'));
+  google.maps.event.addListener(searchBox,'places_changed',function(){
+    var places = searchBox.getPlaces();
+    var bounds = new google.maps.LatLngBounds();
+    var i, place;
+    for(i=0; place=places[i];i++){
+        bounds.extend(place.geometry.location);
+        marker.setPosition(place.geometry.location); //set marker position new...
+      }
+      map.fitBounds(bounds);
+      map.setZoom(15);
+  });
+  google.maps.event.addListener(marker,'position_changed',function(){
+    var lat = marker.getPosition().lat();
+    var lng = marker.getPosition().lng();
+    $('#lat').val(lat);
+    $('#lng').val(lng);
+  });
+</script>
   
 
 @stop
