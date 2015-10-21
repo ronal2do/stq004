@@ -53,6 +53,14 @@ Route::get('atendimento-medico', function () {
 /*Route::get('alerta', function () {
     return view('site.mapa.alerta');
 });
+
+
+Route::get('mapa/{id}',function($id){
+    $markers = \App\Mark::find($id);
+    dd($markers);
+    return View::make('site.mapa.mapa',compact('markers'));
+});
+
 Route::get('mapa', function () {
     return view('site.mapa.mapa');
 });
@@ -67,12 +75,11 @@ Route::get('alerta', function()
 Route::post('alerta', function(){
     \App\Mark::create(Input::all());
     /*dd(\App\Mark::get(), 200);*/
-   
+    return View::make('site.mapa.alerta');
 });
 
-Route::get('mapa',function($id){
-    $markers = \App\Mark::find($id);
-    return View::make('site.mapa.mapa',compact('markers'));
+Route::get('mapa', function () {
+    return view('site.mapa.mapa');
 });
 
 

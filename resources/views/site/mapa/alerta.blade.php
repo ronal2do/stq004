@@ -17,7 +17,7 @@
 
 <div class="container">
   <div class="row">
-    <h1>Adicionar localização de foco</h1>
+    <h2 class="section-title">Adicionar localização de foco</h2>
      {!!Form::open(array('url'=>'/alerta', 'files'=>true))!!}
       <div class="form-group">
         <label for="">Endereço</label>
@@ -27,8 +27,7 @@
       <div class="form-group">
         <label for="">Tipo de Alerta</label>
 
-        <div class="form-field">
-                   
+        <div class="form-field">                   
                       <select name="alert_type" >
                         <option value="Criadouro">Criadouro</option>
                         <option value="Casa fechada">Casa fechada</option>
@@ -36,9 +35,7 @@
                         <option value="Terreno baldio">Terreno baldio</option>
                         <option value="Alagamento">Alagamento</option>
                       </select>
-                      
-                     
-                  </div>
+         </div>
                      
       </div>
 
@@ -59,7 +56,7 @@
         <input type="hidden" class="form-control input-sm" name="lng" id="lng">
       </div>
 
-      <button class="btn btn-sm btn-danger">Salvar</button>
+      <button class="btn btn-sm btn-roxo">Enviar</button>
     {!!Form::close()!!}
   </div>
 
