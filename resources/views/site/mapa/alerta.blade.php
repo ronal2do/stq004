@@ -16,14 +16,14 @@
   type="text/javascript"></script>
 
 <div class="container">
-  <div class="col-sm-4">
+  <div class="row">
     <h1>Adicionar localização de foco</h1>
-     {{Form::open(array('url'=>'/alerta', 'files'=>true))}}
+     {!!Form::open(array('url'=>'/alerta', 'files'=>true))!!}
       
 
       <div class="form-group">
         <label for="">Endereço</label>
-        <input type="text" id="searchmap">
+        <input type="text" id="searchmap" placeholder="buscar">
         <div id="map-canvas"></div>
       </div>
       
@@ -42,8 +42,12 @@
       </div>
 
       <button class="btn btn-sm btn-danger">Salvar</button>
-    {{Form::close()}}
+    {!!Form::close()!!}
   </div>
+
+ 
+
+
 
 </div>
 

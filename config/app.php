@@ -157,6 +157,7 @@ return [
         Laravel\Socialite\SocialiteServiceProvider::class,
 
         'Illuminate\Html\HtmlServiceProvider',
+
     ],
 
     /*

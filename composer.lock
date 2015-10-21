@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7f2cf872485dd25d2a8233525dfbf1b5",
-    "content-hash": "e81471715b7d770b50dd42a8b527a926",
+    "hash": "75edb64b50f238597ff5baeedf60674b",
+    "content-hash": "0734b139c5075dc756225a311045701f",
     "packages": [
         {
             "name": "barryvdh/elfinder-builds",
