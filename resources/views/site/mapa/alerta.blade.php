@@ -25,17 +25,19 @@
         <div id="map-canvas"></div>
       </div>
       <div class="form-group">
+        <label for="">Tipo de Alerta</label>
+
         <div class="form-field">
-                    <label class="custom-select">
+                   
                       <select name="alert_type" >
-                        <option value="aaa">Informação 1</option>
-                        <option value="bbb">Informação 2</option>
-                        <option value="ccc">Informação 3</option>
-                        <option value="ddd">Informação 4</option>
-                        <option value="eee">Informação 5</option>
+                        <option value="Criadouro">Criadouro</option>
+                        <option value="Casa fechada">Casa fechada</option>
+                        <option value="Lixo acumulado">Lixo acumulado</option>
+                        <option value="Terreno baldio">Terreno baldio</option>
+                        <option value="Alagamento">Alagamento</option>
                       </select>
-                      <span><!-- fake select handler --></span> 
-                      </label>
+                      
+                     
                   </div>
                      
       </div>
