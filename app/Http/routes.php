@@ -66,7 +66,7 @@ Route::get('alerta', function()
 
 Route::post('alerta', function(){
     \App\Mark::create(Input::all());
-    
+    dd(\App\Mark::get(), 200);
    
 });
 

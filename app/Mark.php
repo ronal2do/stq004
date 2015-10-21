@@ -11,6 +11,7 @@ class Mark extends Model
     protected $fillable =[
     	'address',
     	'description',
+    	'alert_type',
     	'lng',
     	'lat'
     ];

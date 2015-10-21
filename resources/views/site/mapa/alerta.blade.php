@@ -24,32 +24,37 @@
         <input type="text" id="searchmap" placeholder="buscar" name="address">
         <div id="map-canvas"></div>
       </div>
-      <div class="form-field">
-      <label for="">Tipo de alerta</label>
+      <div class="form-group">
+        <div class="form-field">
                     <label class="custom-select">
-                      <select name="alert_type" required="required">
-                        <option value="Informação 1">Informação 1</option>
-                        <option value="Informação 2">Informação 2</option>
-                        <option value="Informação 3">Informação 3</option>
-                        <option value="Informação 4">Informação 4</option>
-                        <option value="Informação 5">Informação 5</option>
+                      <select name="alert_type" >
+                        <option value="aaa">Informação 1</option>
+                        <option value="bbb">Informação 2</option>
+                        <option value="ccc">Informação 3</option>
+                        <option value="ddd">Informação 4</option>
+                        <option value="eee">Informação 5</option>
                       </select>
                       <span><!-- fake select handler --></span> 
                       </label>
                   </div>
+                     
+      </div>
+
+
+
        <div class="form-group">
         <label for="">Descrição</label>
         <input type="text" class="form-control input-sm" name="description">
       </div>
 
       <div class="form-group">
-        <label for="">Lat</label>
-        <input type="text" class="form-control input-sm" name="lat" id="lat">
+     
+        <input type="hidden" class="form-control input-sm" name="lat" id="lat">
       </div>
   
       <div class="form-group">
-        <label for="">Lng</label>
-        <input type="text" class="form-control input-sm" name="lng" id="lng">
+      
+        <input type="hidden" class="form-control input-sm" name="lng" id="lng">
       </div>
 
       <button class="btn btn-sm btn-danger">Salvar</button>
