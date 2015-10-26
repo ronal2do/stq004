@@ -66,21 +66,19 @@ Route::get('mapa', function () {
 });
 
 */
-Route::get('alerta', function()
+Route::get('/alerta', function()
 {
     //view
     return View::make('site.mapa.alerta');
 });
 
-Route::post('alerta', function(){
+Route::post('/alerta', function(){
     \App\Mark::create(Input::all());
     /*dd(\App\Mark::get(), 200);*/
     return View::make('site.mapa.alerta');
 });
 
-Route::get('mapa', function () {
-    return view('site.mapa.mapa');
-});
+Route::get('/mapa', 'MapaController@index');
 
 
 
@@ -106,28 +104,21 @@ Route::get('como-participar', function () {
 * novidades
 */
 Route::get('/novidades', 'NovidadesController@index');
-Route::get('/novidades/{id}', function () {
-    return view('site.novidades.post');
-});
+
+Route::get('/posts/{id}', 'NovidadesController@showd');
 
 Route::get('agenda', function () {
     return view('site.novidades.novidades');
 });
-Route::get('agenda/{id}', function () {
-    return view('site.novidades.post');
-});
+
 Route::get('recall', function () {
     return view('site.novidades.novidades');
 });
-Route::get('recall/{id}', function () {
-    return view('site.novidades.post');
-});
+
 Route::get('entrevistas', function () {
     return view('site.novidades.novidades');
 });
-Route::get('entrevistas/{id}', function () {
-    return view('site.novidades.post');
-});
+
 /**
 * Institucional
 */
