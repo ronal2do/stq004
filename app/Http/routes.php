@@ -108,7 +108,7 @@ Route::get('/novidades', 'NovidadesController@index');
 Route::get('/posts/{id}', 'NovidadesController@showd');
 
 Route::get('agenda', function () {
-    return view('site.novidades.novidades');
+    return view('site.novidades.agenda');
 });
 
 Route::get('recall', function () {
@@ -136,27 +136,27 @@ Route::get('privacidade', function () {
 /**
 * API
 */
-Route::get('users', ['middleware' => 'cors', function()
+Route::get('api/users', ['middleware' => 'cors', function()
 {
     return \Response::json(\App\User::get(), 200);
 }]);
 
-Route::get('markers', ['middleware' => 'cors', function()
+Route::get('api/markers', ['middleware' => 'cors', function()
 {
     return \Response::json(\App\Mark::get(), 200);
 }]);
 
-Route::get('contributors', ['middleware' => 'cors', function()
+Route::get('api/contributors', ['middleware' => 'cors', function()
 {
     return \Response::json(\App\Contributor::get(), 200);
 }]);
 
-Route::get('posts', ['middleware' => 'cors', function()
+Route::get('api/posts', ['middleware' => 'cors', function()
 {
     return \Response::json(\App\Posts::get(), 200);
 }]);
 
-Route::get('news', ['middleware' => 'cors', function()
+Route::get('api/news', ['middleware' => 'cors', function()
 {
     return \Response::json(\App\Posts::get()->where('category_id', 4), 200);
 }]);

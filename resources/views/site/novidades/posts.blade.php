@@ -12,7 +12,7 @@
             <div class="post">
               <div class="box text-center">
               
-                <h1 class="post-title">{{$post->name}}</h1>
+                <h2 class="section-title">{{$post->name}}</h2>
                 <br>
                 <figure class="main"><img src="/uploads/images/{{$post->image}}" alt="" /></figure>
                 <div class="post-content text-left">

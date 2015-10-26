@@ -58,10 +58,11 @@
           @forelse ($posts as $post)
           
           <div class="item post">
-            <figure class="main"><img src="/uploads/images/{{$post->image}}" alt="{{$post->name}}"></figure>
+            <a href="/posts/{{$post->id}}">
+            <figure class="main"><img src="/uploads/images/{{$post->image}}" alt="{{$post->name}} " ></figure></a>
             <div class="box text-center">
-              <div class="category cat9"><span><a href="/novidades">CONFIRA ></a></span></div>
-              <h4 class="post-title"><a href="/novidades">{{$post->name}}</a></h4>
+              <div class="category cat9"><span><a href="/posts/{{$post->id}}">CONFIRA ></a></span></div>
+              <h4 class="post-title"><a href="/posts/{{$post->id}}">{{$post->name}}</a></h4>
               <div class="meta"><span class="date">{{$post->updated_at}}</span></div>
             </div>
             <!-- /.box --> 

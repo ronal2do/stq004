@@ -53,14 +53,14 @@
           <ul class="dropdown-menu">
             <li><a href="/caracteristicas">Características</a></li>
             <li><a href="/historico-doenca">Histórico da doença</a></li>
-            <li><a href="/historico-marilia">Histórico de Marília</a></li>
+            <li><a href="/historico-marilia">Sintomas</a></li>
             <li><a href="/atendimento-medico">Atendimento Médico</a></li>
           </ul>
         </li>
         <li ><a href="#" class="dropdown-toggle js-activated">Mapa da Dengue <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="/mapa">Mapa</a></li>
-            <li><a href="/alerta">Inserir alerta de foco</a></li>
+           <!-- <li><a href="/mapa">Mapa</a></li> -->
+            <!--<li><a href="/alerta">Inserir alerta de foco</a></li> -->
             <li><a href="/como-contribuir">Como contribuir?</a></li>
           </ul>
         </li>
@@ -74,9 +74,9 @@
         </li>
         <li class="dropdown"><a href="#" class="dropdown-toggle js-activated">Novidades <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="/novidades">Novidades sobre a dengue</a></li>
-            <li><a href="/novidades">Agenda de Ações</a></li>
-            <li><a href="/novidades">Recall Campanha</a></li>
+            <li><a href="/novidades">Novidades sobre a Campanha</a></li>
+            <li><a href="/agenda">Agenda de Ações</a></li>
+            <li><a href="/novidades">A Campanha na mídia</a></li>
             <li><a href="/novidades">Entrevistas com Moradores</a></li>
           </ul>
         </li>
