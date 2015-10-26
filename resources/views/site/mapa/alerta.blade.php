@@ -21,7 +21,7 @@
      {!!Form::open(array('url'=>'/alerta', 'files'=>true))!!}
       <div class="form-group">
         <label for="">Endereço</label>
-        <input type="text" id="searchmap" placeholder="buscar" name="address">
+        <input type="text" id="searchmap" placeholder="Insira o endereço..." name="address">
         <div id="map-canvas"></div>
       </div>
       <div class="form-group">
