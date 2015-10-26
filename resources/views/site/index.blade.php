@@ -77,8 +77,8 @@
           <ul class="dropdown-menu">
             <li><a href="/novidades">Novidades sobre a Campanha</a></li>
             <li><a href="/agenda">Agenda de Ações</a></li>
-            <li><a href="/novidades">A Campanha na mídia</a></li>
-            <li><a href="/novidades">Entrevistas com Moradores</a></li>
+            <li><a href="/midia">A Campanha na mídia</a></li>
+          <!-- <li><a href="/novidades">Entrevistas com Moradores</a></li>-->
           </ul>
         </li>
        
@@ -104,7 +104,13 @@
     <div class="container inner">
       <div class="span12">
         <div class="col-sm-4">
-         
+          <div class="widget">
+            <h4 class="widget-title">Lorem dolem</h4>
+            
+            <div class="contact-info"> <i class="icon-location"></i> Endereço. 14/05 = Cidade <br>
+              <i class="icon-phone"></i>(12) 3456.7890 <br>
+              <i class="icon-mail"></i> <a href="e.mail@email.com">e.mail@email.com</a> </div>
+          </div>
           <!-- /.widget --> 
         </div>
         <!-- /column -->
@@ -122,6 +128,13 @@
         
         <div class="col-sm-4">
           
+          <!-- /.widget -->
+          <div class="widget">
+            <h4 class="widget-title">Lorem dolem</h4>
+            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+            
+          </div>
+          <!-- /.widget --> 
           
         </div>
         <!-- /column --> 
