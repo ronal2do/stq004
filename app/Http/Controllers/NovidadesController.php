@@ -21,14 +21,7 @@ class NovidadesController extends Controller
         return view('site.novidades.novidades', compact('posts'));
     }
 
-    
     public function show($id)
-    {
-        $post = Posts::find($id);
-       
-        return view('site.novidades.post', compact('post'));
-    }
-    public function showd($id)
     {
         $post = Posts::find($id);
         $postagems = DB::table('posts') 
@@ -36,5 +29,15 @@ class NovidadesController extends Controller
             ->take(3)
             ->get();
         return view('site.novidades.posts', compact('post','postagems'));
+    }
+
+    public function agenda()
+    {
+       
+        $postagems = DB::table('posts') 
+            ->orderBy('id', 'desc')
+            ->take(3)
+            ->get();
+        return view('site.novidades.agenda', compact('postagems'));
     }
 }

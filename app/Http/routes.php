@@ -105,11 +105,9 @@ Route::get('como-participar', function () {
 */
 Route::get('/novidades', 'NovidadesController@index');
 
-Route::get('/posts/{id}', 'NovidadesController@showd');
+Route::get('/posts/{id}', 'NovidadesController@show');
 
-Route::get('agenda', function () {
-    return view('site.novidades.agenda');
-});
+Route::get('/agenda', 'NovidadesController@agenda');
 
 Route::get('recall', function () {
     return view('site.novidades.novidades');
