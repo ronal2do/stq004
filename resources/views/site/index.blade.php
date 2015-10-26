@@ -60,8 +60,8 @@
         <li ><a href="#" class="dropdown-toggle js-activated">Mapa da Dengue <span class="caret"></span></a>
           <ul class="dropdown-menu">
            <!-- <li><a href="/mapa">Mapa</a></li> -->
-            <!--<li><a href="/alerta">Inserir alerta de foco</a></li> -->
-            <li><a href="/como-contribuir">Como contribuir?</a></li>
+            <li><a href="/alerta">Inserir alerta de foco</a></li>
+           <!-- <li><a href="/como-contribuir">Como contribuir?</a></li> -->
           </ul>
         </li>
         <li ><a href="#" class="dropdown-toggle js-activated">Parceiros <span class="caret"></span></a>

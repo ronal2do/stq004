@@ -19,34 +19,6 @@
  
   <!-- /.dark-wrapper -->
   
-  <div class="light-wrapper">
-    <div class="container inner">
-      <div class="row">
-        <div class="col-sm-5">
-          <figure><img src="{{ asset('images/Ass-Marilia.png') }}" alt="" /></figure>
-        </div>
-        <!--/column -->
-        <div class="col-sm-7">
-          <h3 class="section-title">Não se esqueça você
-também de acabar com
-os criadouros do mosquito.</h3>
-           <div class="small-quote">
-            <blockquote>
-              <p> Não se esqueça você
-                  também de acabar com
-                  os criadouros do mosquito
-                  .</p>
-            </blockquote>
-          </div> </div>
-        <!--/column -->
-      </div>
-      <!--/.row -->
-     
-    
-      <!--/.row -->
-    </div>
-    <!--/.container --> 
-  </div>
   <!-- /.light-wrapper -->
   
   
