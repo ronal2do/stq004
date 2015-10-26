@@ -109,8 +109,8 @@ Route::get('/posts/{id}', 'NovidadesController@show');
 
 Route::get('/agenda', 'NovidadesController@agenda');
 
-Route::get('recall', function () {
-    return view('site.novidades.novidades');
+Route::get('/midia', function () {
+    return view('site.novidades.midia');
 });
 
 Route::get('entrevistas', function () {

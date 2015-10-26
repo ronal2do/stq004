@@ -14,6 +14,7 @@
 <link href='http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link href="{{ asset('lydia/icons.css') }}" rel="stylesheet">
+
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -64,7 +65,7 @@
            <!-- <li><a href="/como-contribuir">Como contribuir?</a></li> -->
           </ul>
         </li>
-        <li ><a href="#" class="dropdown-toggle js-activated">Parceiros <span class="caret"></span></a>
+        <li ><a href="#" class="dropdown-toggle js-activated">Mobilização <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="/comite-municipal">Comitê Municipal</a></li>
             <li><a href="/comites-regionais">Comitês Regionais</a></li>
@@ -143,6 +144,7 @@
 </main>
 <!--/.body-wrapper --> 
 <script src="{{ asset('js/main.js') }}"></script>
+@yield('post-script')
 <script type="text/javascript">
 $(document).ready(function(){ 
     $(".changecolor").switchstylesheet( { seperator:"color"} );

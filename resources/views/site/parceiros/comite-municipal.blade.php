@@ -16,84 +16,13 @@
   </div>
   <!--/.parallax --> 
   
-  <div class="dark-wrapper">
-    <div class="container inner">
-      <h3 class="section-title text-center">Quem faz</h3>
-      <div class="row grid-view">
-        <div class="col-sm-1 text-center">
-          
-        </div>
-        <div class="col-sm-2 text-center">
-          <figure><img src="style/images/art/t1.jpg" alt="" /></figure>
-          <h4 class="post-title">Nikola Brooten</h4>
-          <div class="meta">Comitê Regional Sul</div>
-          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam praesent.</p>
-          <ul class="social naked bigger text-center">
-            <li><a href="#"><i class="icon-s-twitter"></i></a></li>
-            <li><a href="#"><i class="icon-s-facebook"></i></a></li>
-            <li><a href="#"><i class="icon-s-pinterest"></i></a></li>
-          </ul>
-        </div>
-        <!-- /column -->
-        <div class="col-sm-2 text-center">
-          <figure><img src="style/images/art/t2.jpg" alt="" /></figure>
-          <h4 class="post-title">Coriss Ambady</h4>
-          <div class="meta">Comitê Regional Norte</div>
-          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros sed posuere.</p>
-          <ul class="social naked bigger text-center">
-            <li><a href="#"><i class="icon-s-twitter"></i></a></li>
-            <li><a href="#"><i class="icon-s-instagram"></i></a></li>
-          </ul>
-        </div>
-        <!-- /column -->
-        <div class="col-sm-2 text-center">
-          <figure><img src="style/images/art/t3.jpg" alt="" /></figure>
-          <h4 class="post-title">Elsie Spear</h4>
-          <div class="meta">Comitê Regional Leste</div>
-          <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula.</p>
-          <ul class="social naked bigger text-center">
-            <li><a href="#"><i class="icon-s-twitter"></i></a></li>
-            <li><a href="#"><i class="icon-s-instagram"></i></a></li>
-            <li><a href="#"><i class="icon-s-pinterest"></i></a></li>
-          </ul>
-        </div>
-        <!-- /column -->
-        <div class="col-sm-2 text-center">
-          <figure><img src="style/images/art/t4.jpg" alt="" /></figure>
-          <h4 class="post-title">Barclay Widerski</h4>
-          <div class="meta">Comitê Regional Oeste</div>
-          <p>Maecenas faucibus mollis interdum. Aenean eu leo quam ornare sem.</p>
-          <ul class="social naked bigger text-center">
-            <li><a href="#"><i class="icon-s-facebook"></i></a></li>
-            <li><a href="#"><i class="icon-s-vimeo"></i></a></li>
-          </ul>
-        </div>
-        <!-- /column --> 
-        <div class="col-sm-2 text-center">
-          <figure><img src="style/images/art/t4.jpg" alt="" /></figure>
-          <h4 class="post-title">Barclay Widerski</h4>
-          <div class="meta">Comitê Regional Centro</div>
-          <p>Maecenas faucibus mollis interdum. Aenean eu leo quam ornare sem.</p>
-          <ul class="social naked bigger text-center">
-            <li><a href="#"><i class="icon-s-facebook"></i></a></li>
-            <li><a href="#"><i class="icon-s-vimeo"></i></a></li>
-          </ul>
-        </div>
-        <div class="col-sm-1 text-center">
-          
-        </div>
-      </div>
-      <!--/.row --> 
-    </div>
-    <!--/.container --> 
-  </div>
   <!-- /.dark-wrapper -->
   
   <div class="light-wrapper">
     <div class="container inner">
       <div class="row">
         <div class="col-sm-5">
-          <figure><img src="style/images/art/thecompany.jpg" alt="" /></figure>
+            <figure><img src="{{ asset('images/Ass-Marilia.png') }}" alt="" /></figure>
         </div>
         <!--/column -->
         <div class="col-sm-7">
@@ -205,92 +134,6 @@
   </div>
   <!-- /.light-wrapper -->
   
-  <div class="dark-wrapper">
-    <div class="container inner">
-      <h3 class="section-title text-center">customer <strong>testimonials</strong></h3>
-      <div class="divide10"></div>
-      <div class="testimonials2 small-quote">
-        <div class="row">
-          <div class="col-sm-12 col-md-6">
-            <div class="quote">
-              <div class="icon text-center"> <img src="style/images/art/t2-1.jpg" alt="" />
-                <div class="author">
-                  <h4 class="post-title">Connor Gibson</h4>
-                  <span class="meta">Interface Designer</span> </div>
-              </div>
-              <div class="box">
-                <blockquote>
-                  <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus. </p>
-                </blockquote>
-              </div>
-            </div>
-            <!--/.quote --> 
-          </div>
-          <!--/column -->
-          <div class="col-sm-12 col-md-6">
-            <div class="quote right">
-              <div class="icon text-center"> <img src="style/images/art/t2-2.jpg" alt="" />
-                <div class="author">
-                  <h4 class="post-title">Coriss Ambady</h4>
-                  <span class="meta">Computer Engineer</span> </div>
-                <!--/.author --> 
-              </div>
-              <!--/.icon -->
-              <div class="box">
-                <blockquote>
-                  <p>Vestibulum id ligula porta felis euismod semper. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean lacinia bibendum nulla sed consectetur. </p>
-                </blockquote>
-              </div>
-            </div>
-            <!--/.quote --> 
-          </div>
-          <!--/column --> 
-        </div>
-        <!--/.row -->
-        <div class="row">
-          <div class="col-sm-12 col-md-6">
-            <div class="quote">
-              <div class="icon text-center"> <img src="style/images/art/t2-3.jpg" alt="" />
-                <div class="author">
-                  <h4 class="post-title">Nikola Brooten</h4>
-                  <span class="meta">Sales Manager</span> </div>
-                <!--/.author --> 
-              </div>
-              <!--/.icon -->
-              <div class="box">
-                <blockquote>
-                  <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh ultricies vehicula.</p>
-                </blockquote>
-              </div>
-            </div>
-            <!--/.quote --> 
-          </div>
-          <!--/column -->
-          <div class="col-sm-12 col-md-6">
-            <div class="quote right">
-              <div class="icon text-center"> <img src="style/images/art/t2-4.jpg" alt="" />
-                <div class="author">
-                  <h4 class="post-title">Barclay Widerski</h4>
-                  <span class="meta">Marketing Specialist</span> </div>
-                <!--/.author --> 
-              </div>
-              <!--/.icon -->
-              <div class="box">
-                <blockquote>
-                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis.</p>
-                </blockquote>
-              </div>
-            </div>
-            <!--/.quote --> 
-          </div>
-          <!--/column --> 
-        </div>
-        <!--/.row --> 
-      </div>
-      <!--/.testimonials --> 
-    </div>
-    <!--/.container --> 
-  </div>
   <!--/.dark-wrapper -->
   
 

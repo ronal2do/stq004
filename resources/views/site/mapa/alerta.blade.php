@@ -65,7 +65,9 @@
 
 
 </div>
+@endsection
 
+@section('post-script')
 <script>
   var map = new google.maps.Map(document.getElementById('map-canvas'),{
     center:{
@@ -103,5 +105,5 @@
 </script>
   
 
-@stop
+@endsection
 
