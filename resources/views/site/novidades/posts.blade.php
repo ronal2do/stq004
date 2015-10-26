@@ -1,6 +1,6 @@
 @extends('site.index')
 @section('title')
-    Privacidade
+    Postagem
 @stop
 @section('content')
 <div class="offset"></div>
@@ -10,40 +10,18 @@
         <div class="col-sm-8 blog-content">
           <div class="blog-posts classic-view">
             <div class="post">
-              <div class="box text-center">
-              
+              <div class="box text-center">              
                 <h2 class="section-title">{{$post->name}}</h2>
                 <br>
                 <figure class="main"><img src="/uploads/images/{{$post->image}}" alt="" /></figure>
                 <div class="post-content text-left">
                 <div class="meta"><span class="date">{{$post->updated_at}}</span></div>
-
-                 <p>{!! $post->description !!}</p>
-                  
+                 <p>{!! $post->description !!}</p>                
                   </div>
-               
-                <!-- .post-footer --> 
               </div>
-              <!-- /.box --> 
-              
             </div>
-            <!-- .post -->
-            
-            
-          
-            
-            
-            <!-- /.box -->
-            
-            
-            <!-- /.box --> 
-            
-          </div>
-          <!-- /.classic-view --> 
-          
-        </div>
-        <!-- /.blog-content -->
-        
+         </div>
+         </div>
         <aside class="col-sm-4 sidebar">
           <div class="sidebox widget">
             <figure><img src="{{ asset('images/banner_lateral.jpg') }}" alt="" /></figure>
@@ -58,10 +36,6 @@
             </ul>
             <div class="clearfix"></div>
           </div>
-          <!-- /.widget -->
-          
-         
-          <!-- /.widget -->
           <div class="sidebox widget">
             <h3 class="widget-title">Ultimas Postagens</h3>
             <ul class="post-list">
@@ -76,35 +50,17 @@
                 <h5>Nenhuma postagem</h5>
              @endforelse
             </ul>
-            <!-- /.post-list --> 
           </div>
-          <!-- /.widget -->
-          
-        
-          
-        
-          <!-- /.widget -->
-          
           <div class="sidebox widget">
             <h3 class="widget-title">Instagram</h3>
             <div class="image-grid col3">
               <div class="items-wrapper">
                 <div id="instafeed-widget" class="isotope items"></div>
-                
-                <!--/.isotope --> 
               </div>
-              <!--/.items-wrapper --> 
             </div>
-            <!--/.image-grid --> 
           </div>
-          <!-- /.widget --> 
-          
         </aside>
-        <!-- /column .sidebar --> 
-        
       </div>
-      <!-- /.blog --> 
     </div>
-    <!--/.container -->
   </div>
   @stop

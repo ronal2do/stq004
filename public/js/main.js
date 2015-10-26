@@ -1991,8 +1991,8 @@ $(document).ready(function() {
     var instagramFeed = new Instafeed({
         get: 'user',
         limit: 10,
-        userId: 1215763826,
-        accessToken: '1215763826.467ede5.aa54392aa9eb46f0b9e7191f7211ec3a',
+        userId: 2252829911,
+        accessToken: '2252829911.5b9e1e6.19ed92b97c1d465fab7aa2b759631e46',
         resolution: 'low_resolution',
         template: '<div class="item"><figure class="icon-overlay"><a href="{{link}}"><img src="{{image}}" /></a></figure></div>',
         after: function() {
@@ -2025,8 +2025,8 @@ $(document).ready(function() {
         target: 'instafeed-widget',
         get: 'user',
         limit: 6,
-        userId: 1215763826,
-        accessToken: '1215763826.467ede5.aa54392aa9eb46f0b9e7191f7211ec3a',
+         userId: 2252829911,
+        accessToken: '2252829911.5b9e1e6.19ed92b97c1d465fab7aa2b759631e46',
         resolution: 'low_resolution',
         template: '<div class="item"><figure class="icon-overlay"><a href="{{link}}"><img src="{{image}}" /></a></figure></div>',
         after: function() {
