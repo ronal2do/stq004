@@ -47,16 +47,16 @@
             }
             input{
                 padding: 10px;
-                font-size: 1rem;   
+                font-size: 0.9rem;   
             }
             input {
                 -webkit-box-shadow:inset 0 0 10 10px #000;
                    -moz-box-shadow:inset 0 0 10 10px #000;
                         box-shadow:inset 0 0 10 10px #000;
-                background: transparent;
+               
             }​
             div{
-                line-height:70%;
+                line-height:50%;
             }
             .btn {
                 display: inline-block;
@@ -78,22 +78,24 @@
                 background-image: none;
                 border: 1px solid transparent;
                 border-radius: 4px;
-            }
-            .btn-success {
-                color: #fff;
-                background-color: #30BBA9;
-                border-color: #555E96;
-            }
-            button {
                 margin: 0;
                 font: inherit;
                 color: inherit;
                 overflow: visible;
                 text-transform: none;
                 vertical-align: left;
-                    margin-left: 300px;
+                margin-left: 300px;
             }
-            
+            .btn-success {
+                color: #fff;
+                background-color: #30BBA9;
+                border-color: #555E96;
+            }
+            .btn-success:hover {
+                color: #fff;
+                background-color: #123456;
+                border-color: #123456;
+            }
         </style>
     </head>
     <body>
@@ -106,9 +108,12 @@
                <br><br>
                 <input type="text"
                        placeholder="E-mail:"
-                       size="42"
+                       size="47"
                        ><br><br>
-                <button class="btn btn-success">enviar</button>
+                <input type="submit"
+                       class="btn btn-success"
+                       value="Participar"
+                       >
             </div>
         </div>
         
