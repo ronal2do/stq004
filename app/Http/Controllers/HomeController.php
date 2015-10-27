@@ -24,4 +24,8 @@ class HomeController extends Controller
             ->get();
         return view('site.home', compact('posts'));
     }
+
+    public function missingMethod($parameters = array()) {
+        return view('errors.503');
+    }
 }
