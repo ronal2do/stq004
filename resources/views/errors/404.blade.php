@@ -8,7 +8,7 @@
         <style>
             html, body {
                 height: 100%;
-                background-color: #0A0D10;
+                background-color: #fff;
             }
 
 
@@ -51,25 +51,16 @@
                 right: 0px;
                 z-index: 109;
                 top: 348px;
-                background-image: url(images/error/shatter2.gif);
+                background-image: url(images/error/dead.jpg);
                 position: absolute;
             }
-            .shatter1 {
-                width: 674px;
-                height: 549px;
-                left: -40px;
-                z-index: 110;
-                top: 0px;
-                background-image: url(images/error/shatter1.png);
-                position: absolute;
-            }
+            
         </style>
     </head>
     <body>
-    <div class="shatter1"></div>
         <div class="container">
             <div class="content">
-                <div class="title">erro 404, <br>deu ruim</div>
+                <div class="title">Be right back.</div>
             </div>
         </div>
         <div class="shatter2"></div>
