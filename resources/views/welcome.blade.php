@@ -47,9 +47,14 @@
             }
             input{
                 padding: 10px;
-                font-size: 1rem;
-
+                font-size: 1rem;   
             }
+            input {
+                -webkit-box-shadow:inset 0 0 10 10px #000;
+                   -moz-box-shadow:inset 0 0 10 10px #000;
+                        box-shadow:inset 0 0 10 10px #000;
+                background: transparent;
+            }​
             div{
                 line-height:70%;
             }
@@ -74,6 +79,21 @@
                 border: 1px solid transparent;
                 border-radius: 4px;
             }
+            .btn-success {
+                color: #fff;
+                background-color: #30BBA9;
+                border-color: #555E96;
+            }
+            button {
+                margin: 0;
+                font: inherit;
+                color: inherit;
+                overflow: visible;
+                text-transform: none;
+                vertical-align: left;
+                    margin-left: 300px;
+            }
+            
         </style>
     </head>
     <body>
@@ -87,8 +107,8 @@
                 <input type="text"
                        placeholder="E-mail:"
                        size="42"
-                       ><br>
-                <button class="btn">enviar</button>
+                       ><br><br>
+                <button class="btn btn-success">enviar</button>
             </div>
         </div>
         
