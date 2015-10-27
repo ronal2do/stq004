@@ -54,7 +54,7 @@ return [
     |
     */
 
-    'from' => ['address' => null, 'name' => null],
+    'from' => ['address' => 'stqsocial@gmail.com', 'name' => 'Marília sem Dengue'],
 
     /*
     |--------------------------------------------------------------------------
