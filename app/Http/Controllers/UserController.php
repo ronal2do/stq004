@@ -21,12 +21,12 @@ class UserController extends Controller
         return view('welcome');
     }
 
-    public function sendEmailReminder(Request $request, $id)
+    public function sendEmailReminder()
     {
-        $user = User::findOrFail($id);
+        $user = User::save();
 
         Mail::send('emails.reminder', ['user' => $user], function ($m) use ($user) {
-            $m->to($user->email, $user->name)->subject('Your Reminder!');
+            $m->to($user->email)->subject('Your Reminder!');
         });
     }
 }

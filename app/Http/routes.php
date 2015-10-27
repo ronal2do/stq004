@@ -158,4 +158,12 @@ Route::get('api/news', ['middleware' => 'cors', function()
     return \Response::json(\App\Posts::get()->where('category_id', 4), 200);
 }]);
 
+Route::get('email', , function(){
+    
+    Mail::raw('Mensagem', function($m){
+        $m->to('ronal2do@gmail.com','Fulano')
+          ->subject();
+    });
+
+});
 
