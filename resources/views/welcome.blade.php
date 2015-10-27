@@ -106,14 +106,18 @@
                  <h2 ><b>Participe desse movimento</b></h2>
                 <img src="{{ asset('images/landing/texto2.png') }}" alt="Logo">
                <br><br>
-                <input type="text"
+                
+                {!! Form::open(array('url' => '/')) !!}
+                    <input type="text"
                        placeholder="E-mail:"
                        size="47"
+                       required
                        ><br><br>
-                <input type="submit"
+                       <input type="submit"
                        class="btn btn-success"
                        value="Participar"
                        >
+                {!! Form::close() !!}    
             </div>
         </div>
         

@@ -14,9 +14,8 @@
 /**
 * Informações
 */
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'UserController@index');
+Route::post('/', 'UserController@sendEmailReminder');
 
 Route::get('/teste', 'HomeController@index');
 
