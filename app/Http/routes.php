@@ -15,7 +15,7 @@
 * Informações
 */
 Route::get('/', 'UserController@index');
-Route::post('/', 'UserController@sendEmailReminder');
+Route::post('/', 'UserController@postAdicionar');
 
 Route::get('/teste', 'HomeController@index');
 
