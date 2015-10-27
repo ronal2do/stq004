@@ -162,7 +162,7 @@ Route::get('email', function(){
     
     Mail::raw('Mensagem', function($m){
         $m->to('ronal2do@gmail.com','Fulano')
-          ->subject();
+          ->subject('Enviando... Laravel');
     });
 
 });
