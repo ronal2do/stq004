@@ -23,7 +23,6 @@
 <![endif]-->
 </head>
 <body>
-
 <main class="body-wrapper">
   <div class="navbar">
     <div class="navbar-header">
@@ -36,13 +35,10 @@
            </div>
         <a class="btn responsive-menu" data-toggle="collapse" data-target=".navbar-collapse"><i></i></a>
       </div>
-      <!-- /.basic-wrapper -->  
     </div>
-    <!-- /.navbar-header -->
     <nav class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
         <li ><a href="/" >Home</a>
-          
         </li>
          <li ><a href="#" class="dropdown-toggle js-activated">Prevenção <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -78,82 +74,51 @@
             <li><a href="/novidades">Novidades sobre a Campanha</a></li>
             <li><a href="/agenda">Agenda de Ações</a></li>
             <li><a href="/midia">A Campanha na mídia</a></li>
-          <!-- <li><a href="/novidades">Entrevistas com Moradores</a></li>-->
           </ul>
-        </li>
-       
-      </ul>
-      <!-- /.navbar-nav --> 
-    </nav>
-    <!-- /.navbar-collapse -->
+        </li>       
+      </ul>   
+    </nav>  
     <div class="social-wrapper">
       <ul class="social naked">
         <li><a href="/"><i class="icon-s-facebook"></i></a></li>
         <li><a href="https://instagram.com/prefeitura_marilia/" target="_blank"><i class="icon-s-instagram"></i></a></li>
        <li><a href="/"><i class="icon-s-twitter"></i></a></li>
       </ul>
-      <!-- /.social --> 
     </div>
-    <!-- /.social-wrapper --> 
   </div>
-  <!-- /.navbar -->
- 
 @yield('content')
-   <!-- /.light-wrapper -->
   <footer class="footer light-wrapper">
     <div class="container inner">
       <div class="span12">
         <div class="col-sm-4">
           <div class="widget">
-            <h4 class="widget-title">Lorem dolem</h4>
-            
+            <h4 class="widget-title">Lorem dolem</h4>            
             <div class="contact-info"> <i class="icon-location"></i> Endereço. 14/05 = Cidade <br>
               <i class="icon-phone"></i>(12) 3456.7890 <br>
               <i class="icon-mail"></i> <a href="e.mail@email.com">e.mail@email.com</a> </div>
           </div>
-          <!-- /.widget --> 
-        </div>
-        <!-- /column -->
-        
+        </div>        
         <div class="col-sm-4 centered">
           <div class="center-all">
             <a href="http://www.marilia.sp.gov.br/prefeitura/" target="_blank">
               <img src="{{ asset('images/Ass-Marilia.png') }}" alt="Marília" class="img-responsive">
             </a>
           </div>
-          <!-- /.widget -->
-        
         </div>
-        <!-- /column -->
-        
         <div class="col-sm-4">
-          
-          <!-- /.widget -->
           <div class="widget">
             <h4 class="widget-title">Lorem dolem</h4>
             <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
-            
           </div>
-          <!-- /.widget --> 
-          
         </div>
-        <!-- /column --> 
-        
       </div>
-      <!-- /.row --> 
     </div>
-    <!-- .container -->
-    
     <div class="sub-footer">
       <div class="container inner">
         <p class="text-center">© 2015 Campanha Marília sem Dengue.</p>
       </div>
-      <!-- .container --> 
     </div>
-    <!-- .sub-footer --> 
   </footer>
-  <!-- /footer --> 
-  
 </main>
 <!--/.body-wrapper --> 
 <script src="{{ asset('js/main.js') }}"></script>
