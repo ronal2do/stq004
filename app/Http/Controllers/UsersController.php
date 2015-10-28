@@ -21,7 +21,8 @@ class UsersController extends CrudController{
 
 			$this->grid = \DataGrid::source($this->filter);
 			$this->grid->add('name', 'Name');
-			$this->grid->add('code', 'Code');
+			$this->grid->add('email', 'email');
+			$this->grid->add('phone', 'phone');
 			$this->addStylesToGrid();
 
     
@@ -39,8 +40,9 @@ class UsersController extends CrudController{
 
 			$this->edit->add('name', 'Name', 'text');
 		
-			$this->edit->add('code', 'Code', 'text')->rule('required');
-
+			$this->edit->add('email', 'email', 'text')->rule('required');
+			$this->edit->add('phone', 'ephonemail', 'text')->rule('required');
+phone
 
       
        
