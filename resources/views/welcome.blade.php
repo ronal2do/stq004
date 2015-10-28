@@ -108,12 +108,19 @@
                <br><br>
                 
                 {!! Form::open(array('url' => '/')) !!}
-                    <input type="text"
+                    <input type="email"
+                       name="email"
                        placeholder="E-mail:"
                        size="47"
                        required
                        ><br><br>
-                       <input type="submit"
+                    <input type="phone"
+                       name="phone"
+                       placeholder="Fone:"
+                       size="47"
+                       required
+                       ><br><br>
+                    <input type="submit"
                        class="btn btn-success"
                        value="Participar"
                        >
