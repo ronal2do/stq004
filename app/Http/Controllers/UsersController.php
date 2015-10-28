@@ -41,8 +41,8 @@ class UsersController extends CrudController{
 			$this->edit->add('name', 'Name', 'text');
 		
 			$this->edit->add('email', 'email', 'text')->rule('required');
-			$this->edit->add('phone', 'ephonemail', 'text')->rule('required');
-phone
+			$this->edit->add('phone', 'phone', 'text')->rule('required');
+
 
       
        
