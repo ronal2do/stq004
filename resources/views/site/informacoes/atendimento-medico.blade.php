@@ -1,26 +1,73 @@
 @extends('site.index')
 @section('title')
-  caracteristicas
+  Atendimento médico
 @stop
 @section('content')
-  <div class="offset"></div>
+  <div class="post-parallax parallax inverse-wrapper parallax1" style="background-image: url({{ asset('images/fundo.png') }});">
+    <div class="container inner text-center">
+      <div class="headline text-center">
+        <h2>Atendimento médico</h2>
+        <p class="lead">Lorem dolem Ipsum</p>
+      </div>
+      <!-- /.headline --> 
+    </div>
+    <!--/.container --> 
+  </div>
+  <!--/.parallax --> 
+
+
+
   <div class="light-wrapper">
-  <h1>caracteristicas</h1>
+  
     <div class="container inner">
-      <figure class="player">
-        <iframe src="http://player.vimeo.com/video/25518056?title=0&amp;byline=0&amp;portrait=0&amp;badge=0" width="1170" height="658" allowFullScreen></iframe>
-      </figure>
-      <div class="divide30"></div>
+      
+        <div class="col-sm-5">
+            <figure><img src="{{ asset('images/Ass-Marilia.png') }}" alt="" /></figure>
+        </div>
+        <!--/column -->
+        <div class="col-sm-7">
+           <h1 >Caracteristicas | Hábitos do Vetor</h1>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean lacinia bibendum nulla sed consectetur.  Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Fusce dapibus, tellus ac cursus commodo, tortor mauris.</p>
+        
+          </div>
+        <!--/column -->
+      </div>   
+ </div>
+    <!-- /.container -->
+ 
+  <!-- /.light-wrapper -->
+  <div class="yellow-wrapper">
+    <div class="container inner">
+      
+     
+      <h1 >Caracteristicas | Hábitos do Vetor</h1>
       <h2 class="post-title">Texto</h2>
-      <div class="meta"><span class="date">14 Aug 2015</span><span>Motion Video</span><span>Client Name</span></div>
+  
       <p>Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Vestibulum id ligula porta felis euismod semper. Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </div>
-    <!-- /.container -->
-  </div>
-  <!-- /.light-wrapper -->
+   </div>
+   <div class="dark-wrapper">
+    <div class="container inner">
+      
+     
+      <h1 >Caracteristicas | Hábitos do Vetor</h1>
+      <h2 class="post-title">Texto</h2>
   
+      <p>Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Vestibulum id ligula porta felis euismod semper. Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+   </div>
+   <div class="purple-wrapper">
+    <div class="container inner">
+      
+     
+      <h1 >Caracteristicas | Hábitos do Vetor</h1>
+      <h2 class="post-title">Texto</h2>
+  
+      <p>Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Vestibulum id ligula porta felis euismod semper. Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+   </div>
    <!-- /.container -->
-  </div>
+
   <!-- /.dark-wrapper -->
 
   <!-- /footer --> 
