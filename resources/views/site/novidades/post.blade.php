@@ -14,7 +14,7 @@
               
                 <h1 class="post-title">{{$post->name}}</h1>
                 <div class="meta"><span class="date">{{$post->updated_at}}</span></div>
-                <figure class="main"><img src="/uploads/images/{{$post->image}}" alt="" /></figure>
+                <figure class="main"><img src="/uploads/images/{{$post->image}}" alt="" style="width: 100%;"/></figure>
                 <div class="post-content text-left">
                  <p>{!! $post->description !!}</p>
                   
