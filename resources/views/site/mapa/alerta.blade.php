@@ -1,8 +1,19 @@
 @extends('site.index')
 @section('title')
-  caracteristicas
+  Alerta
 @stop
 @section('content')
+
+  <div class="post-parallax parallax inverse-wrapper parallax1" style="background-image: url({{ asset('images/fundo.png') }});">
+    <div class="container inner text-center">
+      <div class="headline text-center">
+        <h2>Adicionar localização de foco</h2>
+       
+      </div>
+      <!-- /.headline --> 
+    </div>
+    <!--/.container --> 
+  </div>
    <style>
       #map-canvas{
         width: 100%;
@@ -10,14 +21,14 @@
       }
     </style>
 
-<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyB6K1CFUQ1RwVJ-nyXxd6W0rfiIBe12Q&libraries=places"
   type="text/javascript"></script>
 
 <div class="container">
   <div class="row">
-    <h2 class="section-title">Adicionar localização de foco</h2>
+    <h2 class="section-title"></h2>
 
       <!-- flash-message --> 
     <div class="flash-message">

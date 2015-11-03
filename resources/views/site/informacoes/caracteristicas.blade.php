@@ -86,7 +86,7 @@ Fique atento a estes sinais e, em caso positivo, procure uma unidade de saúde p
         <div class="col-sm-7">
            <h1 >Como evitar</h1>
           <p>
-            Lembre-se de que a maneira mais eficaz de evitar a transmissão da dengue é se prevenir.  Além dos cuidados como acúmulo de água também é recomendando o uso de repelentes específicos, salvo para crianças menores de 2 anos. Neste caso, é indicado o uso de mosquiteiros nos locais em que elas dormem. 
+            Lembre-se de que a maneira mais eficaz de evitar a transmissão da dengue é se prevenir.  Além dos cuidados como acúmulo de água também é recomendando o uso de repelentes específicos, salvo para crianças menores de 2 anos. Neste caso, é indicado o uso de mosquiteiros nos locais em que<br> elas dormem. 
           </p>
           </div>
            <div class="col-sm-5">
@@ -108,7 +108,7 @@ Fique atento a estes sinais e, em caso positivo, procure uma unidade de saúde p
             <li style="color:#fff;">Ar-condicionado e ventiladores matam o mosquito</li>
             <li style="color:#fff;">Misturar café na água das plantas elimina as larvas</li>
             <li style="color:#fff;">O mosquito da dengue não chega aos andares altos</li>
-            <li style="color:#fff;">Ingerir vitamina B aumenta a resistência contra a dengue</li>
+            <li style="color:#fff;">Ingerir vitamina B aumenta a resistência<br> contra a dengue</li>
           </ul>
          </div>
         <div class="col-sm-2 col-md-2">
@@ -119,7 +119,7 @@ Fique atento a estes sinais e, em caso positivo, procure uma unidade de saúde p
             <li style="color:#fff;">A dengue gosta de picar na região das pernas</li>
             <li style="color:#fff;">O risco da gravidade aumenta quanto mais vezes se contrai a doença</li>
             <li style="color:#fff;">Vela de citronela é um repelente natural</li>
-            <li style="color:#fff;">Ela pode matar</li>
+            <li style="color:#fff;">A dengue pode matar</li>
           </ul>
         </div>
       </div>

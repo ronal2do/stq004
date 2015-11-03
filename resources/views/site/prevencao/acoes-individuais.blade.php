@@ -133,7 +133,7 @@ impedir a água de correr pelas calhas e lajes.
               <div class="box">
                 
                   <p class="dicas">
-                    Guarde seus pneus velhos em locais secos <br>e cobertos.
+                    Guarde seus pneus velhos em locais <br>secos e cobertos.
                   </p>
                 
               </div>
