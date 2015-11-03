@@ -7,7 +7,7 @@
     <div class="container inner text-center">
       <div class="headline text-center">
         <h2>Atendimento médico</h2>
-        <p class="lead">Lorem dolem Ipsum</p>
+
       </div>
       <!-- /.headline --> 
     </div>
