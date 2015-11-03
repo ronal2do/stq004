@@ -29,13 +29,13 @@
         <div class="col-sm-7">
            <h1 style="color: #6F4996;">Unidade especial de Saúde</h1>
           <p>
-            As unidades especiais de saúde tem o objetivo de desafogar as demais UBS e hospitais em 
+          As unidades especiais de saúde têm o objetivo de desafogar as demais UBSs e hospitais em 
 
-época de grande procura por atendimento médico em decorrência da dengue. Este tipo de  
+época de grande procura por atendimento médico em decorrência da dengue. Este local foi 
 
-local foi pensado para combater a alta da doença na cidade e atende exclusivamente aos seus 
+pensado para combater a alta da doença na cidade e atende exclusivamente aos seus casos ou 
 
-casos ou sintomas. Todas as unidades especiais tem equipes treinadas e estão devidamente 
+sintomas. Todas as unidades especiais têm equipes treinadas e estão devidamente 
 
 estruturadas para receber a população.
           </p>
@@ -57,9 +57,9 @@ estruturadas para receber a população.
           <p>
             Uma grande equipe de agentes técnicos tem a missão de visitar cada casa e estabelecimento 
 
-            em Marília. Eles procuram minuciosamente por possíveis focos da doença e orientam os 
+em Marília. Eles procuram minuciosamente por possíveis focos da doença e orientam os 
 
-            moradores sobre como proceder para evitar a proliferação do mosquito da dengue.
+moradores sobre como proceder para evitar a proliferação do mosquito da dengue.
           </p>
           </div>
            <div class="col-sm-5">
@@ -79,13 +79,13 @@ estruturadas para receber a população.
         <div class="col-sm-7">
            <h1 style="color: #6F4996;">Mutirão de nebulização</h1>
           <p>
-          Em uma ação conjunta com a sociedade a prefeitura de Marília realiza periodicamente as 
+          Em uma ação conjunta com a sociedade, a Prefeitura de Marília realiza periodicamente as 
 
-          nebulizações mesmo fora da alta temporada no verão. As aplicações do inseticida são 
+nebulizações mesmo fora da alta temporada no verão. As aplicações do inseticida são 
 
-          realizadas em cada imóvel individualmente, garantindo assim a eficácia do trabalho. Escolas, 
+realizadas em cada imóvel individualmente, garantindo a eficácia do trabalho. Escolas, 
 
-          unidades de saúde e outros grandes prédios também recebem o cuidado.
+unidades de saúde e outros grandes prédios também recebem o cuidado.
           </p>
           </div>
         <!--/column -->
@@ -110,9 +110,9 @@ estruturadas para receber a população.
 
 poderão receber multa. Ela será aplicada em casos de recusa para acabar com criadouros do 
 
-mosquito da dengue e as penalidades variam entre R$ 180 a R$ 720,00. No caso de imóveis 
+mosquito da dengue e as penalidades variam entre R$ 180,00 e R$ 720,00. No caso de imóveis 
 
-fechados os valores podem chegar a até R$ 5.000,00.
+fechados, os valores podem chegar a R$ 5.000,00.
           </p>
 
         </div>
@@ -131,15 +131,15 @@ fechados os valores podem chegar a até R$ 5.000,00.
       <div class="row">
         <div class="col-sm-6 col-md-6">
           <p>
-         A prefeitura de Marília está apertando o cerco nos imóveis abandonados da nossa cidade, pois
+         A Prefeitura de Marília está apertando o cerco nos imóveis abandonados na nossa cidade, pois 
 
-estima-se que 90% dos locais negligenciados tenham focos do mosquito da dengue. Com 
+se estima que 90% dos locais negligenciados tenham focos do mosquito da dengue. Com 
 
-respaldo legal a prefeitura é autorizada a entrar nos locais com seus agentes acompanhados 
+respaldo legal, a prefeitura é autorizada a entrar nos locais com seus agentes, acompanhados 
 
-da polícia militar, se localizados criadouros da dengue os proprietários são notificados para 
+da Polícia Militar. Se localizados criadouros da dengue, os proprietários são notificados para 
 
-limpeza imediata e caso não seja atendido recebem penalidades de acordo com as 
+limpeza imediata e, caso ela não seja realizada, recebem penalidades de acordo com as 
 
 reincidências.
           </p> 

@@ -17,17 +17,31 @@
  
 
   <div class="light-wrapper">
-    <div class="container inner">
-      
-    <div class="divide30"></div>
-     
-      <p>
+       <div class="container inner">
+      <div class="col-image">
+      <div class="bg-wrapper col-md-6">
+        <div class="bg-holder" style="background-image: url({{ asset('images/comites/municipal.png') }});"></div>
+      </div>
+      <!--/.bg-wrapper -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 col-md-offset-7 inner-col">
+            
+            <p>
        Trata-se de um núcleo articulador formado por representantes da sociedade civil (moradores) e entidades e organizações, como a câmara de vereadores, ministério público, sindicatos e associações de moradores. 
 </p><p>
 São eles que irão traçar os planos de ação e repassar as decisões aos comitês regionais para que as execute. É também de responsabilidade do comitê municipal fiscalizar o andamento dos projetos com os voluntários. 
 </p>
-<hr>
+            <!-- /.progress-list --> 
+          </div>
+        </div>
+      </div>
+        <!--/.row --> 
+      </div>
+      <!--/.container --> 
     </div>
+
+
  
   </div>
   
