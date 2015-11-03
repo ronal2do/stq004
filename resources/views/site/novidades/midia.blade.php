@@ -26,8 +26,8 @@
     <div class="container inner">
       <div class="thin">
         <h3 class="section-title text-center">Alguns detalhes</h3>
-        <p class="text-center">Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla. Donec sed odio dui.</p>
-      </div>
+        
+        </div>
       <!-- /.thin -->
    
       <!-- /.row --> 

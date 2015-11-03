@@ -21,51 +21,118 @@
   
     <div class="container inner">
       
-      <div class="divide30"></div>
-     <h3> A sua cooperação como voluntário é fundamental. </h3>
-      <p>
-      Preencha um breve cadastro abaixo e faça parte de um comitê regional, ele colocará em prática para acabarmos com a dengue em Marília.
-        </p>
-        <hr>
 
+     
         {!! Form::open(array('url' => '/', 'class'=>'form-group')) !!}
-                    <input type="email"
-                       name="email"
-                       placeholder="E-mail:"
-                       size="47"
-                       class="form-field"
-                       required
-                       ><br><br>
-                    <input type="phone"
-                       name="phone"
-                       placeholder="Telefone:"
-                       size="47"
-                       class="form-field"
-                       required
-                       ><br><br>
-                    <input type="nasc"
-                       name="nasc"
-                       placeholder="Nascimento:"
-                       size="47"
-                       class="form-field"
-                       required
-                       ><br><br>
-                    <input type="name"
-                       name="name"
-                       placeholder="Nome:"
-                       size="47"
-                       class="form-field"
-                       required
-                       ><br><br>
+       <div class="row">
+        <div class="col-sm-8">
+          <h2 class="section-title">A sua cooperação como voluntário é fundamental.</h2>
+          <p>
+            Preencha um breve cadastro abaixo e faça parte de um comitê regional, ele colocará em prática para acabarmos com a dengue em Marília.
+          </p>  
+          <div class="divide10"></div>
+          <div class="form-container">
+            <form action="contact/vanilla-form.php" method="post" class="vanilla vanilla-form" novalidate="novalidate">
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="form-field">
+                    <label>
+                      <input type="text" name="name" placeholder="Seu Nome" required="required">
+                    </label>
+                  </div>
+                  <!--/.form-field --> 
+                </div>
+                <!--/column -->
+                <div class="col-sm-6">
+                  <div class="form-field">
+                    <label>
+                      <input type="email" name="email" placeholder="E-mail" required="required">
+                    </label>
+                  </div>
+                  <!--/.form-field --> 
+                </div>
+                 <div class="col-sm-6">
+                  <div class="form-field">
+                    <label>
+                      <input type="text" name="name" placeholder="Nascimento" required="required">
+                    </label>
+                  </div>
+                  <!--/.form-field --> 
+                </div>
+                <!--/column -->
+                <div class="col-sm-6">
+                  <div class="form-field">
+                    <label>
+                      <input type="email" name="email" placeholder="Bairro" required="required">
+                    </label>
+                  </div>
+                  <!--/.form-field --> 
+                </div>
+                <!--/column -->
+                <div class="col-sm-6">
+                  <div class="form-field">
+                    <label>
+                      <input type="tel" name="tel" placeholder="Telefone">
+                    </label>
+                  </div>
+                  <!--/.form-field --> 
+                </div>
+
+                <!--/column -->
+                <div class="col-sm-6">
+                  <div class="form-field">
+                    <label class="custom-select">
+                      <select name="department" required="required">
+                        <option value="">Quero ser:</option>
+                        <option value="Sales">Voluntário</option>
+                        <option value="Marketing">Patrocinador</option>
+                        <option value="Support">Colaborador</option>
+                        <option value="Other">Outro</option>
+                      </select>
+                      <span><!-- fake select handler --></span> </label>
+                  </div>
+                  <!--/.form-field --> 
+                </div>
+                <!--/column --> 
+              </div>
+              <!--/.row -->
+              <textarea name="message" placeholder="Quais horários você pode colaborar..." required="required"></textarea>
+              
+              <!--/.radio-set -->
+              <input type="submit" class="btn btn-sm btn-roxo" value="Enviar" data-error="Apenas teste" data-processing="Enviando..." data-success="Obrigado!" data-initial="Send">
+              <footer class="notification-box"></footer>
+            </form>
+     
+            <!--/.vanilla-form --> 
+          </div>
+          <!--/.form-container --> 
+          
+        </div>
+        <!--/column -->
+        
+       <aside class="col-sm-4 sidebar">
+          <div class="sidebox widget">
+            <figure><a href="http://mariliasemdengue.com.br/posts/1"><img src="{{ asset('images/banner_lateral.jpg') }}" alt="Seja Voluntário" /></a></figure>
+              
+            <div class="clearfix"></div>
+          </div>
+         
+          <div class="sidebox widget">
+            <h3 class="widget-title">Instagram</h3>
+            <div class="image-grid col3">
+              <div class="items-wrapper">
+                <div id="instafeed-widget" class="isotope items"></div>
+              </div>
+            </div>
+          </div>
+        </aside>
+
+      </div>
                     
-                    <input type="submit"
-                       class="btn btn-success"
-                       value="Participar"
-                       >
-                    
-       {!! Form::close() !!}      
+       {!! Form::close() !!} 
+       <hr>     
    </div>
-    <!-- /.container -->
+
   </div>
   <!-- /.light-wrapper -->
 
