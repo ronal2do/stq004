@@ -26,26 +26,26 @@
 
         <div class="col-sm-3">
           <div class="icon-large"> <i class="budicon-power"></i> </div>
-          <h2>7518</h2>
-          <p>Desliga o Ronaldo</p>
+          <h2>217.654</h2>
+          <p>São Paulo - 2014</p>
         </div>
         <!--/column -->
         <div class="col-sm-3">
           <div class="icon-large"> <i class="budicon-coffee"></i> </div>
-          <h2>3472</h2>
-          <p>Copos de café</p>
+          <h2>695.985</h2>
+          <p>São Paulo - 2015</p>
         </div>
         <!--/column -->
         <div class="col-sm-3">
           <div class="icon-large"> <i class="budicon-video"></i> </div>
-          <h2>2184</h2>
-          <p>Filmes %ˆ$#%</p>
+          <h2>533.524</h2>
+          <p>Brasil - 2014</p>
         </div>
         <!--/column -->
         <div class="col-sm-3">
           <div class="icon-large"> <i class="budicon-sun"></i> </div>
-          <h2>4523</h2>
-          <p>Dias de noite</p>
+          <h2>1.485.397</h2>
+          <p>Brasil - 2015</p>
         </div>
         <!--/column --> 
       </div>
