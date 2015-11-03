@@ -99,6 +99,9 @@
     </head>
     <body>
         <div class="container">
+        @foreach ($errors->all() as $error)
+                        <li></li>
+                    @endforeach
             @include('site.resources.modal')
         </div>
         
