@@ -28,13 +28,9 @@
               <i class="icon-dot"></i> <a href="/midia" style="font-size: smaller;"> Campanha na mídia </a> <br>
               <i class="icon-dot"></i> <a href="/caracteristicas" style="font-size: smaller;"> Característica do mosquito </a><br>
               <i class="icon-dot"></i> <a href="/comite-municipal" style="font-size: smaller;"> Comitê Municipal </a> <br>
-              
-              
-
-              
               </div>
               <div class="contact-info col-sm-2"> 
-             <i class="icon-dot"></i> <a href="/comites-regionais" style="font-size: smaller;"> Comitês Regionais </a> <br>
+              <i class="icon-dot"></i> <a href="/comites-regionais" style="font-size: smaller;"> Comitês Regionais </a> <br>
               <i class="icon-dot"></i> <a href="/como-participar" style="font-size: smaller;"> Como Participar </a> <br>
               <i class="icon-dot"></i> <a href="/historico" style="font-size: smaller;"> Histórico da doença </a> <br>              
               <i class="icon-dot"></i> <a href="/alerta" style="font-size: smaller;"> Inserir alerta de foco </a> <br>
