@@ -15,45 +15,7 @@
   </div>
   <!--/.parallax --> 
 
-
-
-  <div class="light-wrapper">
-  
-    <div class="container inner">
-      
-      <div class="divide30"></div>
-      <div class="row text-center facts">
-
-        <div class="col-sm-3">
-          <div class="icon-large"> <i class="budicon-power"></i> </div>
-          <h2>217.654</h2>
-          <p>São Paulo - 2014</p>
-        </div>
-        <!--/column -->
-        <div class="col-sm-3">
-          <div class="icon-large"> <i class="budicon-coffee"></i> </div>
-          <h2>695.985</h2>
-          <p>São Paulo - 2015</p>
-        </div>
-        <!--/column -->
-        <div class="col-sm-3">
-          <div class="icon-large"> <i class="budicon-video"></i> </div>
-          <h2>533.524</h2>
-          <p>Brasil - 2014</p>
-        </div>
-        <!--/column -->
-        <div class="col-sm-3">
-          <div class="icon-large"> <i class="budicon-sun"></i> </div>
-          <h2>1.485.397</h2>
-          <p>Brasil - 2015</p>
-        </div>
-        <!--/column --> 
-      </div>
-   </div>
-    <!-- /.container -->
-  </div>
-  <!-- /.light-wrapper -->
-  <div class="yellow-wrapper">
+ <div class="light-wrapper">
     <div class="container inner">
       
 
@@ -68,7 +30,50 @@
     </div>
   </div>
   
+
+  <div class="yellow-wrapper">
   
+    <div class="container inner">
+      
+
+      <h3 >Quadro comparativo</h3>
+      <div class="row text-center facts">
+     
+        <div class="col-sm-3">
+          <div class="icon-large"> </div>
+           <h2>217.654</h2>
+           <h3>casos em</h3>
+          <p>São Paulo - 2014</p>
+        </div>
+        <!--/column -->
+        <div class="col-sm-3">
+          <div class="icon-large">  </div>
+          <h2>695.985</h2>
+          <h3>casos em</h3>
+          <p>São Paulo - 2015</p>
+        </div>
+        <!--/column -->
+        <div class="col-sm-3">
+          <div class="icon-large">  </div>
+          
+          <h2>533.524</h2>
+          <h3>casos no</h3>
+          <p>Brasil - 2014</p>
+        </div>
+        <!--/column -->
+        <div class="col-sm-3">
+          <div class="icon-large">  </div>
+           
+          <h2>1.485.397</h2>
+          <h3>casos no</h3>
+          <p>Brasil - 2015</p>
+        </div>
+        <!--/column --> 
+      </div>
+   </div>
+    <!-- /.container -->
+  </div>
+  <!-- /.light-wrapper -->
 
 @stop
 
