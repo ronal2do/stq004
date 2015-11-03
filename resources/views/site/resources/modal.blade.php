@@ -1,7 +1,7 @@
 <div class="content">
                 <img src="{{ asset('images/landing/logo.png') }}" alt="Logo"><br>
                 <img src="{{ asset('images/landing/texto.png') }}" alt="Logo">
-                 <h2 ><b>Participe desse movimento</b></h2>
+                 <h2 ><b>Nos ajude a combater essa doença diariamente.</b></h2>
                 <img src="{{ asset('images/landing/texto2.png') }}" alt="Logo">
                <br><br>
                 

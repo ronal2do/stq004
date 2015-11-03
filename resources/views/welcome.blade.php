@@ -83,7 +83,7 @@
                 overflow: visible;
                 text-transform: none;
                 vertical-align: left;
-                margin-left: 300px;
+                
             }
             .btn-success {
                 color: #fff;
