@@ -22,11 +22,33 @@
     <div class="container inner">
       
       <div class="divide30"></div>
-      <h1 >Caracteristicas | Hábitos do Vetor</h1>
-      <h2 class="post-title">Texto</h2>
-      <p>
-        Segundo dados do Ministério da Saúde, os casos de dengue no Brasil aumentaram em 122,7% com relação a 2014. Já no estado de São Paulo os números são ainda mais alarmantes, tendo mostrado um crescimento superior a 900%. 
-      </p>
+      <div class="row text-center facts">
+
+        <div class="col-sm-3">
+          <div class="icon-large"> <i class="budicon-power"></i> </div>
+          <h2>7518</h2>
+          <p>Desliga o Ronaldo</p>
+        </div>
+        <!--/column -->
+        <div class="col-sm-3">
+          <div class="icon-large"> <i class="budicon-coffee"></i> </div>
+          <h2>3472</h2>
+          <p>Copos de café</p>
+        </div>
+        <!--/column -->
+        <div class="col-sm-3">
+          <div class="icon-large"> <i class="budicon-video"></i> </div>
+          <h2>2184</h2>
+          <p>Filmes %ˆ$#%</p>
+        </div>
+        <!--/column -->
+        <div class="col-sm-3">
+          <div class="icon-large"> <i class="budicon-sun"></i> </div>
+          <h2>4523</h2>
+          <p>Dias de noite</p>
+        </div>
+        <!--/column --> 
+      </div>
    </div>
     <!-- /.container -->
   </div>
