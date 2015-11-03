@@ -50,7 +50,7 @@
           <ul class="dropdown-menu">
             <li><a href="/caracteristicas">Características</a></li>
             <li><a href="/historico">Histórico da doença</a></li>
-            <li><a href="/sintomas">Sintomas</a></li>
+            <!--<li><a href="/sintomas">Sintomas</a></li>-->
             <li><a href="/atendimento-medico">Atendimento Médico</a></li>
           </ul>
         </li>
@@ -66,7 +66,7 @@
             <li><a href="/comite-municipal">Comitê Municipal</a></li>
             <li><a href="/comites-regionais">Comitês Regionais</a></li>
             <li><a href="/como-participar">Como Participar?</a></li>
-            <li><a href="/parceiros">Parceiros</a></li>
+            <!--<li><a href="/parceiros">Parceiros</a></li>-->
           </ul>
         </li>
         <li class="dropdown"><a href="#" class="dropdown-toggle js-activated">Novidades <span class="caret"></span></a>

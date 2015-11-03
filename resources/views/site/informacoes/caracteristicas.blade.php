@@ -41,11 +41,12 @@
     <div class="container inner">
       
       
-      <h1 >Informações sobre a doença</h1>
+      <h1 >Sintomas</h1>
 
   
-      <p>Após 3 dias da picada do mosquito, é possível começar a notar os sintomas. Eles possuem algumas diferenças entre a versão clássica e a hemorrágica. Confira:
-      </p>
+      <p>A dengue é uma doença que evolui rapidamente. Saber identificar os seus sintomas já é um bom caminho percorrido até o seu tratamento, que é disponibilizado gratuitamente em toda a rede pública de saúde. 
+Fique atento a estes sinais e, em caso positivo, procure uma unidade de saúde prontamente.
+ </p>
        <div class="col-sm-4">
       <h2 class="post-title">Dengue clássica</h2>
       <ul>
