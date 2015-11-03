@@ -25,15 +25,7 @@
         <aside class="col-sm-4 sidebar">
           <div class="sidebox widget">
             <figure><a href="http://mariliasemdengue.com.br/posts/1"><img src="{{ asset('images/banner_lateral.jpg') }}" alt="Seja Voluntário" /></a></figure>
-              <ul class="social">
-              <li><a href="#"><i class="icon-s-rss"></i></a></li>
-              <li><a href="#"><i class="icon-s-twitter"></i></a></li>
-              <li><a href="#"><i class="icon-s-facebook"></i></a></li>
-              <li><a href="#"><i class="icon-s-pinterest"></i></a></li>
-              <li><a href="#"><i class="icon-s-linkedin"></i></a></li>
-              <li><a href="#"><i class="icon-s-dribbble"></i></a></li>
-              <li><a href="#"><i class="icon-s-flickr"></i></a></li>
-            </ul>
+              
             <div class="clearfix"></div>
           </div>
           <div class="sidebox widget">
