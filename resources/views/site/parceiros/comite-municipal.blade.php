@@ -28,7 +28,7 @@
           <div class="col-md-5 col-md-offset-7 inner-col">
             
             <p>
-                Trata-se de um núcleo articulador formado por representantes da sociedade civil (moradores) e entidades e organizações, como a câmara de vereadores, ministério público, sindicatos e associações de moradores. 
+                Trata-se de um núcleo articulador formado por representantes da sociedade civil (moradores) e entidades e organizações, como a Câmara de Vereadores, Ministério Público, sindicatos e associações de moradores. 
             </p>
               <p>
                 São eles que irão traçar os planos de ação e repassar as decisões aos comitês regionais para que as execute. É também de responsabilidade do comitê municipal fiscalizar o andamento dos projetos com os voluntários. 

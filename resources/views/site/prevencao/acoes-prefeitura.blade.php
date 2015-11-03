@@ -1,13 +1,13 @@
 @extends('site.index')
 @section('title')
-  Ações Individuais
+  Ações da Prefeitura
 @stop
 @section('content')
    
   <div class="post-parallax parallax inverse-wrapper parallax1" style="background-image: url({{ asset('images/fundo.png') }});">
     <div class="container inner text-center">
       <div class="headline text-center">
-        <h2>Ações Prefeitura</h2>
+        <h2>Ações da Prefeitura</h2>
 
       </div>
       <!-- /.headline --> 
@@ -27,7 +27,7 @@
         </div>
         <!--/column -->
         <div class="col-sm-7">
-           <h1 style="color: #6F4996;">Unidade especial de Saúde</h1>
+           <h1 style="color: #6F4996;">Unidade especial de saúde</h1>
           <p>
           As unidades especiais de saúde têm o objetivo de desafogar as demais UBSs e hospitais em 
 
@@ -53,7 +53,7 @@ estruturadas para receber a população.
        
         <!--/column -->
         <div class="col-sm-7">
-           <h1 >Mutirão de Visitas</h1>
+           <h1 >Mutirão de visitas</h1>
           <p>
             Uma grande equipe de agentes técnicos tem a missão de visitar cada casa e estabelecimento 
 
