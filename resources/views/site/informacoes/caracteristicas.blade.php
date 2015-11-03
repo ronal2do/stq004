@@ -47,7 +47,7 @@
       <p>A dengue é uma doença que evolui rapidamente. Saber identificar os seus sintomas já é um bom caminho percorrido até o seu tratamento, que é disponibilizado gratuitamente em toda a rede pública de saúde. 
 Fique atento a estes sinais e, em caso positivo, procure uma unidade de saúde prontamente.
  </p>
-       <div class="col-sm-4">
+       <div class="col-sm-6">
       <h2 class="post-title">Dengue clássica</h2>
       <ul>
         <li>Febre alta (acima de 38°C)</li>
@@ -59,47 +59,20 @@ Fique atento a estes sinais e, em caso positivo, procure uma unidade de saúde p
         <li>Cansaço anormal e indisposição</li>
       </ul>
     </div>
-     <div class="col-sm-4">
+  
+       <div class="col-sm-6">
       <h2 class="post-title">Dengue hemorrágica</h2>
       <ul>
-        <li>Fortes dores abdominais</li>
-        <li>Vômitos constantes, com ou sem sangue</li>
-        <li> Pele pálida, fria e úmida </li>
-        <li> Sangramento pelo nariz, boca e gengivas </li>
-        <li> Manchas avermelhadas na pele </li>
-        <li> Sonolência, agitação e confusão mental </li>
-        <li> Sede excessiva e boca seca </li>
-        <li> Dificuldade para respirar </li>
-        <li> Pulso fraco </li>
-        <li> Perda de consciência </li>
-        <li> Dores de cabeça</li>
-        <li>Dores atrás dos olhos</li>
-        <li>Dores musculares</li>
-        <li> Manchas e pequenas erupções na pele</li>
-        <li>Náuseas e vômitos</li>
-        <li>Cansaço anormal e indisposição</li>
-      </ul>
-    </div>
-       <div class="col-sm-4">
-      <h2 class="post-title">Dengue hemorrágica</h2>
-      <ul>
-        <li>Fortes dores abdominais</li>
-        <li>Vômitos constantes, com ou sem sangue</li>
-        <li> Pele pálida, fria e úmida </li>
-        <li> Sangramento pelo nariz, boca e gengivas </li>
-        <li> Manchas avermelhadas na pele </li>
-        <li> Sonolência, agitação e confusão mental </li>
-        <li> Sede excessiva e boca seca </li>
-        <li> Dificuldade para respirar </li>
-        <li> Pulso fraco </li>
-        <li> Perda de consciência </li>
-        <li> Dores de cabeça</li>
-        <li>Dores atrás dos olhos</li>
-        <li>Dores musculares</li>
-        <li> Manchas e pequenas erupções na pele</li>
-        <li>Náuseas e vômitos</li>
-        <li>Cansaço anormal e indisposição</li>
-      </ul>
+          <li>Dores abdominais fortes e contínuas</li>
+          <li>Vômitos persistentes</li>
+          <li>Pele pálida, fria e úmida</li>
+          <li>Sangramento pelo nariz, boca e gengivas</li>
+          <li>Sonolência, confusão e agitação mental</li>
+          <li>Manchas avermelhadas na pele</li>
+          <li>Sede excessiva e boca seca</li>
+          <li>Pulso fraco</li>
+          <li>Dificuldade para respirar</li>    
+        </ul>
     </div>
     </div>
    </div>
