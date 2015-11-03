@@ -43,7 +43,7 @@
          <li ><a href="#" class="dropdown-toggle js-activated">Prevenção <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="/acoes-individuais">Ações Individuais</a></li>
-            <li><a href="/acoes-prefeitura">Ações Prefeitura</a></li>
+            <li><a href="/acoes-prefeitura">Ações da Prefeitura</a></li>
           </ul>
         </li>
         <li ><a href="#" class="dropdown-toggle js-activated">Informações <span class="caret"></span></a>

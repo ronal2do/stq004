@@ -152,7 +152,7 @@ impedir a água de correr pelas calhas e lajes.
               <div class="box">
                 
                   <p class="dicas">
-                    Atenção com o lixo em terrenos baldios, prédios abandonados e vias públicas. Se preciso, acione a fiscalização municipal ou o serviço de <br>limpeza pública.
+                    Atenção com o lixo em terrenos baldios, prédios abandonados e vias públicas. Se preciso, acione a fiscalização municipal ou o serviço de limpeza pública.
 
                   </p>
                 
