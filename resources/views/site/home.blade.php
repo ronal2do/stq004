@@ -89,10 +89,10 @@
         <!--/column -->
         <div class="col-sm-8 col-md-9">
            <p>
-         Tee chuta hhat yudd! Goodness gracious me! Artoo Detoowha bo Seethreepiowha ey toota odd mischka Jabba du Hutt. 
-         I don't think they're going to let us in, Artoo. We'd better go. Artoo, wait. 
-         Oh, dear! Artoo. Artoo, I really don't think we should rush into all this. Oh, Artoo! Artoo, wait for me! 
-         Just you deliver Master Luke's message and get us out of here. Oh my! Oh! Oh, no.
+         Trata-se de um núcleo articulador formado por representantes da sociedade civil (moradores) e entidades e organizações, como a câmara de vereadores, ministério público, sindicatos e associações de moradores. 
+</p><p>
+São eles que irão traçar os planos de ação e repassar as decisões aos comitês regionais para que as execute. É também de responsabilidade do comitê municipal fiscalizar o andamento dos projetos com os voluntários. 
+
           </p>
 
         </div>
@@ -111,10 +111,7 @@
       <div class="row">
         <div class="col-sm-8 col-md-9">
           <p>
-         Tee chuta hhat yudd! Goodness gracious me! Artoo Detoowha bo Seethreepiowha ey toota odd mischka Jabba du Hutt. 
-         I don't think they're going to let us in, Artoo. We'd better go. Artoo, wait. 
-         Oh, dear! Artoo. Artoo, I really don't think we should rush into all this. Oh, Artoo! Artoo, wait for me! 
-         Just you deliver Master Luke's message and get us out of here. Oh my! Oh! Oh, no.
+         Estes comitês são formados pelos moradores das cinco regiões (norte, sul, leste, oeste e centro). Eles servirão como ponte entre os representantes do comitê municipal e a população. Eles também deverão executar as ações propostas para a evitar o crescimento da dengue em Marília. 
           </p> 
         </div>
         <!--/column -->

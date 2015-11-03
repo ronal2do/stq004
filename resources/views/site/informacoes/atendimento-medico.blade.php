@@ -27,8 +27,16 @@
         <!--/column -->
         <div class="col-sm-7">
            <h1 >Atendimento Médico</h1>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean lacinia bibendum nulla sed consectetur.  Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Fusce dapibus, tellus ac cursus commodo, tortor mauris.</p>
-        
+          <p>
+            Se você está com dengue ou simplesmente desconfia de alguns sintomas, procure uma 
+
+unidade básica de saúde pública. Lá você fará os exames que podem confirmar a doença ou 
+
+mesmo iniciar imediatamente um tratamento adequado, tudo de graça.
+          </p>
+          <p>
+            Localize abaixo a unidade mais próxima de você. 
+          </p>
           </div>
         <!--/column -->
       </div>   
@@ -53,7 +61,7 @@
       <ul>
         <li><b>UBS J.K.</b><br><i class="fa fa-user-md"></i> “ D. Maria da Conceição Brandão” <br><i class="fa fa-map-marker"></i>  Rua Lucílio Coelho de Oliveira nº 5 <br><i class="fa fa-phone"></i> Fone: (14) 3415-2116 / 3415-3329 <br><i class="fa fa-envelope"></i> E-mail: ubsjksus@gmail.com <br><i class="fa fa-clock-o"></i> Horário de Atendimento: das 07:00 às 18:00hs</li><br>
         <li><b>UBS NOVA MARÍLIA</b> <br><i class="fa fa-user-md"></i>“Dr. Idreno Sylvio Cavallari” <br><i class="fa fa-map-marker"></i>  Av. Mem de Sá nº 360-A <br><i class="fa fa-phone"></i> Fone: (14) 3451-1726 / 3451-2808 <br><i class="fa fa-envelope"></i> E-mail: ubsnovamarilia@gmail.com <br><i class="fa fa-clock-o"></i> Horário de Atendimento: das 07:00 às 18:00hs</li><br>
-        <li><b>UBS PLANALTO </b>“ Dr. Antonio Rodrigues Sobrinho” <br><i class="fa fa-map-marker"></i>  Rua Gildo Bonato nº 207 <br><i class="fa fa-phone"></i> Fone: (14) 3451-4669 / 3417-6184 <br><i class="fa fa-envelope"></i> E-mail: ubsplanaltomarilia@gmail.com <br><i class="fa fa-clock-o"></i> Horário de Atendimento: das 07:00 às 18:00hs</li><br>
+        <li><b>UBS PLANALTO </b><br><i class="fa fa-user-md"></i>“ Dr. Antonio Rodrigues Sobrinho” <br><i class="fa fa-map-marker"></i>  Rua Gildo Bonato nº 207 <br><i class="fa fa-phone"></i> Fone: (14) 3451-4669 / 3417-6184 <br><i class="fa fa-envelope"></i> E-mail: ubsplanaltomarilia@gmail.com <br><i class="fa fa-clock-o"></i> Horário de Atendimento: das 07:00 às 18:00hs</li><br>
         <li><b>UBS SÃO JUDAS</b> <br><i class="fa fa-user-md"></i>“Dr. Pérsio de Carvalho” <br><i class="fa fa-map-marker"></i>  Rua Ribeirão Preto nº 510 <br><i class="fa fa-phone"></i> Fone: (14) 3454-3025 / 3432-4686 <br><i class="fa fa-envelope"></i> E-mail: unidadesaojudas@gmail.com <br><i class="fa fa-clock-o"></i> Horário de Atendimento: das 07:00 às 18:00hs</li><br>
         <li><b>UBS SÃO MIGUEL </b><br><i class="fa fa-user-md"></i>“Dr. Simão de Andrade Ribeiro” <br><i class="fa fa-map-marker"></i>  Rua 24 dezembro nº 2865 <br><i class="fa fa-phone"></i> Fone: (14) 3432-3509 / 3422-1528 <br><i class="fa fa-envelope"></i> E-mail: ubssaomiguelmarilia@gmail.com <br><i class="fa fa-clock-o"></i> Horário de Atendimento: das 07:00 às 18:00hs</li><br>
       </ul> 
