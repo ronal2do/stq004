@@ -38,7 +38,7 @@
               <div class="box">
                 
                   <p class="dicas">
-                    Mantenha fechadas e limpas por dentro e por fora caixas d'água, cisternas, tambores e latões.
+                    Mantenha fechadas e limpas<br> por dentro e por fora caixas d'água,<br> cisternas, tambores e latões.
                   </p>
                
               </div>
@@ -77,7 +77,7 @@ virada para baixo e cobertas.
               <div class="box">
                
                   <p class="dicas">
-                    Troque a água dos vasos de plantas e lave-os com escova e sabão. Coloque areia nos pratos e jarros.
+                    Troque a água dos vasos de plantas e lave-os com escova e sabão. Coloque areia<br> nos pratos e jarros.
                   </p> 
                 
               </div>
@@ -115,7 +115,7 @@ impedir a água de correr pelas calhas e lajes.
               <div class="box">
                 
                   <p class="dicas">
-                    Coloque o lixo em sacos plásticos e feche bem as lixeiras. Deixe-as fora do alcance de animais.
+                    Coloque o lixo em sacos plásticos e feche bem as lixeiras. Deixe-as fora do alcance <br>de animais.
                   </p>
                 
               </div>
@@ -133,7 +133,7 @@ impedir a água de correr pelas calhas e lajes.
               <div class="box">
                 
                   <p class="dicas">
-                    Guarde seus pneus velhos em locais secos e cobertos.
+                    Guarde seus pneus velhos em locais secos <br>e cobertos.
                   </p>
                 
               </div>
@@ -152,7 +152,7 @@ impedir a água de correr pelas calhas e lajes.
               <div class="box">
                 
                   <p class="dicas">
-                    Atenção com o lixo em terrenos baldios, prédios abandonados e vias públicas. Se preciso, acione a fiscalização municipal ou o serviço de limpeza pública.
+                    Atenção com o lixo em terrenos baldios, prédios abandonados e vias públicas. Se preciso, acione a fiscalização municipal ou o serviço de <br>limpeza pública.
 
                   </p>
                 
