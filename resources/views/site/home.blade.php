@@ -5,7 +5,7 @@
 @stop
 @section('content')
 
-    
+  
     <!-- revolution -->
   <div class="tp-fullscreen-container revolution">
     <div class="tp-fullscreen">

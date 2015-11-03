@@ -24,7 +24,7 @@
          </div>
         <aside class="col-sm-4 sidebar">
           <div class="sidebox widget">
-            <figure><img src="{{ asset('images/banner_lateral.jpg') }}" alt="" /></figure>
+            <figure><a href="http://mariliasemdengue.com.br/posts/1"><img src="{{ asset('images/banner_lateral.jpg') }}" alt="Seja Voluntário" /></a></figure>
               <ul class="social">
               <li><a href="#"><i class="icon-s-rss"></i></a></li>
               <li><a href="#"><i class="icon-s-twitter"></i></a></li>

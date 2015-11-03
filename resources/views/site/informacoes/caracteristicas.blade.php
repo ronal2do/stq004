@@ -146,6 +146,7 @@ Fique atento a estes sinais e, em caso positivo, procure uma unidade de saúde p
             <li style="color:#fff;">A dengue gosta de picar na região das pernas</li>
             <li style="color:#fff;">O risco da gravidade aumenta quanto mais vezes se contrai a doença</li>
             <li style="color:#fff;">Vela de citronela é um repelente natural</li>
+            <li style="color:#fff;">Ela pode matar</li>
           </ul>
         </div>
       </div>
