@@ -15,6 +15,9 @@ class UpdateUserTablee extends Migration
         Schema::table('users', function (Blueprint $table) {
             $table->string('phone');  
         });
+        Schema::table('users', function(Blueprint $table){
+            $table->dropUnique('users_email_unique');
+        });
     }
 
     /**
