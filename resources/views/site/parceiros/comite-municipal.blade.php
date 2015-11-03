@@ -14,25 +14,22 @@
     </div>
     <!--/.container --> 
   </div>
-  <!--/.parallax --> 
-  
-  <!-- /.dark-wrapper -->
-  
+ 
+
   <div class="light-wrapper">
     <div class="container inner">
       
-    
-      <!--/.row -->
+    <div class="divide30"></div>
+     
+      <p>
+       Trata-se de um núcleo articulador formado por representantes da sociedade civil (moradores) e entidades e organizações, como a câmara de vereadores, ministério público, sindicatos e associações de moradores. 
+</p><p>
+São eles que irão traçar os planos de ação e repassar as decisões aos comitês regionais para que as execute. É também de responsabilidade do comitê municipal fiscalizar o andamento dos projetos com os voluntários. 
+</p>
+<hr>
     </div>
-    <!--/.container --> 
+ 
   </div>
-  <!-- /.light-wrapper -->
   
-  <!--/.dark-wrapper -->
-  
-
-  
-  
-
 @stop
 

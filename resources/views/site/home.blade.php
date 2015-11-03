@@ -11,16 +11,16 @@
     <div class="tp-fullscreen">
       <ul>
         <li data-transition="fade"> <img src="{{ asset('images/banner/home-marcacao1.jpg') }}" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-          <h1 class="tp-caption large sfr" data-x="30" data-y="263" data-speed="900" data-start="800" data-easing="Sine.easeOut">Guarde pneus em locais cobertos e secos</h1>
-          <div class="tp-caption medium sfr" data-x="30" data-y="348" data-speed="900" data-start="1500" data-easing="Sine.easeOut">Guarde pneus em locais cobertos e secos</div>
+           <div class="tp-caption large text-center sfl" data-x="center" data-y="283" data-speed="900" data-start="800" data-easing="Sine.easeOut">Guarde pneus em locais </div>
+          <div class="tp-caption large text-center sfr" data-x="center" data-y="363" data-speed="900" data-start="1500" data-easing="Sine.easeOut">cobertos e secos</div>
         </li>
         <li data-transition="fade"> <img src="{{ asset('images/banner/home-marcacao2.jpg') }}" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
           <div class="tp-caption large text-center sfl" data-x="center" data-y="283" data-speed="900" data-start="800" data-easing="Sine.easeOut">Mantenhas as calhas limpas</div>
           <div class="tp-caption large text-center sfr" data-x="center" data-y="363" data-speed="900" data-start="1500" data-easing="Sine.easeOut">e livres de folhas</div>
         </li>
         <li data-transition="fade"> <img src="{{ asset('images/banner/home-marcacao1.jpg') }}" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-          <h1 class="tp-caption large sfr" data-x="30" data-y="263" data-speed="900" data-start="800" data-easing="Sine.easeOut"> Preencha os pratos dos vasos</h1>
-          <div class="tp-caption medium sfr" data-x="30" data-y="348" data-speed="900" data-start="1500" data-easing="Sine.easeOut"> de plantas com areia</div>
+          <div class="tp-caption large text-center sfl" data-x="center" data-y="283" data-speed="900" data-start="800" data-easing="Sine.easeOut"> Preencha os pratos dos vasos</div>
+         <div class="tp-caption large text-center sfr" data-x="center" data-y="363" data-speed="900" data-start="1500" data-easing="Sine.easeOut"> de plantas com areia</div>
 
         </li>
         <li data-transition="fade"> <img src="{{ asset('images/banner/home-marcacao2.jpg') }}" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
@@ -28,8 +28,8 @@
           <div class="tp-caption large text-center sfr" data-x="center" data-y="363" data-speed="900" data-start="1500" data-easing="Sine.easeOut">
         </li>
         <li data-transition="fade"> <img src="{{ asset('images/banner/home-marcacao1.jpg') }}" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-          <h1 class="tp-caption large sfr" data-x="30" data-y="263" data-speed="900" data-start="800" data-easing="Sine.easeOut">Mantenha piscinas cobertas</h1>
-          <h1 class="tp-caption medium sfr" data-x="30" data-y="348" data-speed="900" data-start="1500" data-easing="Sine.easeOut"> ou tratadas com cloro</h1>
+          <div class="tp-caption large text-center sfl" data-x="center" data-y="283" data-speed="900" data-start="800" data-easing="Sine.easeOut">Mantenha piscinas cobertas</div>
+          <div class="tp-caption large text-center sfr" data-x="center" data-y="363" data-speed="900" data-start="1500" data-easing="Sine.easeOut"> ou tratadas com cloro</div>
         </li>
         <li data-transition="fade"> <img src="{{ asset('images/banner/home-marcacao2.jpg') }}" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
           <div class="tp-caption large text-center sfl" data-x="center" data-y="283" data-speed="900" data-start="800" data-easing="Sine.easeOut">Garrafas, latas e baldes devem ser </div>
@@ -131,14 +131,14 @@ São eles que irão traçar os planos de ação e repassar as decisões aos comi
     <div class="container inner">
       <div class="carousel-wrapper">
         <div class="carousel clients">
-          <div class="item"> <img src="style/images/art/c1.png" alt="" /> </div>
-          <div class="item"> <img src="style/images/art/c2.png" alt="" /> </div>
-          <div class="item"> <img src="style/images/art/c3.png" alt="" /> </div>
-          <div class="item"> <img src="style/images/art/c4.png" alt="" /> </div>
-          <div class="item"> <img src="style/images/art/c5.png" alt="" /> </div>
-          <div class="item"> <img src="style/images/art/c6.png" alt="" /> </div>
-          <div class="item"> <img src="style/images/art/c7.png" alt="" /> </div>
-          <div class="item"> <img src="style/images/art/c8.png" alt="" /> </div>
+          <div class="item"> <img src="{{ asset('images/parceiros/home-pco.png') }}" alt="apoiadores" /> </div>
+          <div class="item"> <img src="{{ asset('images/parceiros/home-pco.png') }}" alt="apoiadores" /> </div>
+          <div class="item"> <img src="{{ asset('images/parceiros/home-pco.png') }}" alt="apoiadores" /> </div>
+          <div class="item"> <img src="{{ asset('images/parceiros/home-pco.png') }}" alt="apoiadores" /> </div>
+          <div class="item"> <img src="{{ asset('images/parceiros/home-pco.png') }}" alt="apoiadores" /> </div>
+          <div class="item"> <img src="{{ asset('images/parceiros/home-pco.png') }}" alt="apoiadores" /> </div>
+          <div class="item"> <img src="{{ asset('images/parceiros/home-pco.png') }}" alt="apoiadores" /> </div>
+          <div class="item"> <img src="{{ asset('images/parceiros/home-pco.png') }}" alt="apoiadores" /> </div>
         </div>
         <!--/.carousel --> 
       </div>

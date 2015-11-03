@@ -20,10 +20,13 @@
   <div class="light-wrapper">
     <div class="container inner">
       
-    
-      <!--/.row -->
+    <div class="divide30"></div>
+     
+      <p>
+       Estes comitês são formados pelos moradores das cinco regiões (norte, sul, leste, oeste e centro). Eles servirão como ponte entre os representantes do comitê municipal e a população. Eles também deverão executar as ações propostas para a evitar o crescimento da dengue em Marília.   </p>
+  <hr>
     </div>
-    <!--/.container --> 
+
   </div>
   
   
