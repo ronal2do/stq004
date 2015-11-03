@@ -28,9 +28,17 @@
         <!--/column -->
         <div class="col-sm-7">
            <h1 style="color: #6F4996;">Unidade especial de Saúde</h1>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean lacinia bibendum nulla sed consectetur.  Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Fusce dapibus, tellus ac cursus commodo, tortor mauris.</p>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean lacinia bibendum nulla sed consectetur.  Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Fusce dapibus, tellus ac cursus commodo, tortor mauris.</p>
-        
+          <p>
+            As unidades especiais de saúde tem o objetivo de desafogar as demais UBS e hospitais em 
+
+época de grande procura por atendimento médico em decorrência da dengue. Este tipo de  
+
+local foi pensado para combater a alta da doença na cidade e atende exclusivamente aos seus 
+
+casos ou sintomas. Todas as unidades especiais tem equipes treinadas e estão devidamente 
+
+estruturadas para receber a população.
+          </p>
           </div>
         <!--/column -->
       </div> 
@@ -46,8 +54,13 @@
         <!--/column -->
         <div class="col-sm-7">
            <h1 >Mutirão de Visitas</h1>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean lacinia bibendum nulla sed consectetur.  Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Fusce dapibus, tellus ac cursus commodo, tortor mauris.</p>
-        
+          <p>
+            Uma grande equipe de agentes técnicos tem a missão de visitar cada casa e estabelecimento 
+
+            em Marília. Eles procuram minuciosamente por possíveis focos da doença e orientam os 
+
+            moradores sobre como proceder para evitar a proliferação do mosquito da dengue.
+          </p>
           </div>
            <div class="col-sm-5">
             <img src="{{ asset('images/acoes/prefeitura2.png') }}" alt=""/>
@@ -65,9 +78,15 @@
         <!--/column -->
         <div class="col-sm-7">
            <h1 style="color: #6F4996;">Mutirão de nebulização</h1>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean lacinia bibendum nulla sed consectetur.  Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Fusce dapibus, tellus ac cursus commodo, tortor mauris.</p>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean lacinia bibendum nulla sed consectetur.  Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui. Fusce dapibus, tellus ac cursus commodo, tortor mauris.</p>
-        
+          <p>
+          Em uma ação conjunta com a sociedade a prefeitura de Marília realiza periodicamente as 
+
+          nebulizações mesmo fora da alta temporada no verão. As aplicações do inseticida são 
+
+          realizadas em cada imóvel individualmente, garantindo assim a eficácia do trabalho. Escolas, 
+
+          unidades de saúde e outros grandes prédios também recebem o cuidado.
+          </p>
           </div>
         <!--/column -->
       </div> 
@@ -87,10 +106,13 @@
         <!--/column -->
         <div class="col-sm-7 col-md-7">
            <p>
-             Tee chuta hhat yudd! Goodness gracious me! Artoo Detoowha bo Seethreepiowha ey toota odd mischka Jabba du Hutt. 
-             I don't think they're going to let us in, Artoo. We'd better go. Artoo, wait. 
-             Oh, dear! Artoo. Artoo, I really don't think we should rush into all this. Oh, Artoo! Artoo, wait for me! 
-             Just you deliver Master Luke's message and get us out of here. Oh my! Oh! Oh, no.
+             Moradores que não colaborarem com as medidas de prevenção orientadas pelos agentes
+
+poderão receber multa. Ela será aplicada em casos de recusa para acabar com criadouros do 
+
+mosquito da dengue e as penalidades variam entre R$ 180 a R$ 720,00. No caso de imóveis 
+
+fechados os valores podem chegar a até R$ 5.000,00.
           </p>
 
         </div>
@@ -109,10 +131,17 @@
       <div class="row">
         <div class="col-sm-6 col-md-6">
           <p>
-         Tee chuta hhat yudd! Goodness gracious me! Artoo Detoowha bo Seethreepiowha ey toota odd mischka Jabba du Hutt. 
-         I don't think they're going to let us in, Artoo. We'd better go. Artoo, wait. 
-         Oh, dear! Artoo. Artoo, I really don't think we should rush into all this. Oh, Artoo! Artoo, wait for me! 
-         Just you deliver Master Luke's message and get us out of here. Oh my! Oh! Oh, no.
+         A prefeitura de Marília está apertando o cerco nos imóveis abandonados da nossa cidade, pois
+
+estima-se que 90% dos locais negligenciados tenham focos do mosquito da dengue. Com 
+
+respaldo legal a prefeitura é autorizada a entrar nos locais com seus agentes acompanhados 
+
+da polícia militar, se localizados criadouros da dengue os proprietários são notificados para 
+
+limpeza imediata e caso não seja atendido recebem penalidades de acordo com as 
+
+reincidências.
           </p> 
         </div>
         <!--/column -->
