@@ -34,16 +34,7 @@
       <div class="divide10"></div>
       <div class="carousel-wrapper">
         <div class="carousel carousel-boxed blog">
-          
-
-
-
-          
-          
-
-
           @forelse ($posts as $post)
-          
           <div class="item post">
             <a href="/posts/{{$post->id}}">
             <figure class="main"><img src="/uploads/images/{{$post->image}}" alt="{{$post->name}} " ></figure></a>

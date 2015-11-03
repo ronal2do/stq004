@@ -37,10 +37,10 @@ Route::get('acoes-individuais', function () {
 Route::get('caracteristicas', function () {
     return view('site.informacoes.caracteristicas');
 });
-Route::get('historico-doenca', function () {
+Route::get('historico', function () {
     return view('site.informacoes.historico-doenca');
 });
-Route::get('historico-marilia', function () {
+Route::get('sintomas', function () {
     return view('site.informacoes.historico-marilia');
 });
 Route::get('atendimento-medico', function () {

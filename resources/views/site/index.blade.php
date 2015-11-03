@@ -49,8 +49,8 @@
         <li ><a href="#" class="dropdown-toggle js-activated">Informações <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="/caracteristicas">Características</a></li>
-            <li><a href="/historico-doenca">Histórico da doença</a></li>
-            <li><a href="/historico-marilia">Sintomas</a></li>
+            <li><a href="/historico">Histórico da doença</a></li>
+            <li><a href="/sintomas">Sintomas</a></li>
             <li><a href="/atendimento-medico">Atendimento Médico</a></li>
           </ul>
         </li>
@@ -87,38 +87,7 @@
     </div>
   </div>
 @yield('content')
-  <footer class="footer light-wrapper">
-    <div class="container inner">
-      <div class="span12">
-        <div class="col-sm-4">
-          <div class="widget">
-            <h4 class="widget-title">Lorem dolem</h4>            
-            <div class="contact-info"> <i class="icon-location"></i> Endereço. 14/05 = Cidade <br>
-              <i class="icon-phone"></i>(12) 3456.7890 <br>
-              <i class="icon-mail"></i> <a href="e.mail@email.com">e.mail@email.com</a> </div>
-          </div>
-        </div>        
-        <div class="col-sm-4 centered">
-          <div class="center-all">
-            <a href="http://www.marilia.sp.gov.br/prefeitura/" target="_blank">
-              <img src="{{ asset('images/Ass-Marilia.png') }}" alt="Marília" class="img-responsive">
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="widget">
-            <h4 class="widget-title">Lorem dolem</h4>
-            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="sub-footer">
-      <div class="container inner">
-        <p class="text-center">© 2015 Campanha Marília sem Dengue.</p>
-      </div>
-    </div>
-  </footer>
+@include('site.resources.footer')
 </main>
 <!--/.body-wrapper --> 
 <script src="{{ asset('js/main.js') }}"></script>
