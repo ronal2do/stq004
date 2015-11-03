@@ -15,9 +15,9 @@
 * Informações
 */
 Route::get('/', 'UserController@index');
-Route::post('/', 'UserController@postAdicionar');
+Route::post('/', 'HomeController@postAdicionar');
 
-Route::get('/teste', 'HomeController@index');
+Route::get('/home', 'HomeController@index');
 
 Route::get('/elementos', function () {
     return view('site.elementos');
@@ -65,6 +65,10 @@ Route::get('mapa', function () {
 });
 
 */
+Route::get('projects/jsModal', 'HomeController@loadJsModalForm');
+
+
+
 Route::get('/alerta', function()
 {
     //view

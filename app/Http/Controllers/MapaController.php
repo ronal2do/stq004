@@ -18,6 +18,7 @@ class MapaController extends Controller
     public function index()
     {        
         $marker = DB::table('markers')->get();
+        $request->session()->flash('alert-success', 'User was successful added!');
         return view('site.mapa.mapa', compact('marker'));
     }
 }

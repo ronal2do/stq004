@@ -38,15 +38,8 @@ class UserController extends Controller
     {
 
         $dadosForm = $this->request->all();
-
         $this->user->create($dadosForm)->save();
-
-        $status = "Usuário" +$dadosForm['email']."foi adicionado!";
-
-        $this->request->session()->flash('status', $status);
-
-        $this->disparaEmail($dadosForm['email']);
-
+        return view('site.home');
     }
 
     public function disparaEmail($email)

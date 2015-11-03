@@ -28,7 +28,7 @@
     <div class="navbar-header">
       <div class="basic-wrapper"> 
         <div class="navbar-brand">
-             <a href="/">
+             <a href="/home">
                <img src="{{ asset('images/logo.png') }}" alt="">
               
              </a> 
@@ -38,7 +38,7 @@
     </div>
     <nav class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li ><a href="/" >Home</a>
+        <li ><a href="/home" >Home</a>
         </li>
          <li ><a href="#" class="dropdown-toggle js-activated">Prevenção <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -87,6 +87,7 @@
     </div>
   </div>
 @yield('content')
+
 @include('site.resources.footer')
 </main>
 <!--/.body-wrapper --> 

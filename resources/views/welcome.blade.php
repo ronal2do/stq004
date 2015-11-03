@@ -2,7 +2,6 @@
 <html>
     <head>
         <title>Marília sem dengue</title>
-
        <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
         <style>
             html, body {
@@ -100,37 +99,10 @@
     </head>
     <body>
         <div class="container">
-            <div class="content">
-                <img src="{{ asset('images/landing/logo.png') }}" alt="Logo"><br>
-                <img src="{{ asset('images/landing/texto.png') }}" alt="Logo">
-                 <h2 ><b>Participe desse movimento</b></h2>
-                <img src="{{ asset('images/landing/texto2.png') }}" alt="Logo">
-               <br><br>
-                
-                {!! Form::open(array('url' => '/')) !!}
-                    <input type="email"
-                       name="email"
-                       placeholder="E-mail:"
-                       size="47"
-                       required
-                       ><br><br>
-                    <input type="phone"
-                       name="phone"
-                       placeholder="Fone:"
-                       size="47"
-                       required
-                       ><br><br>
-                    <a href="/teste"
-                       class="btn btn-success"
-                    >Obrigado, já participo</a>
-                    <input type="submit"
-                       class="btn btn-success"
-                       value="Participar"
-                       >
-                    
-                {!! Form::close() !!}    
-            </div>
+            @include('site.resources.modal')
         </div>
         
+        
+
     </body>
 </html>
