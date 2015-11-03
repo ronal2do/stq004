@@ -120,10 +120,14 @@
                        size="47"
                        required
                        ><br><br>
+                    <a href="/teste"
+                       class="btn btn-success"
+                    >Obrigado, já participo</a>
                     <input type="submit"
                        class="btn btn-success"
                        value="Participar"
                        >
+                    
                 {!! Form::close() !!}    
             </div>
         </div>

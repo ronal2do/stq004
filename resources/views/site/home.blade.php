@@ -19,7 +19,25 @@
           <div class="tp-caption large text-center sfl" data-x="center" data-y="283" data-speed="900" data-start="800" data-easing="Sine.easeOut">Leia skywalker watto ackbar</div>
           <div class="tp-caption large text-center sfr" data-x="center" data-y="363" data-speed="900" data-start="1500" data-easing="Sine.easeOut">Moff watto anakin</div>
         </li>
-        
+        <li data-transition="fade"> <img src="{{ asset('images/banner/home-marcacao1.jpg') }}" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+          <h1 class="tp-caption large sfr" data-x="30" data-y="263" data-speed="900" data-start="800" data-easing="Sine.easeOut">Watto</h1>
+          <div class="tp-caption medium sfr" data-x="30" data-y="348" data-speed="900" data-start="1500" data-easing="Sine.easeOut">Leia skywalker watto ackbar <br>
+           Moff watto anakin</div>
+        </li>
+        <li data-transition="fade"> <img src="{{ asset('images/banner/home-marcacao2.jpg') }}" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+          <div class="tp-caption large text-center sfl" data-x="center" data-y="283" data-speed="900" data-start="800" data-easing="Sine.easeOut">Leia skywalker watto ackbar</div>
+          <div class="tp-caption large text-center sfr" data-x="center" data-y="363" data-speed="900" data-start="1500" data-easing="Sine.easeOut">Moff watto anakin</div>
+        </li>
+        <li data-transition="fade"> <img src="{{ asset('images/banner/home-marcacao1.jpg') }}" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+          <h1 class="tp-caption large sfr" data-x="30" data-y="263" data-speed="900" data-start="800" data-easing="Sine.easeOut">Watto</h1>
+          <div class="tp-caption medium sfr" data-x="30" data-y="348" data-speed="900" data-start="1500" data-easing="Sine.easeOut">Leia skywalker watto ackbar <br>
+           Moff watto anakin</div>
+        </li>
+        <li data-transition="fade"> <img src="{{ asset('images/banner/home-marcacao2.jpg') }}" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+          <div class="tp-caption large text-center sfl" data-x="center" data-y="283" data-speed="900" data-start="800" data-easing="Sine.easeOut">Leia skywalker watto ackbar</div>
+          <div class="tp-caption large text-center sfr" data-x="center" data-y="363" data-speed="900" data-start="1500" data-easing="Sine.easeOut">Moff watto anakin</div>
+        </li>
+
       </ul>
       <div class="tp-bannertimer tp-bottom"></div>
     </div>
