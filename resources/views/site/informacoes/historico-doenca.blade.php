@@ -36,7 +36,7 @@
     <div class="container inner">
       
 
-      <h3 >Quadro comparativo</h3>
+      <h3 class="section-title">Quadro comparativo</h3>
       <div class="row text-center facts">
      
         <div class="col-sm-3">
