@@ -31,10 +31,7 @@
           <div class="tp-caption large text-center sfl" data-x="center" data-y="283" data-speed="900" data-start="800" data-easing="Sine.easeOut">Mantenha piscinas cobertas</div>
           <div class="tp-caption large text-center sfr" data-x="center" data-y="363" data-speed="900" data-start="1500" data-easing="Sine.easeOut"> ou tratadas com cloro</div>
         </li>
-        <li data-transition="fade"> <img src="{{ asset('images/banner/home-marcacao6.jpg') }}" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-          <div class="tp-caption large text-center sfl" data-x="center" data-y="283" data-speed="900" data-start="800" data-easing="Sine.easeOut">Garrafas, latas e baldes devem ser </div>
-          <div class="tp-caption large text-center sfr" data-x="center" data-y="363" data-speed="900" data-start="1500" data-easing="Sine.easeOut">guardados com a boca para baixo</div>
-        </li>
+        
 
       </ul>
       <div class="tp-bannertimer tp-bottom"></div>
