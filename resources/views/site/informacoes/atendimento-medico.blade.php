@@ -22,7 +22,7 @@
     <div class="container inner">
       
         <div class="col-sm-5">
-            <figure><img src="{{ asset('images/Ass-Marilia.png') }}" alt="" /></figure>
+            <figure><img src="{{ asset('images/atendimento/atendimento.jpg) }}" alt="" /></figure>
         </div>
         <!--/column -->
         <div class="col-sm-7">
