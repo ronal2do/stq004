@@ -89,11 +89,11 @@
         <!--/column -->
         <div class="col-sm-8 col-md-9">
            <p>
-         Trata-se de um núcleo articulador formado por representantes da sociedade civil (moradores) e entidades e organizações, como a câmara de vereadores, ministério público, sindicatos e associações de moradores. 
-</p><p>
-São eles que irão traçar os planos de ação e repassar as decisões aos comitês regionais para que as execute. É também de responsabilidade do comitê municipal fiscalizar o andamento dos projetos com os voluntários. 
-
-          </p>
+                Trata-se de um núcleo articulador formado por representantes da sociedade civil (moradores) e entidades e organizações, como a Câmara de Vereadores, Ministério Público, sindicatos e associações de moradores. 
+            </p>
+              <p>
+                São eles que irão traçar os planos de ação e repassar as decisões aos comitês regionais para que as execute. É também de responsabilidade do comitê municipal fiscalizar o andamento dos projetos com os voluntários. 
+            </p>
 
         </div>
         <!--/column --> 
@@ -111,8 +111,9 @@ São eles que irão traçar os planos de ação e repassar as decisões aos comi
       <div class="row">
         <div class="col-sm-8 col-md-9">
           <p>
-         Estes comitês são formados pelos moradores das cinco regiões (norte, sul, leste, oeste e centro). Eles servirão como ponte entre os representantes do comitê municipal e a população. Eles também deverão executar as ações propostas para a evitar o crescimento da dengue em Marília. 
-          </p> 
+          Estes comitês são formados pelos moradores das cinco regiões (norte, sul, leste, oeste e centro). Eles servirão como ponte entre os representantes do comitê municipal e a população. Eles também deverão executar as ações propostas para a evitar o crescimento da dengue em Marília.  
+        </p>
+
         </div>
         <!--/column -->
         <div class="col-sm-4 col-md-3">
