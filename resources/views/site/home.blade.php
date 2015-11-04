@@ -129,14 +129,14 @@
     <div class="container inner">
       <div class="carousel-wrapper">
         <div class="carousel clients">
-          <div class="item"> <img src="{{ asset('images/parceiros/home-pco.png') }}" alt="apoiadores" /> </div>
-          <div class="item"> <img src="{{ asset('images/parceiros/home-pco.png') }}" alt="apoiadores" /> </div>
-          <div class="item"> <img src="{{ asset('images/parceiros/home-pco.png') }}" alt="apoiadores" /> </div>
-          <div class="item"> <img src="{{ asset('images/parceiros/home-pco.png') }}" alt="apoiadores" /> </div>
-          <div class="item"> <img src="{{ asset('images/parceiros/home-pco.png') }}" alt="apoiadores" /> </div>
-          <div class="item"> <img src="{{ asset('images/parceiros/home-pco.png') }}" alt="apoiadores" /> </div>
-          <div class="item"> <img src="{{ asset('images/parceiros/home-pco.png') }}" alt="apoiadores" /> </div>
-          <div class="item"> <img src="{{ asset('images/parceiros/home-pco.png') }}" alt="apoiadores" /> </div>
+          <div class="item"> <img src="{{ asset('images/parceiros/logo-parceiro.png') }}" alt="apoiadores" /> </div>
+          <div class="item"> <img src="{{ asset('images/parceiros/logo-parceiro.png') }}" alt="apoiadores" /> </div>
+          <div class="item"> <img src="{{ asset('images/parceiros/logo-parceiro.png') }}" alt="apoiadores" /> </div>
+          <div class="item"> <img src="{{ asset('images/parceiros/logo-parceiro.png') }}" alt="apoiadores" /> </div>
+          <div class="item"> <img src="{{ asset('images/parceiros/logo-parceiro.png') }}" alt="apoiadores" /> </div>
+          <div class="item"> <img src="{{ asset('images/parceiros/logo-parceiro.png') }}" alt="apoiadores" /> </div>
+          <div class="item"> <img src="{{ asset('images/parceiros/logo-parceiro.png') }}" alt="apoiadores" /> </div>
+          <div class="item"> <img src="{{ asset('images/parceiros/logo-parceiro.png') }}" alt="apoiadores" /> </div>
         </div>
         <!--/.carousel --> 
       </div>
