@@ -90,7 +90,7 @@ Fique atento a estes sinais e, em caso positivo, procure uma unidade de saúde p
           </p>
           </div>
            <div class="col-sm-5">
-            <img src="{{ asset('images/acoes/prefeitura2.png') }}" alt=""/>
+            <img src="{{ asset('images/caracteristicas/limpeza-prato-planta.jpg') }}" alt=""/>
         </div>
         <!--/column -->
   </div>  
