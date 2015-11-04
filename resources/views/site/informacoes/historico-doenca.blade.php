@@ -36,9 +36,9 @@
     <div class="container inner">
       
 
-      <h3 class="section-title">Quadro comparativo</h3>
+  
       <div class="row text-center facts">
-     
+         <h3 >Quadro comparativo</h3>
         <div class="col-sm-3">
           <div class="icon-large"> </div>
            <h2>217.654</h2>
