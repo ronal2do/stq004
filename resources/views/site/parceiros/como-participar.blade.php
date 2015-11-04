@@ -28,7 +28,7 @@
         <div class="col-sm-8">
           <h2 class="section-title">A sua cooperação como voluntário é fundamental.</h2>
           <p>
-            Preencha um breve cadastro abaixo e faça parte de um comitê regional, ele colocará em prática para acabarmos com a dengue em Marília.
+            Preencha um breve cadastro abaixo e faça parte de um comitê regional, ele nos ajuda a colocar em prática ações de combate à dengue em Marília.
           </p>  
           <div class="divide10"></div>
           <div class="form-container">
