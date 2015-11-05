@@ -3,27 +3,76 @@
   caracteristicas
 @stop
 @section('content')
-  <div class="offset" style="padding-top: 90px;"></div>
-  <div class="container">
-      
-      <figure class="player">
-       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d32110.64468857459!2d-49.952653127144956!3d-22.22196079907638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1445350145814" width="1130" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-      </figure>
-      <div class="divide30"></div>
-      <h2 class="post-title">Mapa de Alertas</h2>
-      <div class="meta"><span>Alguma coisa</span><span>Outra coisa</span></div>
-      <p>Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Vestibulum id ligula porta felis euismod semper. Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+
+   
+  <div class="post-parallax parallax inverse-wrapper parallax1" style="background-image: url({{ asset('images/fundo.png') }});">
+    <div class="container inner text-center">
+      <div class="headline text-center">
+        <h2>Mapa de focos</h2>
+
+      </div>
+      <!-- /.headline --> 
     </div>
-    <!-- /.container -->
+    <!--/.container --> 
   </div>
-  <!-- /.light-wrapper -->
+  <!--/.parallax --> 
   
-   <!-- /.container -->
+<style>
+      #map-canvas{
+        width: 100%;
+        height: 500px;
+      }
+    </style>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyB6K1CFUQ1RwVJ-nyXxd6W0rfiIBe12Q&libraries=places"
+  type="text/javascript"></script>
+
+  <div class="container">
+  	<div class="row">
+  		<div id="map-canvas"></div>
+  	</div>
   </div>
-  <!-- /.dark-wrapper -->
 
-  <!-- /footer --> 
+@endsection
+
+@section('post-script')
+<script>
+  var map = new google.maps.Map(document.getElementById('map-canvas'),{
+    center:{
+      lat: -22.21,
+      lng: -49.95
+    },
+    zoom:13
+  });
+  var marker = new google.maps.Marker({
+    position: {
+      lat: -22.21,
+      lng: -49.95
+    },
+    map: map,
+    draggable: true
+  });
+  var searchBox = new google.maps.places.SearchBox(document.getElementById('searchmap'));
+  google.maps.event.addListener(searchBox,'places_changed',function(){
+    var places = searchBox.getPlaces();
+    var bounds = new google.maps.LatLngBounds();
+    var i, place;
+    for(i=0; place=places[i];i++){
+        bounds.extend(place.geometry.location);
+        marker.setPosition(place.geometry.location); //set marker position new...
+      }
+      map.fitBounds(bounds);
+      map.setZoom(13);
+  });
+  google.maps.event.addListener(marker,'position_changed',function(){
+    var lat = marker.getPosition().lat();
+    var lng = marker.getPosition().lng();
+    $('#lat').val(lat);
+    $('#lng').val(lng);
+  });
+</script>
   
 
-@stop
+@endsection
 
