@@ -97,7 +97,7 @@ function initialize() {
                 var marker = new google.maps.Marker({
                     position: latLng,
                     map: map,
-                    title: data.content
+                    title: data.alert_type
                 });
                 infoBox(map, marker, data);
             }
@@ -110,7 +110,7 @@ function initialize() {
         var infoWindow = new google.maps.InfoWindow();
         // Attaching a click event to the current marker
         google.maps.event.addListener(marker, "click", function(e) {
-            infoWindow.setContent(data.content);
+            infoWindow.setContent(data.alert_type);
             infoWindow.open(map, marker);
         });
 
@@ -119,7 +119,7 @@ function initialize() {
         (function(marker, data) {
           // Attaching a click event to the current marker
           google.maps.event.addListener(marker, "click", function(e) {
-            infoWindow.setContent(data.content);
+            infoWindow.setContent(data.alert_type);
             infoWindow.open(map, marker);
           });
         })(marker, data);
