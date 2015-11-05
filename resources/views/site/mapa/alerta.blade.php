@@ -44,7 +44,7 @@
      {!!Form::open(array('url'=>'/alerta', 'files'=>true))!!}
       <div class="form-group">
         <label for="">Endereço</label>
-        <input type="text" id="searchmap" placeholder="Insira o endereço..." name="address">
+        <input type="text" id="searchmap" placeholder="Insira o endereço..." name="address" required>
         <div id="map-canvas"></div>
       </div>
       <div class="form-group">
@@ -66,7 +66,7 @@
 
        <div class="form-group">
         <label for="">Descrição</label>
-        <input type="text" class="form-control input-sm" name="description">
+        <input type="text" class="form-control input-sm" name="description" required>
       </div>
 
       <div class="form-group">
