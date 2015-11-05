@@ -40,14 +40,14 @@
 <script>
   
 function initialize() {
-        var latitude = 57.95,
-            longitude = 14.65,
+        var latitude = -22.21,
+            longitude = -49.95,
             radius = 8000, //how is this set up
             center = new google.maps.LatLng(latitude,longitude),
             bounds = new google.maps.Circle({center: center, radius: radius}).getBounds(),
             mapOptions = {
                 center: center,
-                zoom: 9,
+                zoom: 13,
                 mapTypeId: google.maps.MapTypeId.ROADMAP,
                 scrollwheel: false
             };
@@ -63,7 +63,7 @@ function initialize() {
             $.ajax({ 
                 'async': false, 
                 'global': false, 
-                'url': "api/markers", 
+                'url': "http://mariliasemdengue.com.br/api/markers", 
                 'dataType': "json", 
                 'success': function (data) {
                      json = data; 
@@ -127,7 +127,7 @@ function initialize() {
 
    google.maps.event.addDomListener(window, 'load', initialize);
 
-  
+
 </script>
   
 
