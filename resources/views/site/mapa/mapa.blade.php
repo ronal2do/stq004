@@ -24,9 +24,9 @@
         height: 500px;
       }
     </style>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyB6K1CFUQ1RwVJ-nyXxd6W0rfiIBe12Q&libraries=places"
-  type="text/javascript"></script>
+   <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+     <script src="http://code.jquery.com/jquery-migrate-1.1.1.min.js"></script>
 
   <div class="container">
   	<div class="row">
