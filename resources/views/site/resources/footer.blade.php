@@ -34,6 +34,7 @@
               <i class="icon-dot"></i> <a href="/como-participar" style="font-size: smaller;"> Como participar </a> <br>
               <i class="icon-dot"></i> <a href="/historico" style="font-size: smaller;"> Histórico da doença </a> <br>              
               <i class="icon-dot"></i> <a href="/alerta" style="font-size: smaller;"> Inserir alerta de foco </a> <br>
+              <i class="icon-dot"></i> <a href="/mapa" style="font-size: smaller;"> Mapa dos focos </a> <br>
               <i class="icon-dot"></i> <a href="/novidades" style="font-size: smaller;"> Novidades  sobre a campanha </a> <br>
             <!--  <i class="icon-dot"></i> <a href="/parceiros" style="font-size: smaller;"> Parceiros </a> <br> -->
               <i class="icon-dot"></i> <a href="/sintomas" style="font-size: smaller;"> Sintomas </a> <br>

@@ -56,7 +56,7 @@
         </li>
         <li ><a href="#" class="dropdown-toggle js-activated">Mapa da Dengue <span class="caret"></span></a>
           <ul class="dropdown-menu">
-           <!-- <li><a href="/mapa">Mapa</a></li> -->
+           <li><a href="/mapa">Mapa</a></li> 
             <li><a href="/alerta">Inserir alerta de foco</a></li>
            <!-- <li><a href="/como-contribuir">Como contribuir?</a></li> -->
           </ul>
@@ -92,6 +92,9 @@
 </main>
 <!--/.body-wrapper --> 
 <script src="{{ asset('js/main.js') }}"></script>
+ <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+ 
+     <script src="http://code.jquery.com/jquery-migrate-1.1.1.min.js"></script>
 @yield('post-script')
 <script type="text/javascript">
 $(document).ready(function(){ 

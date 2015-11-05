@@ -21,6 +21,7 @@
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Mapa da dengue <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     <li><a href="/">Mapa - Resumo</a></li>
+                    <li><a href="mapa">Localização</a></li>
                     <li><a href="alerta">Inserir Alerta de foco</a></li>
                     <li><a href="/">Como contribuir</a></li>
       
