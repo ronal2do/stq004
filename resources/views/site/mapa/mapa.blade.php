@@ -28,12 +28,33 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyB6K1CFUQ1RwVJ-nyXxd6W0rfiIBe12Q&libraries=places"
   type="text/javascript"></script>
 
-  <div class="container">
-  	<div class="row">
+  <div class="light-wrapper">
+  	
   		<div id="map-canvas"></div>
-  	</div>
+  	
   </div>
+ <div class="yellow-wrapper">
+    <div class="container inner">
+      
+      
+      <h1>Ultimas denuncias</h1>
 
+  
+      <p>A dengue é uma doença que evolui rapidamente. Saber identificar os seus sintomas já é um bom caminho percorrido até o seu tratamento, que é disponibilizado gratuitamente em toda a rede pública de saúde. 
+Fique atento a estes sinais e, em caso positivo, procure uma unidade de saúde prontamente.
+ </p>
+       
+    <div class="col-sm-6">
+      <ul>
+        <li><b>Tipo</b> <br>
+            <i class="fa fa-map-marker"></i>  Endereço <br>
+            <i class="fa fa-phone"></i> Fone: (14) xxxx-xxxx / xxxx-xxxx<br>
+           
+        
+      </ul> 
+      </div> 
+    </div>
+   </div>
 @endsection
 
 @section('post-script')
