@@ -66,7 +66,7 @@
 
        <div class="form-group">
         <label for="">Descrição</label>
-        <input type="text" class="form-control input-sm" name="description" required>
+        <input type="text" class="form-control input-sm" name="description" >
       </div>
 
       <div class="form-group">
