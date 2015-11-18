@@ -4,10 +4,9 @@
     Home
 @stop
 @section('content')
-
-  
-    <!-- revolution -->
+<!-- revolution -->
   <div class="tp-fullscreen-container revolution">
+    <div class="tp-fullscreen revslider-initialised tp-simpleresponsive" id="revslider-53" style="height: 100%; max-height: none;">
     <div class="tp-fullscreen">
       <ul>
         <li data-transition="fade"> <img src="{{ asset('images/banner/home-marcacao1.jpg') }}" alt="" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
@@ -31,21 +30,18 @@
           <div class="tp-caption large text-center sfl" data-x="center" data-y="283" data-speed="900" data-start="800" data-easing="Sine.easeOut">Mantenha piscinas cobertas</div>
           <div class="tp-caption large text-center sfr" data-x="center" data-y="363" data-speed="900" data-start="1500" data-easing="Sine.easeOut"> ou tratadas com cloro</div>
         </li>
-        
-
-      </ul>
-     <div class="tp-bannertimer"></div> 
-
+     </ul>
+ <div class="tp-bannertimer tp-bottom"></div> 
+     <div class="tp-loader spinner0" style="display: none;"><div class="dot1"></div><div class="dot2"></div><div class="bounce1"></div><div class="bounce2"></div><div class="bounce3"></div></div>
     </div>
-     <div class="tp-bannertimer tp-bottom"></div> 
+    
+   </div>
     <!-- /.tp-fullscreen-container --> 
   </div>
   <!-- /.revolution -->
-  <!-- /.light-wrapper -->
-  
+  <!-- /.light-wrapper --> 
   <div class="dark-wrapper">
     <div class="container inner">
-     
       <div class="divide10"></div>
       <div class="carousel-wrapper">
         <div class="carousel carousel-boxed blog">
@@ -58,25 +54,19 @@
               <h4 class="post-title"><a href="/posts/{{$post->id}}">{{$post->name}}</a></h4>
               <div class="meta"><span class="date">{{$post->updated_at}}</span></div>
             </div>
-            <!-- /.box --> 
-            
+            <!-- /.box -->             
           </div>
-          <!-- /.post -->
-          
+          <!-- /.post -->          
           @empty
              <p>Nenhuma postagem</p>
           @endforelse
-
-
-
           <!-- /.post --> 
         </div>
         <!--/.carousel --> 
       </div>
       <!--/.carousel-wrapper --> 
     </div>
-    <!--/.container --> 
-    
+    <!--/.container -->     
   </div>
   <!-- /.dark-wrapper -->
    <div class="purple-wrapper">
@@ -93,18 +83,13 @@
               <p>
                 São eles que irão traçar os planos de ação e repassar as decisões aos comitês regionais para que as execute. É também de responsabilidade do comitê municipal fiscalizar o andamento dos projetos com os voluntários. 
             </p>
-
         </div>
         <!--/column --> 
       </div>
       <!--/.row --> 
     </div>
-    <!--/.container --> 
-    
+    <!--/.container -->    
   </div>
-
-
-
   <div class="yellow-wrapper">
     <div class="container inner">
       <div class="row">
@@ -112,21 +97,17 @@
           <p>
           Estes comitês são formados pelos moradores das cinco regiões (norte, sul, leste, oeste e centro). Eles servirão como ponte entre os representantes do comitê municipal e a população. Eles também deverão executar as ações propostas para a evitar o crescimento da dengue em Marília.  
         </p>
-
         </div>
         <!--/column -->
-        <div class="col-sm-4 col-md-3">
-          
+        <div class="col-sm-4 col-md-3">          
            <h2>Comitês<br> Regionais</h2>
         </div>
         <!--/column --> 
       </div>
       <!--/.row --> 
     </div>
-    <!--/.container --> 
-    
+    <!--/.container -->    
   </div>
-
  <div class="dark-wrapper">
     <div class="container inner">
       <div class="carousel-wrapper">
@@ -146,6 +127,5 @@
     </div>
     <!--/.container --> 
   </div>
-
-        <!-- /.row -->
-        @stop
+<!-- /.row -->
+@stop
