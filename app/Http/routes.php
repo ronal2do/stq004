@@ -37,9 +37,7 @@ Route::get('caracteristicas', function () {
 Route::get('historico', function () {
     return view('site.informacoes.historico-doenca');
 });
-Route::get('sintomas', function () {
-    return view('site.informacoes.historico-marilia');
-});
+
 Route::get('atendimento-medico', function () {
     return view('site.informacoes.atendimento-medico');
 });

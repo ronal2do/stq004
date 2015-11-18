@@ -37,8 +37,7 @@
               <i class="icon-dot"></i> <a href="/mapa" style="font-size: smaller;"> Mapa dos focos </a> <br>
               <i class="icon-dot"></i> <a href="/novidades" style="font-size: smaller;"> Novidades  sobre a campanha </a> <br>
             <!--  <i class="icon-dot"></i> <a href="/parceiros" style="font-size: smaller;"> Parceiros </a> <br> -->
-              <i class="icon-dot"></i> <a href="/sintomas" style="font-size: smaller;"> Sintomas </a> <br>
-
+        
               
               </div>  	
 
