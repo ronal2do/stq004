@@ -35,8 +35,9 @@
 
       </ul>
      <div class="tp-bannertimer"></div> 
-     
+
     </div>
+     <div class="tp-bannertimer tp-bottom"></div> 
     <!-- /.tp-fullscreen-container --> 
   </div>
   <!-- /.revolution -->
