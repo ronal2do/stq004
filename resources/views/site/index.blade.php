@@ -23,6 +23,7 @@
 <![endif]-->
 </head>
 <body>
+<div id="preloader" style="display: none;"><div class="textload" style="display: none;">Carregando</div><div id="status" style="display: none;"><div class="spinner"></div></div></div>
 <main class="body-wrapper">
   <div class="navbar">
     <div class="navbar-header">
