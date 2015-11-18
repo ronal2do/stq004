@@ -19,9 +19,6 @@ Route::post('/', 'HomeController@postAdicionar');
 
 Route::get('/home', 'HomeController@index');
 
-Route::get('/elementos', function () {
-    return view('site.elementos');
-});
 /**
 * prevencao
 */
@@ -46,27 +43,8 @@ Route::get('sintomas', function () {
 Route::get('atendimento-medico', function () {
     return view('site.informacoes.atendimento-medico');
 });
-/**
-* Mapa
-*/
-/*Route::get('alerta', function () {
-    return view('site.mapa.alerta');
-});
-
-
-Route::get('mapa/{id}',function($id){
-    $markers = \App\Mark::find($id);
-    dd($markers);
-    return View::make('site.mapa.mapa',compact('markers'));
-});
-
-Route::get('mapa', function () {
-    return view('site.mapa.mapa');
-});
-
-*/
+ 
 Route::get('projects/jsModal', 'HomeController@loadJsModalForm');
-
 
 
 Route::get('/alerta', function()

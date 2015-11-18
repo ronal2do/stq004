@@ -1797,7 +1797,7 @@ img.tp-slider-alternative-image	{	width:100%; height:auto;}
 /************************************
 		-	TP BANNER TIMER		-
 *************************************/
-.tp-bannertimer								{	width:100%; height:10px; background:url(../assets/timer.png);position:absolute; z-index:200;top:0px}
+.tp-bannertimer								{	width:100%; height:10px; background:url(http://mariliasemdengue.com.br/style/images/timer.png);position:absolute; z-index:200;top:0px}
 .tp-bannertimer.tp-bottom					{	bottom:0px;height:5px; top:auto}
 
 
@@ -7785,7 +7785,7 @@ footer ul.circled li:before {
 .tp-bannertimer {
     width: 100%;
     height: 10px;
-    background: url(style/images/timer.png);
+    background: url(http://mariliasemdengue.com.br/style/images/timer.png);
     position: absolute;
     z-index: 200;
 }
