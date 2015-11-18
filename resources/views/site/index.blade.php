@@ -81,9 +81,9 @@
     </nav>  
     <div class="social-wrapper">
       <ul class="social naked">
-        <li><a href="/"><i class="icon-s-facebook"></i></a></li>
+        <li><a href="https://www.facebook.com/PrefeituraMarilia/" target="_blank"><i class="icon-s-facebook"></i></a></li>
         <li><a href="https://instagram.com/prefeitura_marilia/" target="_blank"><i class="icon-s-instagram"></i></a></li>
-       <li><a href="/"><i class="icon-s-twitter"></i></a></li>
+       <li><a href="https://twitter.com/Pref_Marilia" target="_blank"><i class="icon-s-twitter" ></i></a></li>
       </ul>
     </div>
   </div>
