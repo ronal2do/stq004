@@ -10,7 +10,7 @@ class Posts extends Model
     	'category_id',
     	'name',
     	'description',
-    	'image'
+    	'image',
     	'date_old'
     ];
 }
