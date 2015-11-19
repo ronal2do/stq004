@@ -15,7 +15,7 @@
                 <br>
                 <figure class="main"><img src="/uploads/images/{{$post->image}}" alt="" /></figure>
                 <div class="post-content text-left">
-                <div class="meta"><span class="date">{{$post->updated_at}}</span></div>
+                <div class="meta"><span class="date">{{$post->date_old}}</span></div>
                  <p>{!! $post->description !!}</p>                
                   </div>
               </div>
@@ -23,11 +23,7 @@
          </div>
          </div>
         <aside class="col-sm-4 sidebar">
-          <div class="sidebox widget">
-            <figure><a href="http://mariliasemdengue.com.br/posts/1"><img src="{{ asset('images/banner_lateral.jpg') }}" alt="Seja Voluntário" /></a></figure>
-              
-            <div class="clearfix"></div>
-          </div>
+          @include('site.resources.banner')
           <div class="sidebox widget">
             <h3 class="widget-title">Ultimas Postagens</h3>
             <ul class="post-list">
@@ -36,7 +32,7 @@
                 <div class="icon-overlay"> <a href="/posts/{{$postagem->id}}"><img src="/uploads/images/{{$postagem->image}}" alt="" /> </a> </div>
                 <div class="meta">
                   <h5><a href="/posts/{{$postagem->id}}">{{$postagem->name}}</a></h5>
-                  <em><span class="date">{{$postagem->updated_at}}</span> </em> </div>
+                  <em><span class="date">{{$postagem->date_old}}</span> </em> </div>
               </li>
              @empty
                 <h5>Nenhuma postagem</h5>

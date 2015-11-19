@@ -40,11 +40,7 @@
         <!-- /.blog-content -->
         
         <aside class="col-sm-4 sidebar">
-          <div class="sidebox widget">
-            <figure><a href="http://mariliasemdengue.com.br/posts/1"><img src="{{ asset('images/banner_lateral.jpg') }}" alt="Seja Voluntário" /></a></figure>
-              
-            <div class="clearfix"></div>
-          </div>
+         @include('site.resources.banner')
           <!-- /.widget -->
           
          
@@ -57,7 +53,7 @@
                 <div class="icon-overlay"> <a href="/posts/{{$postagem->id}}"><img src="/uploads/images/{{$postagem->image}}" alt="" /> </a> </div>
                 <div class="meta">
                   <h5><a href="/posts/{{$postagem->id}}">{{$postagem->name}}</a></h5>
-                  <em><span class="date">{{$postagem->updated_at}}</span> </em> </div>
+                  <em><span class="date">{{$postagem->date_old}}</span> </em> </div>
               </li>
              @empty
                 <h5>Nenhuma postagem</h5>

@@ -83,7 +83,7 @@
                   <div class="form-field">
                     <label class="custom-select">
                       <select name="department" required="required">
-                        <option value="">Quero ser:</option>
+                        <option value="">Quero ser: v</option>
                         <option value="Sales">Voluntário</option>
                         <option value="Marketing">Patrocinador</option>
                         <option value="Support">Colaborador</option>
@@ -111,11 +111,7 @@
         <!--/column -->
         
        <aside class="col-sm-4 sidebar">
-          <div class="sidebox widget">
-            <figure><a href="http://mariliasemdengue.com.br/posts/1"><img src="{{ asset('images/banner_lateral.jpg') }}" alt="Seja Voluntário" /></a></figure>
-              
-            <div class="clearfix"></div>
-          </div>
+          @include('site.resources.banner')
          
           <div class="sidebox widget">
             <h3 class="widget-title">Instagram</h3>

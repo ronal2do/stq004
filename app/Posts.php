@@ -11,5 +11,6 @@ class Posts extends Model
     	'name',
     	'description',
     	'image'
+    	'date_old'
     ];
 }

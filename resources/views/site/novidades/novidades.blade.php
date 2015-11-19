@@ -23,7 +23,7 @@
                 <div class="box text-center">
                   <div class="category cat12"><span><a href="/posts/{{$post->id}}">Confira ></a></span></div>
                   <h4 class="post-title"><a href="/posts/{{$post->id}}">{{$post->name}}</a></h4>
-                  <div class="meta"><span class="date">{{$post->updated_at}}</span></div>
+                  <div class="meta"><span class="date">{{$post->date_old}}</span></div>
                 
                 </div>
                 <!-- /.box --> 

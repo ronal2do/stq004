@@ -16,13 +16,15 @@ class postController extends CrudController{
        
 			$this->filter = \DataFilter::source(new \App\Posts);
 			$this->filter->add('name', 'Nome', 'text');
-			$this->filter->submit('search');
-			$this->filter->reset('reset');
+			$this->filter->submit('buscar');
+			$this->filter->reset('limpar');
 			$this->filter->build();
 
 			$this->grid = \DataGrid::source($this->filter);
 			$this->grid->add('id', 'id');
 			$this->grid->add('name', 'Nome');
+			$this->grid->add('description', 'Descrição');
+			$this->grid->add('date_old', 'Data');
 			$this->addStylesToGrid();
 
       
@@ -42,6 +44,7 @@ class postController extends CrudController{
 			$this->edit->add('name','Nome','text');
 			$this->edit->add('category_id','Categoria','select')->options(\App\Category::lists("name", "id")->all());
 			$this->edit->add('description','description','redactor');
+			$this->edit->add('date_old','Data fake','text');
 			$this->edit->add('image','image','image')->move('uploads/images/')->preview(80,80);
  
         return $this->returnEditView();
