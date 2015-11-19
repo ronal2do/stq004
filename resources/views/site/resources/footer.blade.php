@@ -25,12 +25,12 @@
               <i class="icon-dot"></i> <a href="/acoes-prefeitura" style="font-size: smaller;"> Ações da Prefeitura </a> <br>
               <i class="icon-dot"></i> <a href="/agenda" style="font-size: smaller;"> Agenda de ações </a> <br>  
               <i class="icon-dot"></i> <a href="/atendimento-medico" style="font-size: smaller;"> Atendimento médico </a> <br>   
-              <i class="icon-dot"></i> <a href="/midia" style="font-size: smaller;"> Campanha na mídia </a> <br>
+              <!-- <i class="icon-dot"></i> <a href="/midia" style="font-size: smaller;"> Campanha na mídia </a> <br>-->
               <i class="icon-dot"></i> <a href="/caracteristicas" style="font-size: smaller;"> Característica do mosquito </a><br>
               <i class="icon-dot"></i> <a href="/comite-municipal" style="font-size: smaller;"> Comitê municipal </a> <br>
               </div>
               <div class="contact-info col-sm-2"> 
-              <i class="icon-dot"></i> <a href="/comites-regionais" style="font-size: smaller;"> Comitês regionais </a> <br>
+              <i class="icon-dot"></i> <a href="/comites-regionais" style="font-size: smaller;"> Comitês regionais / distritais </a> <br>
               <i class="icon-dot"></i> <a href="/como-participar" style="font-size: smaller;"> Como participar </a> <br>
               <i class="icon-dot"></i> <a href="/historico" style="font-size: smaller;"> Histórico da doença </a> <br>              
               <i class="icon-dot"></i> <a href="/alerta" style="font-size: smaller;"> Inserir alerta de foco </a> <br>

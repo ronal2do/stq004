@@ -109,6 +109,7 @@
     </div>
     <!--/.container -->    
   </div>
+ <!-- /.row 
  <div class="dark-wrapper">
     <div class="container inner">
       <div class="carousel-wrapper">
@@ -122,11 +123,11 @@
           <div class="item"> <img src="{{ asset('images/parceiros/logo-parceiro.png') }}" alt="apoiadores" /> </div>
           <div class="item"> <img src="{{ asset('images/parceiros/logo-parceiro.png') }}" alt="apoiadores" /> </div>
         </div>
-        <!--/.carousel --> 
+      
       </div>
-      <!--/.carousel-wrapper --> 
+      
     </div>
-    <!--/.container --> 
+  
   </div>
-<!-- /.row -->
+ -->
 @stop

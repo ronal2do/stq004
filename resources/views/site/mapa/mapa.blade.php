@@ -21,7 +21,7 @@
 <style>
       #map-canvas{
         width: 100%;
-        height: 500px;
+        height: 600px;
       }
     </style>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -34,27 +34,10 @@
   	
   </div>
  <div class="yellow-wrapper">
-    <div class="container inner">
-      
-      
-      <h1>Ultimas denuncias</h1>
-
-  
-      <p>A dengue é uma doença que evolui rapidamente. Saber identificar os seus sintomas já é um bom caminho percorrido até o seu tratamento, que é disponibilizado gratuitamente em toda a rede pública de saúde. 
-Fique atento a estes sinais e, em caso positivo, procure uma unidade de saúde prontamente.
- </p>
-       
-    <div class="col-sm-6">
-      <ul>
-        <li><b>Tipo</b> <br>
-            <i class="fa fa-map-marker"></i>  Endereço <br>
-            <i class="fa fa-phone"></i> Fone: (14) xxxx-xxxx / xxxx-xxxx<br>
-           
-        
-      </ul> 
-      </div> 
+    <div class="container inner text-center">    
+      <h1>Disque Denúncia | 0800-77-66-111</h1>
     </div>
-   </div>
+</div>
 @endsection
 
 @section('post-script')
@@ -65,7 +48,7 @@ Fique atento a estes sinais e, em caso positivo, procure uma unidade de saúde p
 function initialize() {
         var latitude = -22.21,
             longitude = -49.95,
-            radius = 8000, //how is this set up
+            radius = 25000, //how is this set up
             center = new google.maps.LatLng(latitude,longitude),
             bounds = new google.maps.Circle({center: center, radius: radius}).getBounds(),
             mapOptions = {

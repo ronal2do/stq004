@@ -2756,11 +2756,11 @@ blockquote:after {
     margin-bottom: 30px;
 }
 .small-quote .quote {
-    padding: 0 0 0 150px;
+    
     position: relative;
 }
 .small-quote .quote.right {
-    padding: 0 150px 0 0;
+
     position: relative;
 }
 .small-quote .quote .icon {
