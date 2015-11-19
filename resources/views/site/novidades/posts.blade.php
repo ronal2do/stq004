@@ -15,7 +15,7 @@
                 <br>
                 <figure class="main"><img src="/uploads/images/{{$post->image}}" alt="" /></figure>
                 <div class="post-content text-left">
-                <div class="meta"><span class="date">{{$post->date-old}}</span></div>
+                <div class="meta"><span class="date">{{$post->updated_at}}</span></div>
                  <p>{!! $post->description !!}</p>                
                   </div>
               </div>
@@ -36,7 +36,7 @@
                 <div class="icon-overlay"> <a href="/posts/{{$postagem->id}}"><img src="/uploads/images/{{$postagem->image}}" alt="" /> </a> </div>
                 <div class="meta">
                   <h5><a href="/posts/{{$postagem->id}}">{{$postagem->name}}</a></h5>
-                  <em><span class="date">{{$postagem->date-old}}</span> </em> </div>
+                  <em><span class="date">{{$postagem->updated_at}}</span> </em> </div>
               </li>
              @empty
                 <h5>Nenhuma postagem</h5>
