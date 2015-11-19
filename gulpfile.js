@@ -20,7 +20,7 @@ elixir(function(mix) {
 
 
     mix.scripts([
-    	'jquery.min.js', 
+
         'bootstrap.min.js', 
         'plugins.js' ,
         'classie.js', 

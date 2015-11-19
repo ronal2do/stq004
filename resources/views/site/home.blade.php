@@ -101,6 +101,7 @@
         <!--/column -->
         <div class="col-sm-4 col-md-3">          
            <h2>Comitês<br> Regionais</h2>
+           <button id="btnTestar"></button>
         </div>
         <!--/column --> 
       </div>

@@ -33,7 +33,11 @@
 <link href='http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link href="{{ asset('lydia/icons.css') }}" rel="stylesheet">
-
+<style>
+  #cards{
+        display: none;
+  }
+</style>
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -111,13 +115,15 @@
 @include('site.resources.footer')
 </main>
 <!--/.body-wrapper --> 
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="{{ asset('js/main.js') }}"></script>
 
 @yield('post-script')
 <script type="text/javascript">
-$(document).ready(function(){ 
-    $('#cards').fadeIn(2500);
-});
+  $(document).ready(function(){ 
+      $('#cards').fadeIn(5000);
+  });
+
 </script>
 
 </body></html>
