@@ -116,7 +116,7 @@
 @yield('post-script')
 <script type="text/javascript">
 $(document).ready(function(){ 
-    $(".changecolor").switchstylesheet( { seperator:"color"} );
+    $('#cards').fadeIn(2500);
 });
 </script>
 

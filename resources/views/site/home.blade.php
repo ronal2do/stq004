@@ -46,7 +46,7 @@
       <div class="carousel-wrapper">
         <div class="carousel carousel-boxed blog">
           @forelse ($posts as $post)
-          <div class="item post">
+          <div id="cards" class="item post">
             <a href="/posts/{{$post->id}}">
             <figure class="main"><img src="/uploads/images/{{$post->image}}" alt="{{$post->name}} " ></figure></a>
             <div class="box text-center">
