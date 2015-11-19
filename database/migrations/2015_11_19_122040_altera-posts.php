@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class UpdateUserTablee extends Migration
+class AlteraPosts extends Migration
 {
     /**
      * Run the migrations.
@@ -12,13 +12,9 @@ class UpdateUserTablee extends Migration
      */
     public function up()
     {
-        Schema::table('users', function (Blueprint $table) {
-            $table->string('phone');  
+       Schema::table('posts', function(Blueprint $table){
+             $table->string('date-old');
         });
-        Schema::table('users', function(Blueprint $table){
-            $table->dropUnique('users_email_unique');
-        });
-        
     }
 
     /**
