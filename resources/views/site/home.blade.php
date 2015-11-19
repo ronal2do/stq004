@@ -46,7 +46,7 @@
       <div class="carousel-wrapper">
         <div class="carousel carousel-boxed blog">
           @forelse ($posts as $post)
-          <div id="cards" class="item post">
+          <div class="item post">
             <a href="/posts/{{$post->id}}">
             <figure class="main"><img src="/uploads/images/{{$post->image}}" alt="{{$post->name}} " ></figure></a>
             <div class="box text-center">
@@ -101,7 +101,7 @@
         <!--/column -->
         <div class="col-sm-4 col-md-3">          
            <h2>Comitês<br> Regionais</h2>
-           <button id="btnTestar"></button>
+
         </div>
         <!--/column --> 
       </div>
