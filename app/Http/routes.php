@@ -54,7 +54,12 @@ Route::get('/alerta', function()
 Route::post('/alerta', function(){
     \App\Mark::create(Input::all());
     /*dd(\App\Mark::get(), 200);*/
-    return View::make('site.mapa.alerta');
+    return View::make('site.mapa');
+});
+
+Route::post('/voluntario', function(){
+    \App\Voluntario::create(Input::all());
+    return View::make('site.parceiros.como-participar');
 });
 
 Route::get('/mapa', 'MapaController@index');

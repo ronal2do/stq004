@@ -27,8 +27,12 @@
           <div class="col-md-5 col-md-offset-7 inner-col">
             
             <p>
-       Estes comitês são formados pelos moradores das cinco regiões (norte, sul, leste, oeste e centro). Eles servirão como ponte entre os representantes do comitê municipal e a população. Eles também deverão executar as ações propostas para a evitar o crescimento da dengue em Marília.   </p>
-
+       Estes comitês são formados pelos moradores das cinco regiões (norte, sul, leste, oeste e centro). 
+       Eles servirão como ponte entre os representantes do comitê municipal e a população. 
+       Eles também deverão executar as ações propostas para a evitar o crescimento da dengue em Marília.   </p>
+            <p>
+              Suas reuniões acontecerão todas as sextas-feiras, às 10h.
+            </p>
             <!-- /.progress-list --> 
           </div>
         </div>
@@ -45,6 +49,9 @@
   <div class="dark-wrapper">
     <div class="container inner">
       <div class="col-sm-6 ">
+     
+      <h2>COMITÊS REGIONAIS </h2>
+     <br />
       <ul>
         <li><b>  COMITÊ REGIONAL SUL </b> <br><i class="fa fa-home"></i> EMEI PINGO DE GENTE <br><i class="fa fa-map-marker"></i>  RUA ADOLFO LUIS VIANA, 277 - JARDIM CONTINENTAL  <br></li><br>
         <li><b>  COMITÊ REGIONAL NORTE  </b> <br><i class="fa fa-home"></i> EMEI LEDA CASADEI  <br><i class="fa fa-map-marker"></i>  RUA THOMAZ ALCALDE, 201 - PALMITAL  <br></li><br>
@@ -55,6 +62,9 @@
       </ul> 
       </div> 
       <div class="col-sm-6">
+
+      <h2>COMITÊS DISTRITAIS </h2>
+    <br />
       <ul>
         <li><b>  COMITÊ DISTRITAL AVENCAS  </b> <br><i class="fa fa-home"></i> EMEI COPO DE LEITE  <br><i class="fa fa-map-marker"></i>  RUA DAS MADRESSILVAS, SN - AVENCAS  <br></li><br>
         <li><b>  COMITÊ DISTRITAL PADRE NÓBREGA </b> <br><i class="fa fa-home"></i> EMEI BRANCA DE NEVE <br><i class="fa fa-map-marker"></i> AVENIDA SAMPAIO VIDAL, 572 - PADRE NÓBREGA   <br></li><br>

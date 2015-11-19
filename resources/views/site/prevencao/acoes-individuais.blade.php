@@ -175,7 +175,11 @@ impedir a água de correr pelas calhas e lajes.
               <div class="box">
                 
                   <p class="dicas">
-                    Guarde seus pneus velhos em locais secos e cobertos.
+                    Preencha todos os pratinhos dos vasos de plantas com areia até a borda. No caso de
+
+bromélias ou outras plantas que acumulam água, é recomendado deixá-las em local protegido 
+
+e mantê-las secas.
                   </p>
                 
               </div>
@@ -195,8 +199,9 @@ impedir a água de correr pelas calhas e lajes.
               <div class="box">
                 
                   <p class="dicas">
-                    Atenção com o lixo em terrenos baldios, prédios abandonados e vias públicas. Se preciso, acione a fiscalização municipal ou o serviço de limpeza pública.
+                    Lave-a com esponja e sabão em água corrente ao
 
+menos uma vez por semana.
                   </p>
                 
               </div>
@@ -214,8 +219,9 @@ impedir a água de correr pelas calhas e lajes.
               <div class="box">
                 
                   <p class="dicas">
-                    Guarde seus pneus velhos em locais secos e cobertos.
-                  </p>
+                    Trate a água com cloro e limpe ao menos uma vez por semana. Caso a piscina não
+
+seja utilizada, solicite o apoio da Secretaria Municipal de Saúde pelo telefone (014) 3401-2054.
                 
               </div>
             </div>
@@ -234,14 +240,34 @@ impedir a água de correr pelas calhas e lajes.
               <div class="box">
                 
                   <p class="dicas">
-                    Atenção com o lixo em terrenos baldios, prédios abandonados e vias públicas. Se preciso, acione a fiscalização municipal ou o serviço de limpeza pública.
+                    Verifique se existe entupimentos e providencie o
 
+imediato conserto. Caso eles não estejam sendo utilizados, mantenha-os fechados.
                   </p>
                 
               </div>
             </div>
             <!--/.quote --> 
           </div>
+          <div class="col-sm-12 col-md-6">
+            <div class="quote right">
+              <div class="icon text-center">  
+                
+                <!--/.author --> 
+              </div>
+              <!--/.icon -->
+              <div class="box">
+                
+                  <p class="dicas">
+                    Retire sempre a água e lave com esponja
+
+e sabão.
+              </div>
+            </div>
+            <!--/.quote --> 
+          </div>
+          <!--/column --> 
+        </div>
           <!--/column -->
         
           <!--/column --> 

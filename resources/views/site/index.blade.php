@@ -104,7 +104,7 @@ ga('send', 'pageview');
         <li class="dropdown"><a href="#" class="dropdown-toggle js-activated">Novidades <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="/novidades">Novidades sobre a Campanha</a></li>
-            <li><a href="/agenda">Agenda de Ações</a></li>
+          <!--  <li><a href="/agenda">Agenda de Ações</a></li>-->
            <!-- <li><a href="/midia">A Campanha na mídia</a></li> -->
           </ul>
         </li>       
