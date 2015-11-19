@@ -3,6 +3,7 @@
   Como participar
 @stop
 @section('content')
+
   <div class="post-parallax parallax inverse-wrapper parallax1" style="background-image: url({{ asset('images/fundo.png') }});">
     <div class="container inner text-center">
       <div class="headline text-center">
@@ -54,7 +55,7 @@
                  <div class="col-sm-6">
                   <div class="form-field">
                     <label>
-                      <input type="text" name="name" placeholder="Nascimento" required="required">
+                      <input id="nascimento" type="text" name="name" placeholder="Nascimento" required="required">
                     </label>
                   </div>
                   <!--/.form-field --> 
@@ -63,7 +64,7 @@
                 <div class="col-sm-6">
                   <div class="form-field">
                     <label>
-                      <input type="email" name="email" placeholder="Bairro" required="required">
+                      <input type="text" name="bairro" placeholder="Bairro" required="required">
                     </label>
                   </div>
                   <!--/.form-field --> 
@@ -77,13 +78,12 @@
                   </div>
                   <!--/.form-field --> 
                 </div>
-
                 <!--/column -->
                 <div class="col-sm-6">
                   <div class="form-field">
                     <label class="custom-select">
                       <select name="department" required="required">
-                        <option value="">Quero ser: v</option>
+                        <option value="">Quero ser:</option>
                         <option value="Sales">Voluntário</option>
                         <option value="Marketing">Patrocinador</option>
                         <option value="Support">Colaborador</option>
@@ -131,7 +131,11 @@
 
   </div>
   <!-- /.light-wrapper -->
+ 
 
 
 @stop
+@section('post-script')
+
+@endsection
 
