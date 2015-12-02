@@ -15,17 +15,17 @@ elixir(function(mix) {
     mix.styles([
     	'bootstrap.min.css',
         'plugins.css',
+        'sweetalert.css',
         'style.css'
-    	] ,'public/css/app.css');
+    ] ,'public/css/app.css');
 
 
     mix.scripts([
-
         'bootstrap.min.js', 
         'plugins.js' ,
         'classie.js', 
         'jquery.themepunch.tools.min.js', 
         'scripts.js',
-        'switchstylesheet.js'
-    	] ,'public/js/main.js');
+        'sweetalert.min.js'
+    ] ,'public/js/main.js');
 });

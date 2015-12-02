@@ -8,15 +8,13 @@ use \Serverfireteam\Panel\CrudController;
 
 use Illuminate\Http\Request;
 
-class VoluntariosController extends CrudController{
+class VoluntarioController extends CrudController{
 
     public function all($entity){
         parent::all($entity); 
 
-        /** Simple code of  filter and grid part , List of all fields here : http://laravelpanel.com/docs/master/crud-fields
 
-
-			$this->filter = \DataFilter::source(new \App\Category);
+			$this->filter = \DataFilter::source(new \App\Voluntario);
 			$this->filter->add('name', 'Name', 'text');
 			$this->filter->submit('search');
 			$this->filter->reset('reset');
@@ -27,7 +25,7 @@ class VoluntariosController extends CrudController{
 			$this->grid->add('code', 'Code');
 			$this->addStylesToGrid();
 
-        */
+
                  
         return $this->returnView();
     }
@@ -36,18 +34,14 @@ class VoluntariosController extends CrudController{
         
         parent::edit($entity);
 
-        /* Simple code of  edit part , List of all fields here : http://laravelpanel.com/docs/master/crud-fields
-	
-			$this->edit = \DataEdit::source(new \App\Category());
+			$this->edit = \DataEdit::source(new \App\Voluntario());
 
-			$this->edit->label('Edit Category');
+			$this->edit->label('Voluntário');
 
 			$this->edit->add('name', 'Name', 'text');
 		
 			$this->edit->add('code', 'Code', 'text')->rule('required');
 
-
-        */
        
         return $this->returnEditView();
     }    

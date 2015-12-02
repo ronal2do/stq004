@@ -158,6 +158,8 @@ return [
 
         'Illuminate\Html\HtmlServiceProvider',
 
+        UxWeb\SweetAlert\SweetAlertServiceProvider::class
+
     ],
 
     /*
@@ -209,6 +211,7 @@ return [
         'Socialite' => Laravel\Socialite\Facades\Socialite::class,
         'Form'      => 'Illuminate\Html\FormFacade',
         'HTML'      => 'Illuminate\Html\HtmlFacade',
+        'Alert'     => UxWeb\SweetAlert\SweetAlert::class,
 
     ],
 

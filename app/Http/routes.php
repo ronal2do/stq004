@@ -53,12 +53,13 @@ Route::get('/alerta', function()
 
 Route::post('/alerta', function(){
     \App\Mark::create(Input::all());
-    /*dd(\App\Mark::get(), 200);*/
-    return View::make('site.mapa');
+    Alert::success('Em breve entraremos em contato', 'Parabéns!')->autoclose(3500);
+    return View::make('site.mapa.mapa');
 });
 
 Route::post('/voluntario', function(){
     \App\Voluntario::create(Input::all());
+    Alert::success('Em breve entraremos em contato', 'Parabéns!')->autoclose(3500);
     return View::make('site.parceiros.como-participar');
 });
 

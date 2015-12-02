@@ -142,7 +142,7 @@
                 <label><b>Periodo: </b></label><br/>
                 <label>
                   <input type="radio" name="periodo" value="manha">
-                  <span><!-- fake radio --></span> manha</label>
+                  <span><!-- fake radio --></span> manhã</label>
                 <label>
                   <input type="radio" name="periodo" value="tarde">
                   <span><!-- fake radio --></span> tarde</label>
