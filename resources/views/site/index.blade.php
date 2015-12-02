@@ -49,13 +49,14 @@ ga('send', 'pageview');
 </script>
 <!-- End Google Analytics -->
 </head>
-<body class="mode-lg" style="overflow: visible;">
-<div id="preloader" style="display: none;">
-  <div class="textload" style="display: none;">Carregando</div>
-    <div id="status" style="display: none;">
+<div id="preloader" >
+  <div class="textload" style="color:#643a90;">Carregando</div>
+    <div id="status" >
     <div class="spinner"></div>
   </div>
 </div>
+<body class="mode-lg" style="overflow: visible;">
+
 <main class="body-wrapper">
   <div class="navbar">
     <div class="navbar-header">
