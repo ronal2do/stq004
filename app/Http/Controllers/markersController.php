@@ -15,14 +15,16 @@ class markersController extends CrudController{
 
       
 			$this->filter = \DataFilter::source(new \App\Mark);
-			$this->filter->add('name', 'Name', 'text');
-			$this->filter->submit('search');
+			$this->filter->add('name', 'Nome', 'text');
+			$this->filter->submit('buscar');
 			$this->filter->reset('reset');
 			$this->filter->build();
 
 			$this->grid = \DataGrid::source($this->filter);
-			$this->grid->add('description', 'description');
-			$this->grid->add('status', 'status');
+			$this->grid->add('address', 'Endereço');
+			$this->grid->add('description', 'Descrição');
+			$this->grid->add('name', 'Nome');
+			$this->grid->add('email', 'E-mail');
 			$this->addStylesToGrid();
 
                  
@@ -37,15 +39,11 @@ class markersController extends CrudController{
 
 			$this->edit->label('Edit Category');
 
-			$this->edit->add('description', 'description', 'text');
-			$this->edit->add('photo', 'photo', 'text');
-			$this->edit->add('status', 'status', 'text');
-			$this->edit->add('address', 'address', 'text');
-			$this->edit->add('lat', 'lat', 'text');
-			$this->edit->add('lng', 'lng', 'text');		
-			$this->edit->add('user_id', 'user_id', 'text');
-
-       
+			$this->edit->add('address', 'Endereço', 'text');
+			$this->edit->add('description', 'Descrição', 'text');
+			$this->edit->add('name', 'Nome', 'text');
+			$this->edit->add('email', 'E-mail', 'text');
+      
         return $this->returnEditView();
     }    
 }

@@ -20,22 +20,11 @@
     <div class="container inner text-center">
       <div class="headline text-center">
         <h2>Como participar?</h2>
-
       </div>
-      <!-- /.headline --> 
     </div>
-    <!--/.container --> 
   </div>
-  <!--/.parallax --> 
-
-
-
   <div class="light-wrapper">
-  
     <div class="container inner">
-      
-
-     
         {!! Form::open(array('url' => '/voluntario', 'class'=>'form-group')) !!}
        <div class="row">
         <div class="col-sm-8">
@@ -67,7 +56,7 @@
                  <div class="col-sm-6">
                   <div class="form-field">
                     <label>
-                      <input id="nascimento" type="text" name="nascimento" placeholder="Nascimento">
+                      <input id="nascimento" type="text" name="nascimento" placeholder="Nascimento" ng-model='maskModel' mask='39/19/2999'>
                     </label>
                   </div>
                   <!--/.form-field --> 
@@ -93,7 +82,7 @@
                 <div class="col-sm-6">
                   <div class="form-field">
                     <label>
-                      <input type="text" name="tel" placeholder="Telefone">
+                      <input type="text" name="tel" placeholder="Telefone" mask="(99) 9?9999-9999" ng-model="telefone">
                     </label>
                   </div>
                   <!--/.form-field --> 

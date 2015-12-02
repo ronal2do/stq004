@@ -13,6 +13,8 @@ class Mark extends Model
     	'description',
     	'alert_type',
     	'lng',
-    	'lat'
+    	'lat',
+    	'name',
+		'email'
     ];
 }

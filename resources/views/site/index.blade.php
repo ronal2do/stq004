@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="pt-BR" ng-app="myapp"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Descrição">
@@ -104,7 +104,7 @@ ga('send', 'pageview');
         <li class="dropdown"><a href="#" class="dropdown-toggle js-activated">Novidades <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="/novidades">Novidades sobre a Campanha</a></li>
-          <!--  <li><a href="/agenda">Agenda de Ações</a></li>-->
+            <li><a href="/agenda">Agenda de Ações</a></li>
            <!-- <li><a href="/midia">A Campanha na mídia</a></li> -->
           </ul>
         </li>       
@@ -124,7 +124,10 @@ ga('send', 'pageview');
 </main>
 <!--/.body-wrapper --> 
 <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.2/angular.min.js"></script>
 <script src="{{ asset('js/main.js') }}"></script>
+<script src="{{ asset('js/ngMask.min.js') }}"></script>
+<script src="{{ asset('js/ang.js') }}"></script>
     <!-- Include this after the sweet alert js file -->
 @include('sweet::alert')
 @yield('post-script')

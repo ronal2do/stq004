@@ -10,43 +10,47 @@
         <div class="col-sm-8 blog-content">
           <div class="blog-posts classic-view">
             <div class="post">
-              <div class="box text-center">
+              <div class="box text-left">
               
                 <h2 class="section-title">Agenda</h2>
                           
                 <p style="text-align:left;">
-                  Agenda dos comitês regionais/distritais - inicialmente todas as reuniões desses comitês acontecerão toda sexta-feira, 10hrs, simultaneamente em todos os locais.
+                  Inicialmente todas as reuniões dos comitês acontecerão às sextas-feiras, às 10h, simultaneamente em todos os locais.
                 </p>
-   
-               
-                <!-- .post-footer --> 
+                 <p>
+              <b>1) MUTIRÃO DE LIMPEZA "MARÍLIA SEM DENGUE"</b><br/>
+                  Dias 7-8 e 9/Dez. na região norte<br/>
+                  Retire todo material descartável de seu quintal<br/>
+                  Vamos vencer mais este desafio
+
+              </p>
+              <p><b>2) MUTIRÃO DE LIMPEZA "MARÍLIA SEM DENGUE"</b><br/>
+                        Dias 10-11 e 14/Dez. na região oeste<br/>
+                        Retire todo material descartável de seu quintal<br/>
+                        Vamos vencer mais este desafio
+
+              </p>
+              <p><b>3) MUTIRÃO DE LIMPEZA "MARÍLIA SEM DENGUE"</b><br/>
+                        Dias 15-16 e 17/Dez. na região sul<br/>
+                        Retire todo material descartável de seu quintal<br/>
+                        Vamos vencer mais este desafio
+
+              </p>
+              <p><b>4) MUTIRÃO DE LIMPEZA "MARÍLIA SEM DENGUE"</b><br/>
+                        Dia 18/Dez. na região leste<br/>
+                        Retire todo material descartável de seu quintal<br/>
+                        Vamos vencer mais este desafio
+                      </p>              <!-- .post-footer --> 
               </div>
-              <!-- /.box --> 
-              
+              <!-- /.box -->               
             </div>
-            <!-- .post -->
-            
-            
-          
-            
-            
-            <!-- /.box -->
-            
-            
-            <!-- /.box --> 
-            
+            <!-- .post -->    
           </div>
           <!-- /.classic-view --> 
-          
         </div>
         <!-- /.blog-content -->
-        
         <aside class="col-sm-4 sidebar">
          @include('site.resources.banner')
-          <!-- /.widget -->
-          
-         
-          <!-- /.widget -->
           <div class="sidebox widget">
             <h3 class="widget-title">Ultimas Postagens</h3>
             <ul class="post-list">
@@ -60,16 +64,8 @@
              @empty
                 <h5>Nenhuma postagem</h5>
              @endforelse
-            </ul>
-            <!-- /.post-list --> 
+            </ul> 
           </div>
-          <!-- /.widget -->
-          
-        
-          
-        
-          <!-- /.widget -->
-          
           <div class="sidebox widget">
             <h3 class="widget-title">Instagram</h3>
             <div class="image-grid col3">

@@ -23,7 +23,7 @@
             <div class="contact-info col-sm-2"> 
               <i class="icon-dot"></i> <a href="/acoes-individuais" style="font-size: smaller;"> Ações individuais </a> <br>
               <i class="icon-dot"></i> <a href="/acoes-prefeitura" style="font-size: smaller;"> Ações da Prefeitura </a> <br>
-             <!-- <i class="icon-dot"></i> <a href="/agenda" style="font-size: smaller;"> Agenda de ações </a> <br>  -->
+              <i class="icon-dot"></i> <a href="/agenda" style="font-size: smaller;"> Agenda de ações </a> <br>
               <i class="icon-dot"></i> <a href="/atendimento-medico" style="font-size: smaller;"> Atendimento médico </a> <br>   
               <!-- <i class="icon-dot"></i> <a href="/midia" style="font-size: smaller;"> Campanha na mídia </a> <br>-->
               <i class="icon-dot"></i> <a href="/caracteristicas" style="font-size: smaller;"> Característica do mosquito </a><br>

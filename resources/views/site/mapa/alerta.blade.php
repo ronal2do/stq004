@@ -68,7 +68,27 @@
         <label for="">Descrição</label>
         <input type="text" class="form-control input-sm" name="description" required>
       </div>
+      <div class="row">
 
+           <div class="col-sm-6">
+
+                  <div class="form-field">
+                    <label>Nome</label>
+                      <input type="text" name="name" >
+                    
+                  </div>
+                  <!--/.form-field --> 
+                </div>
+                <!--/column -->
+                <div class="col-sm-6">
+                  <div class="form-field">
+                    <label>Email</label>
+                      <input type="email" name="email">
+                    
+                  </div>
+              </div>
+      </div>
+      <span>Ressaltamos que este cadastro é sigiloso e suas informações estarão protegidas.</span>
       <div class="form-group">
      
         <input type="hidden" class="form-control input-sm" name="lat" id="lat">

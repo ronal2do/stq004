@@ -42,8 +42,6 @@
       <!--/.container --> 
     </div>
 </div>
-
- 
   </div>
   <!-- /.light-wrapper -->
   <div class="dark-wrapper">
@@ -53,26 +51,94 @@
       <h2>COMITÊS REGIONAIS </h2>
      <br />
       <ul>
-        <li><b>  COMITÊ REGIONAL SUL </b> <br><i class="fa fa-home"></i> EMEI PINGO DE GENTE <br><i class="fa fa-map-marker"></i>  RUA ADOLFO LUIS VIANA, 277 - JARDIM CONTINENTAL  <br></li><br>
-        <li><b>  COMITÊ REGIONAL NORTE  </b> <br><i class="fa fa-home"></i> EMEI LEDA CASADEI  <br><i class="fa fa-map-marker"></i>  RUA THOMAZ ALCALDE, 201 - PALMITAL  <br></li><br>
-        <li><b>  COMITÊ REGIONAL LESTE  </b> <br><i class="fa fa-home"></i>EMEI IRMÃO MAURÍCIO<br><i class="fa fa-map-marker"></i> RUA VINTE E UM DE ABRIL, 3 - JARDIM MARIA IZABEL  <br></li><br>
-        <li><b>  COMITÊ REGIONAL CENTRO  </b> <br><i class="fa fa-home"></i> EMEI MONTEIRO LOBATO  <br><i class="fa fa-map-marker"></i> RUA SARGENTO ANANIAS DE OLIVEIRA, 72 - CASCATA  <br></li><br>
-        <li><b>  COMITÊ REGIONAL OESTE </b> <br><i class="fa fa-home"></i> EMEI 1,2...FEIJÃO COM ARRROZ  <br><i class="fa fa-map-marker"></i>  RUA DOS PARDAIS, 157 - ANA CARLA   <br></li><br>
+        <li><b>  COMITÊ REGIONAL SUL </b> <br>
+            <i class="fa fa-calendar"> Data/Horário: 04/12 - 10h</i><br/>
+            <i class="fa fa-home"></i> 
+            EMEF Profª Reny Pereira Cordeiro   <br>
+            <i class="fa fa-map-marker"></i>  
+            Rua Alexandre Chaia - Nº 865 - Jardim Esplanada    <br>
+            <i class="fa fa-phone"> Tel: (14) 3417 6507   </i>
+        </li><br>
+        <li><b>  COMITÊ REGIONAL NORTE  </b> <br>
+            <i class="fa fa-calendar"> Data/Horário: 04/12 - 10h</i><br/>
+            <i class="fa fa-home"></i> 
+            EMEF Roberto Caetano Cimino  <br>
+            <i class="fa fa-map-marker"></i>  
+            Av. José Jorente - Nº 51 - Alcir Raineri  <br>
+            <i class="fa fa-phone"> Tel: (14) 3481 7612  </i>
+        </li><br>
+        <li><b>  COMITÊ REGIONAL LESTE / DIRCEU </b> <br>
+            <i class="fa fa-calendar"> Data/Horário: 04/12 - 10h</i><br/>
+            <i class="fa fa-home"></i>
+            EMEI Irmão Maurício<br>
+            <i class="fa fa-map-marker"></i> 
+            Rua Vinte e um de abril - Nº 03 -  Maria Isabel  <br>
+            <i class="fa fa-phone"> Tel: (14) 3432 2307</i>
+        </li><br>
+        <li><b>  COMITÊ REGIONAL CENTRO </b> <br>
+            <i class="fa fa-calendar"> Data/Horário: 04/12 - 10h</i><br/>
+            <i class="fa fa-home"></i> 
+            EMEI Monteiro Lobato <br>
+            <i class="fa fa-map-marker"></i> 
+            Av. Sargento Ananias de Oliveira - Nº 72 - Centro   <br>
+            <i class="fa fa-phone"> Tel: (14) 3422 4091 / 34336919 </i>
+        </li><br>
+        <li><b>  COMITÊ REGIONAL OESTE / FAZENDA DO ESTADO </b> <br>
+            <i class="fa fa-calendar"> Data/Horário: 04/12 - 10h</i><br/>
+            <i class="fa fa-home"></i> 
+            EMEF Profª Geralda César Vilardi    <br>
+            <i class="fa fa-map-marker"></i>  
+            Rua Amador Bueno - Nº 1.915 - José Teruel Martinez   <br>
+            <i class="fa fa-phone"> Tel: (14) 3413 7825 </i>
+        </li><br>
         
       </ul> 
       </div> 
       <div class="col-sm-6">
 
+                                                    
+    
       <h2>COMITÊS DISTRITAIS </h2>
     <br />
       <ul>
-        <li><b>  COMITÊ DISTRITAL AVENCAS  </b> <br><i class="fa fa-home"></i> EMEI COPO DE LEITE  <br><i class="fa fa-map-marker"></i>  RUA DAS MADRESSILVAS, SN - AVENCAS  <br></li><br>
-        <li><b>  COMITÊ DISTRITAL PADRE NÓBREGA </b> <br><i class="fa fa-home"></i> EMEI BRANCA DE NEVE <br><i class="fa fa-map-marker"></i> AVENIDA SAMPAIO VIDAL, 572 - PADRE NÓBREGA   <br></li><br>
-        <li><b>  COMITÊ DISTRITAL LÁCIO </b> <br><i class="fa fa-home"></i> EMEI AMOR PERFEITO  <br><i class="fa fa-map-marker"></i> AVENIDA RIO BRANCO, 181 - DISTRITO LACIO  <br></li><br>
-        <li><b>  COMITÊ DISTRITAL AMADEU AMARAL  </b> <br><i class="fa fa-home"></i> EMEF ANTONIO GARCIA EGEA   <br><i class="fa fa-map-marker"></i>  RUA GETULIO VARGAS, 135 - DISTRITO DE AMADEU AMARAL   <br></li><br>
-        <li><b>  COMITÊ DISTRITAL ROSÁLIA  </b> <br><i class="fa fa-home"></i> EMEI CANTIGO DO SOSSEGO   <br><i class="fa fa-map-marker"></i> RUA JOSE BELMIRO DA ROCHA, 81 - DISTRITO DE ROSALIA  <br></li><br>
-        <li><b>  COMITÊ DISTRITAL DIRCEU  </b> <br><i class="fa fa-home"></i> EMEF CÉLIO CORRADI   <br><i class="fa fa-map-marker"></i>  RUA BELEM, 675 - BETEL   <br></li><br>
-        <li><b>  COMITÊ REGIONAL OESTE </b> <br><i class="fa fa-home"></i> EMEI 1,2...FEIJÃO COM ARRROZ  <br><i class="fa fa-map-marker"></i>  RUA DOS PARDAIS, 157 - ANA CARLA   <br></li><br>
+        <li><b>  COMITÊ DISTRITAL AVENCAS  </b> <br> <i class="fa fa-calendar"> 
+            Data/Horário: 04/12 - 10h</i><br/><i class="fa fa-home"></i> 
+            EMEI Copo de Leite  <br><i class="fa fa-map-marker"></i>  
+           Rua das Madressilvas - s/nº - Distrito Avencas <br><i class="fa fa-phone">
+             Tel: (14) 3479 1110  
+        </i></li><br>
+        <li><b>  COMITÊ DISTRITAL PADRE NÓBREGA </b> <br> <i class="fa fa-calendar"> 
+            Data/Horário: 04/12 - 10h</i><br/><i class="fa fa-home"></i> 
+            EMEI Branca de Neve <br><i class="fa fa-map-marker"></i> 
+            Av. Sampaio Vidal - Nº 572 - Distrito de Padre Nóbrega  <br><i class="fa fa-phone">
+            Tel: (14) 3425 6000    
+        </i></li><br>
+        <li><b>  COMITÊ DISTRITAL LÁCIO </b> <br> <i class="fa fa-calendar"> 
+            Data/Horário: 04/12 - 10h</i><br/><i class="fa fa-home"></i> 
+            EMEI Amor Perfeito  <br><i class="fa fa-map-marker"></i> 
+            Av. Rio Branco - Nº 181 - Distrito de Lácio  <br><i class="fa fa-phone">
+            Tel: (14) 3417 7703   
+        </i></li><br>
+        <li><b>  COMITÊ DISTRITAL AMADEU AMARAL  </b> <br> <i class="fa fa-calendar"> 
+            Data/Horário: 04/12 - 10h</i><br/><i class="fa fa-home"></i> 
+            Salão Paroquial, ao lado da EMEFEI Prof. Antônio Garcia Egéa   <br><i class="fa fa-map-marker"></i>  
+            Rua: Getúlio Vargas - 40 - Distrito de Amadeu Amaral   <br><i class="fa fa-phone">
+            Tel: (14) 3413 0211   
+        </i></li><br>
+        <li><b>  COMITÊ DISTRITAL ROSÁLIA  </b> <br> <i class="fa fa-calendar"> 
+            Data/Horário: 04/12 - 10h</i><br/><i class="fa fa-home"></i> 
+            EMEI Cantinho do Sossego   <br><i class="fa fa-map-marker"></i> 
+            Rua José Belmiro da Rocha - Nº 81 - Distrito de Rosália   <br><i class="fa fa-phone">
+            Tel: (14) 3479 6090 
+        </i></li><br>
+        <!--<li><b>  COMITÊ DISTRITAL DIRCEU  </b> <br> <i class="fa fa-calendar"> 
+            Data/Horário: 04/12 - 10h</i><br/><i class="fa fa-home"></i> 
+            EMEF CÉLIO CORRADI   <br><i class="fa fa-map-marker"></i>  
+            RUA BELEM, 675 - BETEL   <br></li><br> -->
+        <!-- <li><b>  COMITÊ REGIONAL OESTE </b> <br> <i class="fa fa-calendar"> 
+            Data/Horário: 04/12 - 10h</i><br/><i class="fa fa-home"></i> 
+            EMEI 1,2...FEIJÃO COM ARRROZ  <br><i class="fa fa-map-marker"></i>  
+            RUA DOS PARDAIS, 157 - ANA CARLA   <br></li><br>-->
         
       </ul> 
       </div>    

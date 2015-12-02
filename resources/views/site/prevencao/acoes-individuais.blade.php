@@ -25,13 +25,14 @@
    
       <h1 class="section-title text-center">Lista <strong>de Ações</strong></h1>
       <div>
-      <img style="width:160px; padding:10px;" src="{{ asset('images/dica1.png') }}" alt="">
-      <img style="width:160px; padding:10px;" src="{{ asset('images/dica2.png') }}" alt=""> 
-      <img style="width:160px; padding:10px;" src="{{ asset('images/dica3.png') }}" alt="">
-      <img style="width:160px; padding:10px;" src="{{ asset('images/dica4.png') }}" alt="">
-      <img style="width:160px; padding:10px;" src="{{ asset('images/dica5.png') }}" alt="">
-      <img style="width:160px; padding:10px;" src="{{ asset('images/dica6.png') }}" alt="">
-      <img style="width:160px; padding:10px;" src="{{ asset('images/dica7.png') }}" alt="">
+      <img style="width:142px; padding:10px;" src="{{ asset('images/dica1.png') }}" alt="">
+      <img style="width:142px; padding:10px;" src="{{ asset('images/dica2.png') }}" alt=""> 
+      <img style="width:142px; padding:10px;" src="{{ asset('images/dica3.png') }}" alt="">
+      <img style="width:142px; padding:10px;" src="{{ asset('images/dica4.png') }}" alt="">
+      <img style="width:142px; padding:10px;" src="{{ asset('images/dica5.png') }}" alt="">
+      <img style="width:142px; padding:10px;" src="{{ asset('images/dica6.png') }}" alt="">
+      <img style="width:142px; padding:10px;" src="{{ asset('images/dica7.png') }}" alt="">
+      <img style="width:142px; padding:10px;" src="{{ asset('images/dica8.png') }}" alt="">
     </div>
       <div class="divide10"></div>
       <div class="testimonials2 small-quote">
@@ -63,7 +64,7 @@
               <div class="box">
                  
                   <p class="dicas">
-                    Deixe todas as garrafas com a boca virada para baixo e cobertas.
+                    Atenção também com os ralos, veja se estão limpos e desobstruídos, se a água está escoando sem problemas.
                   </p>
                 
               </div>
@@ -268,6 +269,26 @@ e sabão.
           </div>
           <!--/column --> 
         </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <div class="quote">
+              <div class="icon text-center">                 
+                <!--/.author --> 
+              </div>
+              <!--/.icon -->
+              <div class="box">
+                
+                  <p class="dicas">
+                     Deixe todas as garrafas com a boca virada para baixo e cobertas.
+                  </p>
+               
+              </div>
+            </div>
+            <!--/.quote --> 
+          </div>
+          <!--/column -->
+       </div>
+        <!--/.row -->
           <!--/column -->
         
           <!--/column --> 
