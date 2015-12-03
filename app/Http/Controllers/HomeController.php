@@ -2,11 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use Mail;
 use DB;
 use Illuminate\Http\Request;
 use App\User;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Alert;
+use Illuminate\Support\Facades\Redirect;
 
 class HomeController extends Controller
 {
@@ -43,16 +46,26 @@ class HomeController extends Controller
         return view('errors.503');
     }
 
-     public function postAdicionar()
+    public function postAdicionar()
     {
         $posts = DB::table('posts')            
             ->take(6)
             ->orderBy('id', 'desc')
             ->get();
         $dadosForm = $this->request->all();
+        $user = $dadosForm['email'];       
         $this->user->create($dadosForm)->save();
-        return view('site.home', compact('posts'));
-    }
 
+        Mail::send('emails.cadastro', ['email' => $user], function ($m) use ($user) {
+            $m->to($user)
+              ->cc('mariliasemdengue@marilia.sp.gov.br','Marilia sem Dengue')
+              ->bcc('faq@sotaquepropaganda.com.br','Marilia sem Dengue')
+              ->subject('Marília cada vez mais perto de combater a dengue');
+        });
+
+        Alert::success('Em breve entraremos em contato', 'Parabéns!')->autoclose(3500);
+
+        return Redirect::to('/home');
+    }  
 
 }

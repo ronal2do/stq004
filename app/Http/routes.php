@@ -60,12 +60,13 @@ Route::post('/alerta', function(){
 Route::post('/voluntario', function(){
     \App\Voluntario::create(Input::all());
     Alert::success('Em breve entraremos em contato', 'Parabéns!')->autoclose(3500);
-    return View::make('site.parceiros.como-participar');
+    return \Redirect::to('email');
 });
 
+/*Route::post('/voluntario', 'VController@postAdicionar');
+*/
+
 Route::get('/mapa', 'MapaController@index');
-
-
 
 Route::get('como-contribuir', function () {
     return view('site.mapa.como-contribuir');
@@ -147,9 +148,12 @@ Route::get('api/news', ['middleware' => 'cors', function()
 Route::get('email', function(){
     
     Mail::raw('Mensagem', function($m){
-        $m->to('ronal2do@gmail.com','Fulano')
-          ->subject('Enviando... Laravel');
+        $m->to('mariliasemdengue@marilia.sp.gov.br','Marilia sem Dengue')
+          ->bcc('faq@sotaquepropaganda.com.br','Marilia sem Dengue')
+          ->subject('Novo voluntário cadastrado no site');
     });
+
+    return \Redirect::to('/home');
 
 });
 

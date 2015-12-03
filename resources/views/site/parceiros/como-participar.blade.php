@@ -106,10 +106,10 @@
                 <label><b>Dias da semana:</b> </label><br/>
                 <label>
                   <input type="radio" name="dias" value="domingo">
-                  <span><!-- fake radio --></span> domingo</label>
+                  <span><!-- fake radio --></span> Domingo</label>
                 <label>
                   <input type="radio" name="dias" value="segunda">
-                  <span><!-- fake radio --></span> segunda</label>
+                  <span><!-- fake radio --></span> Segunda</label>
                 <label>
                   <input type="radio" name="dias" value="terca">
                   <span><!-- fake radio --></span> Terça</label>
@@ -118,26 +118,26 @@
                   <span><!-- fake radio --></span> Quarta</label>
                  <label>
                   <input type="radio" name="dias" value="quinta">
-                  <span><!-- fake radio --></span> quinta</label>
+                  <span><!-- fake radio --></span> Quinta</label>
                 <label>
                   <input type="radio" name="dias" value="sexta">
-                  <span><!-- fake radio --></span> sexta</label>
+                  <span><!-- fake radio --></span> Sexta</label>
                 <label>
                   <input type="radio" name="dias" value="sabado">
-                  <span><!-- fake radio --></span> sabado</label>
+                  <span><!-- fake radio --></span> Sábado</label>
               </div>
 
               <div class="radio-set">
                 <label><b>Periodo: </b></label><br/>
                 <label>
                   <input type="radio" name="periodo" value="manha">
-                  <span><!-- fake radio --></span> manhã</label>
+                  <span><!-- fake radio --></span> Manhã</label>
                 <label>
                   <input type="radio" name="periodo" value="tarde">
-                  <span><!-- fake radio --></span> tarde</label>
+                  <span><!-- fake radio --></span> Tarde</label>
                 <label>
                   <input type="radio" name="periodo" value="noite">
-                  <span><!-- fake radio --></span> noite</label>               
+                  <span><!-- fake radio --></span> Noite</label>               
               </div>
 
               <div class="radio-set">

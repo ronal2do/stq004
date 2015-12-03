@@ -15,8 +15,8 @@ return [
     */
 
     'mailgun' => [
-        'domain' => env('MAILGUN_DOMAIN'),
-        'secret' => env('MAILGUN_SECRET'),
+        'domain' => env('mariliasemdengue.com.br'),
+        'secret' => env('key-955fb226ad8089890acd95b227459ecb'),
     ],
 
     'mandrill' => [
