@@ -54,13 +54,23 @@ Route::get('/alerta', function()
 Route::post('/alerta', function(){
     \App\Mark::create(Input::all());
     Alert::success('Em breve entraremos em contato', 'Parabéns!')->autoclose(3500);
+    Mail::raw('Novo alerta no site', function($m){
+        $m->to('mariliasemdengue@marilia.sp.gov.br','Marilia sem Dengue')
+          ->bcc('faq@sotaquepropaganda.com.br','Marilia sem Dengue')
+          ->subject('Novo alerta no site');
+    });
     return View::make('site.mapa.mapa');
 });
 
 Route::post('/voluntario', function(){
     \App\Voluntario::create(Input::all());
     Alert::success('Em breve entraremos em contato', 'Parabéns!')->autoclose(3500);
-    return \Redirect::to('email');
+    Mail::raw('Novo voluntário cadastrado', function($m){
+        $m->to('mariliasemdengue@marilia.sp.gov.br','Marilia sem Dengue')
+          ->bcc('faq@sotaquepropaganda.com.br','Marilia sem Dengue')
+          ->subject('Novo voluntário cadastrado no site');
+    });
+    return \Redirect::to('home');
 });
 
 /*Route::post('/voluntario', 'VController@postAdicionar');
@@ -147,7 +157,7 @@ Route::get('api/news', ['middleware' => 'cors', function()
 
 Route::get('email', function(){
     
-    Mail::raw('Mensagem', function($m){
+    Mail::raw('Novo voluntário cadastrado', function($m){
         $m->to('mariliasemdengue@marilia.sp.gov.br','Marilia sem Dengue')
           ->bcc('faq@sotaquepropaganda.com.br','Marilia sem Dengue')
           ->subject('Novo voluntário cadastrado no site');
