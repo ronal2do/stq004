@@ -5,13 +5,13 @@ namespace App\Http\Controllers;
 use Mail;
 use DB;
 use Illuminate\Http\Request;
-use App\Voluntario;
+use App\Mark;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use Alert;
 use Illuminate\Support\Facades\Redirect;
 
-class VController extends Controller
+class alertaController extends Controller
 {
     
 
@@ -20,7 +20,7 @@ class VController extends Controller
 
     public function __construct(
             Request $request,
-            Voluntario $user
+            Mark $user
         ){
         $this->request = $request;
         $this->user = $user;
@@ -35,25 +35,25 @@ class VController extends Controller
     public function index(Request $request)
     {
         $dadosForm = $this->request->all();
-       //dd($dadosForm);
+       // dd($dadosForm);
         $user = $dadosForm['email']; 
-        $end = $dadosForm['bairro']; 
-        $des = $dadosForm['tel']; 
+        $end = $dadosForm['address']; 
+        $des = $dadosForm['description']; 
         $nom = $dadosForm['name']; 
-      
+            
         $this->user->create($dadosForm)->save();
 
-        Mail::send('emails.voluntario', ['email' => $user, 'bairro' => $end, 'tel' => $des, 'name' => $nom], function ($m) use ($user, $end ,$des, $nom) {
+        Mail::send('emails.alerta', ['email' => $user, 'address' => $end, 'description' => $des, 'name' => $nom], function ($m) use ($user, $end ,$des) {
             
             $m->to($user)
               ->cc('mariliasemdengue@marilia.sp.gov.br','Marília sem Dengue')
-              ->cc('faq@sotaquepropaganda.com.br','Marília sem Dengue')
-              ->subject("Novo voluntário cadastrado - ".$nom);
+              ->bcc('faq@sotaquepropaganda.com.br','Marília sem Dengue')
+              ->subject("Nova denúncia - ".$end);
         });
 
         Alert::success('Em breve entraremos em contato com você '.$nom, 'Obrigado!')->autoclose(3500);
 
-        return Redirect::to('/home');
+        return Redirect::to('/mapa');
     }  
 
 }

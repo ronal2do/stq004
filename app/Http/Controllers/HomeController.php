@@ -58,9 +58,9 @@ class HomeController extends Controller
 
         Mail::send('emails.cadastro', ['email' => $user], function ($m) use ($user) {
             $m->to($user)
-              ->cc('mariliasemdengue@marilia.sp.gov.br','Marilia sem Dengue')
-              ->bcc('faq@sotaquepropaganda.com.br','Marilia sem Dengue')
-              ->subject('Marília cada vez mais perto de combater a dengue');
+              ->cc('mariliasemdengue@marilia.sp.gov.br','Marília sem Dengue')
+              ->bcc('faq@sotaquepropaganda.com.br','Marília sem Dengue')
+              ->subject('Movimento Marília sem Dengue');
         });
 
         Alert::success('Em breve entraremos em contato', 'Parabéns!')->autoclose(3500);

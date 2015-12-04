@@ -66,7 +66,7 @@
 
        <div class="form-group">
         <label for="">Descrição</label>
-        <input type="text" class="form-control input-sm" name="description" required>
+        <input type="text" class="form-control input-sm" name="description">
       </div>
       <div class="row">
 
@@ -74,7 +74,7 @@
 
                   <div class="form-field">
                     <label>Nome</label>
-                      <input type="text" name="name" >
+                      <input type="text" name="name" required>
                     
                   </div>
                   <!--/.form-field --> 
@@ -83,7 +83,7 @@
                 <div class="col-sm-6">
                   <div class="form-field">
                     <label>Email</label>
-                      <input type="email" name="email">
+                      <input type="email" name="email" required>
                     
                   </div>
               </div>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myapp">
     <head>
         <title>Marília sem dengue</title>
        <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -106,6 +106,12 @@
         </div>
         
         
-
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.2/angular.min.js"></script>
+<script src="{{ asset('js/main.js') }}"></script>
+<script src="{{ asset('js/ngMask.min.js') }}"></script>
+<script src="{{ asset('js/ang.js') }}"></script>
+    <!-- Include this after the sweet alert js file -->
+@include('sweet::alert')
     </body>
 </html>

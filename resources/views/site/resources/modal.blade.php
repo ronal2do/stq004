@@ -16,6 +16,8 @@
             name="phone"
             placeholder="Fone:"
             size="47"
+            mask="(99) 9?9999-9999" 
+            ng-model="phone2"
             required
             ><br><br>
          <a href="/home"
