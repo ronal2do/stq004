@@ -56,12 +56,12 @@ class HomeController extends Controller
         $user = $dadosForm['email'];       
         $this->user->create($dadosForm)->save();
 
-       /* Mail::send('emails.cadastro', ['email' => $user], function ($m) use ($user) {
+        Mail::send('emails.cadastro', ['email' => $user], function ($m) use ($user) {
             $m->to($user)
               // ->cc('mariliasemdengue@marilia.sp.gov.br','Marília sem Dengue')
               ->cc('faq@sotaquepropaganda.com.br','Marília sem Dengue')
               ->subject('Movimento Marília sem Dengue');
-        });*/
+        });
 
         Alert::success('Em breve entraremos em contato', 'Parabéns!')->autoclose(3500);
 
