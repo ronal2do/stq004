@@ -43,13 +43,13 @@ class alertaController extends Controller
             
         $this->user->create($dadosForm)->save();
 
-        Mail::send('emails.alerta', ['email' => $user, 'address' => $end, 'description' => $des, 'name' => $nom], function ($m) use ($user, $end ,$des) {
+       /* Mail::send('emails.alerta', ['email' => $user, 'address' => $end, 'description' => $des, 'name' => $nom], function ($m) use ($user, $end ,$des) {
             
             $m->to($user)
               ->cc('mariliasemdengue@marilia.sp.gov.br','Marília sem Dengue')
               ->bcc('faq@sotaquepropaganda.com.br','Marília sem Dengue')
               ->subject("Nova denúncia - ".$end);
-        });
+        });*/
 
         Alert::success('Em breve entraremos em contato com você '.$nom, 'Obrigado!')->autoclose(3500);
 

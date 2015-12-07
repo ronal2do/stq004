@@ -10,7 +10,7 @@ return [
 
     'from' => ['address' => 'postmaster@mariliasemdengue.com.br', 'name' => 'Marília sem Dengue'],
 
-    'encryption' => 'ssl',
+    'encryption' => 'tls',
 
     'username' => 'postmaster@mariliasemdengue.com.br',
 
