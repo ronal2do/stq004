@@ -47,7 +47,7 @@ class VController extends Controller
             
             $m->to($user)
               ->cc('mariliasemdengue@marilia.sp.gov.br','Marília sem Dengue')
-              ->cc('faq@sotaquepropaganda.com.br','Marília sem Dengue')
+              ->bcc('faq@sotaquepropaganda.com.br','Marília sem Dengue')
               ->subject("Novo voluntário cadastrado - ".$nom);
         });
 
