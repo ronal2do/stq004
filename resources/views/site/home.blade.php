@@ -4,6 +4,12 @@
     Home
 @stop
 @section('content')
+<div id="preloader" >
+  <div class="textload" style="color:#643a90;">Carregando</div>
+    <div id="status" >
+    <div class="spinner"></div>
+  </div>
+</div>
 <!-- revolution -->
   <div class="tp-fullscreen-container revolution">
     <div class="tp-fullscreen revslider-initialised tp-simpleresponsive" id="revslider-53" style="height: 100%; max-height: none;">

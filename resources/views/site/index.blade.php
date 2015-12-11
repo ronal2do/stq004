@@ -49,12 +49,7 @@ ga('send', 'pageview');
 </script>
 <!-- End Google Analytics -->
 </head>
-<div id="preloader" >
-  <div class="textload" style="color:#643a90;">Carregando</div>
-    <div id="status" >
-    <div class="spinner"></div>
-  </div>
-</div>
+
 <body class="mode-lg" style="overflow: visible;">
 
 <main class="body-wrapper">
