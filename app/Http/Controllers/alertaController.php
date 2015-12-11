@@ -13,8 +13,6 @@ use Illuminate\Support\Facades\Redirect;
 
 class alertaController extends Controller
 {
-    
-
     private $request;
     private $user;
 
@@ -51,7 +49,7 @@ class alertaController extends Controller
               ->subject("Nova denúncia - ".$end);
         });
 
-        Alert::success('Em breve entraremos em contato com você '.$nom, 'Obrigado!')->autoclose(3500);
+        Alert::success('Em breve entraremos em contato com você '.$nom, 'Obrigado!')->persistent("Fechar");
 
         return Redirect::to('/mapa');
     }  

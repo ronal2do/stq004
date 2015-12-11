@@ -51,7 +51,7 @@ class VController extends Controller
               ->subject("Novo voluntário cadastrado - ".$nom);
         });
 
-        Alert::success('Em breve entraremos em contato com você '.$nom, 'Obrigado!')->autoclose(3500);
+        Alert::success('Em breve entraremos em contato com você '.$nom, 'Obrigado!')->persistent("Fechar");
 
         return Redirect::to('/home');
     }  

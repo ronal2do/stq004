@@ -63,7 +63,7 @@ class HomeController extends Controller
               ->subject('Movimento Marília sem Dengue');
         });
 
-        Alert::success('Em breve entraremos em contato', 'Parabéns!')->autoclose(3500);
+        Alert::success('Em breve entraremos em contato', 'Parabéns!')->persistent("Fechar");
 
         return Redirect::to('/home');
     }  
