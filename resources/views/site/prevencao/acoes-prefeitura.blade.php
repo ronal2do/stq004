@@ -69,13 +69,13 @@ moradores sobre como proceder para evitar a proliferação do mosquito da dengue
   </div>  
 
 </div>
-<div class="dark-wrapper">
+<!-- <div class="dark-wrapper">
     <div class="container inner">
       
         <div class="col-sm-5">
             <img src="{{ asset('images/acoes/prefeitura3.png') }}" alt=""/>
         </div>
-        <!--/column -->
+ 
         <div class="col-sm-7">
            <h1 style="color: #6F4996;">Mutirão de nebulização</h1>
           <p>
@@ -88,11 +88,11 @@ realizadas em cada imóvel individualmente, garantindo a eficácia do trabalho. 
 unidades de saúde e outros grandes prédios também recebem o cuidado.
           </p>
           </div>
-        <!--/column -->
+   
       </div> 
-    <!--/.container --> 
-  </div>
-  <!-- /.light-wrapper -->
+
+  </div> -->
+
  <div class="purple-wrapper">
     <div class="container inner">
       <div class="row">

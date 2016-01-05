@@ -116,6 +116,10 @@ Route::get('api/markers', ['middleware' => 'cors', function()
 {
     return \Response::json(\App\Mark::get(), 200);
 }]);
+Route::post('api/markers', ['middleware' => 'cors', function()
+{
+    return \Response::json(\App\Mark::get(), 200);
+}]);
 
 Route::get('api/contributors', ['middleware' => 'cors', function()
 {
@@ -128,19 +132,23 @@ Route::get('api/posts', ['middleware' => 'cors', function()
 }]);
 
 Route::get('api/news', ['middleware' => 'cors', function()
-{
-    return \Response::json(\App\Posts::get()->where('category_id', 4), 200);
-}]);
+    {
+        return \Response::json(\App\Posts::get(), 200);
+    }
+]);
+Route::post('oauth/access_token', function() {
+    return Response::json(Authorizer::issueAccessToken());
+});
 
-Route::get('email', function(){
-    
+
+
+
+Route::get('email', function(){    
     Mail::raw('Novo voluntário cadastrado', function($m){
         $m->to('mariliasemdengue@marilia.sp.gov.br','Marilia sem Dengue')
           ->bcc('faq@sotaquepropaganda.com.br','Marilia sem Dengue')
           ->subject('Novo voluntário cadastrado no site');
     });
-
     return \Redirect::to('/home');
-
 });
 
