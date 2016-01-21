@@ -200,9 +200,7 @@ e mantê-las secas.
               <div class="box">
                 
                   <p class="dicas">
-                    Lave-a com esponja e sabão em água corrente ao
-
-menos uma vez por semana.
+                    Lave os comedouros do seu animal sempre com esponja e sabão em água corrente, pelo menos uma vez por semana.
                   </p>
                 
               </div>
@@ -260,34 +258,14 @@ imediato conserto. Caso eles não estejam sendo utilizados, mantenha-os fechados
               <div class="box">
                 
                   <p class="dicas">
-                    Retire sempre a água e lave com esponja
-
-e sabão.
+                    Deixe todas as garrafas com a boca virada para baixo e cobertas.
               </div>
             </div>
             <!--/.quote --> 
           </div>
           <!--/column --> 
         </div>
-        <div class="row">
-          <div class="col-sm-12 col-md-6">
-            <div class="quote">
-              <div class="icon text-center">                 
-                <!--/.author --> 
-              </div>
-              <!--/.icon -->
-              <div class="box">
-                
-                  <p class="dicas">
-                     Deixe todas as garrafas com a boca virada para baixo e cobertas.
-                  </p>
-               
-              </div>
-            </div>
-            <!--/.quote --> 
-          </div>
-          <!--/column -->
-       </div>
+       
         <!--/.row -->
           <!--/column -->
         
