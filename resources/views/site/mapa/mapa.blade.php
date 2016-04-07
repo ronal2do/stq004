@@ -13,8 +13,11 @@
 
       </div>
       <!-- /.headline --> 
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Blanditiis, quos, quo? <br> Doloribus ipsam possimus dolore quaerat, <br>molestias unde sit, accusantium quam, officiis illum deserunt, deleniti modi. <br> Sed nemo voluptate quod.</p>
+
     </div>
     <!--/.container --> 
+
   </div>
   <!--/.parallax --> 
   
@@ -42,9 +45,10 @@
 
 @section('post-script')
  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
- <script src="http://code.jquery.com/jquery-migrate-1.1.1.min.js"></script>
+ <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.1.1.min.js"></script>
 <script>
-  
+  //http://stackoverflow.com/questions/32433039/how-to-load-multiple-markers-from-json-file
+
 function initialize() {
         var latitude = -22.21,
             longitude = -49.95,
@@ -78,6 +82,8 @@ function initialize() {
             return json;
         })();
 
+      
+
         var circle = new google.maps.Circle({
                 strokeColor: '#000000',
                 strokeOpacity: 0.25,
@@ -86,6 +92,7 @@ function initialize() {
                 fillOpacity: 0.1,
                 clickable: false,
                 map: map,
+                image: image,
                 center: center,
                 radius: radius
             });
@@ -99,11 +106,19 @@ function initialize() {
 
 
             if(bounds.contains(latLng)) {
+
+                  if (data.status == '1') {
+                       var image = 'http://mariliasemdengue.com.br/images/icons/red.png';
+                    }else{
+                     var image = 'http://mariliasemdengue.com.br/images/icons/blue.png';
+                  }
+
                 // Creating a marker and putting it on the map
                 var marker = new google.maps.Marker({
                     position: latLng,
                     map: map,
-                    title: data.description   //aqui define o que aparece no mapa
+                    icon: image,
+                    title: data.alert_type   //aqui define o que aparece no mapa
                 });
                 infoBox(map, marker, data);
             }
@@ -116,7 +131,8 @@ function initialize() {
         var infoWindow = new google.maps.InfoWindow();
         // Attaching a click event to the current marker
         google.maps.event.addListener(marker, "click", function(e) {
-            infoWindow.setContent(data.description);   //aqui define o que aparece no mapa
+            infoWindow.setContent('<div><strong>Situação: </strong>' +  data.alert_type + '<br>' +
+                                  '<strong>Endereço: </strong>' +  data.address + '<br><strong> Descrição:</strong> ' + data.description + '</div>');   //aqui define o que aparece no mapa
             infoWindow.open(map, marker);
         });
 
@@ -125,7 +141,8 @@ function initialize() {
         (function(marker, data) {
           // Attaching a click event to the current marker
           google.maps.event.addListener(marker, "click", function(e) {
-            infoWindow.setContent(data.description);   //aqui define o que aparece no mapa
+            infoWindow.setContent('<div><strong>Situação: </strong>' +  data.alert_type + '<br>' +
+                                  '<strong>Endereço: </strong>' +  data.address + '<br><strong> Descrição:</strong> ' + data.description + '</div>');   //aqui define o que aparece no mapa
             infoWindow.open(map, marker);
           });
         })(marker, data);

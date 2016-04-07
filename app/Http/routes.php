@@ -14,10 +14,9 @@
 /**
 * Informações
 */
-Route::get('/', 'UserController@index');
-Route::post('/', 'HomeController@postAdicionar');
 
-Route::get('/home', 'HomeController@index');
+
+Route::get('/', 'HomeController@index');
 
 /**
 * prevencao
