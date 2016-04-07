@@ -57,7 +57,7 @@ ga('send', 'pageview');
     <div class="navbar-header">
       <div class="basic-wrapper"> 
         <div class="navbar-brand">
-             <a href="/home">
+             <a href="/">
                <img src="{{asset('images/logo.png')}}" alt="">     
              </a> 
            </div>
@@ -66,7 +66,7 @@ ga('send', 'pageview');
     </div>
     <nav class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li ><a href="/home" >Home</a>
+        <li ><a href="/" >Home</a>
         </li>
          <li ><a href="#" class="dropdown-toggle js-activated">Prevenção <span class="caret"></span></a>
           <ul class="dropdown-menu">

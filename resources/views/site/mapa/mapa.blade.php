@@ -13,7 +13,10 @@
 
       </div>
       <!-- /.headline --> 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Blanditiis, quos, quo? <br> Doloribus ipsam possimus dolore quaerat, <br>molestias unde sit, accusantium quam, officiis illum deserunt, deleniti modi. <br> Sed nemo voluptate quod.</p>
+     <div class="text-left">
+        <p><img src="http://mariliasemdengue.com.br/images/icons/blue.png" alt="">Denúncias apuradas</p>
+        <p><img src="http://mariliasemdengue.com.br/images/icons/red.png" alt="">Denúncias aguardando análise </p>
+     </div>
 
     </div>
     <!--/.container --> 
@@ -52,12 +55,12 @@
 function initialize() {
         var latitude = -22.21,
             longitude = -49.95,
-            radius = 25000, //how is this set up
+            radius = 25000, //setando o radius
             center = new google.maps.LatLng(latitude,longitude),
             bounds = new google.maps.Circle({center: center, radius: radius}).getBounds(),
             mapOptions = {
                 center: center,
-                zoom: 13,
+                zoom: 12,
                 mapTypeId: google.maps.MapTypeId.ROADMAP,
                 scrollwheel: false
             };
