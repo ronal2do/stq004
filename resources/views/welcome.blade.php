@@ -8,7 +8,6 @@
                 height: 100%;
                 background-color: #65398F;
             }
-
             body {
                 margin: 0;
                 padding: 0;
