@@ -108,9 +108,9 @@ function initialize() {
             if(bounds.contains(latLng)) {
 
                   if (data.status == '1') {
-                       var image = 'http://mariliasemdengue.com.br/images/icons/red.png';
+                       var image = 'http://mariliasemdengue.com.br/images/icons/blue.png';
                     }else{
-                     var image = 'http://mariliasemdengue.com.br/images/icons/blue.png';
+                     var image = 'http://mariliasemdengue.com.br/images/icons/red.png';
                   }
 
                 // Creating a marker and putting it on the map

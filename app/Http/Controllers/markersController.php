@@ -43,6 +43,7 @@ class markersController extends CrudController{
 			$this->edit->add('description', 'Descrição', 'text');
 			$this->edit->add('name', 'Nome', 'text');
 			$this->edit->add('email', 'E-mail', 'text');
+			$this->edit->add('status', 'Status', 'text');
       
         return $this->returnEditView();
     }    
