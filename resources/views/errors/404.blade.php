@@ -60,7 +60,7 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Be right back.</div>
+                <div class="title">404</div>
             </div>
         </div>
         <div class="shatter2"></div>
