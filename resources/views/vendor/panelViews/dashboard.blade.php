@@ -53,15 +53,7 @@
             $(this).addClass('panel-'+color[pointer]);
             $(this).find('.pull-right .add').addClass('panel-'+color[pointer]);
             pointer++;
-        })
-        // check for update of laravelpanel 
-        $.getJSON( "http://api.laravelpanel.com/checkupdate/{{ $version }}", function( data ) {
-          if(data.needUpdate){
-            $(".update a").text(data.text);
-            $(".update").removeClass('hide');
-          }
-        })
-        
+        })     
     })
 </script>
 @stop            

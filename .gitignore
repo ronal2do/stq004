@@ -5,3 +5,4 @@ Homestead.json
 .env
 /public/uploads/
 .idea/
+/config/database.php
